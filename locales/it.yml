@@ -364,7 +364,7 @@ it:
       cell4: "Pani rustici, di qualità elevata che ricercano il gusto della tradizione"
       
       
-      Liquidi
+    headline1: "Liquidi"
     row11:
       cell1: "4888"
       cell2: "LS1"
@@ -377,7 +377,7 @@ it:
       cell4: "Ogni tipologia di pane che necessiti di una caratteristica nota acidula"
       
       
-      Home Baking
+    headline2: "Home Baking"
     row13:
       cell1: "4002"
       cell2: "SPRING FOCACCIA HOME"

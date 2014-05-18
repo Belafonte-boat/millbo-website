@@ -15,7 +15,7 @@ en:
     item6: "Contact us"
     url6: "contacts"
     item7: "ITALIANO"
-    url7: "/"
+    url7: "/it/"
     subItem1: "Sourdough"
     subUrl1: "/products/sourdough.html"
     subItem2: "Malts"
@@ -168,7 +168,6 @@ en:
   cultures:
     title: "CULTURES"
     description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
-
     button: "DOWNLOAD CULTURES PDF"
     head1: "Code"
     head2: "Product"
@@ -363,7 +362,7 @@ en:
       cell3: "Dried sourdough for natual leavened mixture"
       cell4: "High quality rustic bread, with the taste of tradition"
       
-     LIQUID 
+    headline1: "LIQUID"
     row11:
       cell1: "4888"
       cell2: "LS1"
@@ -375,7 +374,7 @@ en:
       cell3: "Liquid sourdough from wheat flour for rye bread"
       cell4: "Any type of bread that requires a characteristic sour note"
       
-    HOME BAKING  
+    headline2: "HOME BAKING"  
     row13:
       cell1: "4002"
       cell2: "SPRING FOCACCIA HOME"

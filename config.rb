@@ -19,12 +19,12 @@ page "/products/enzymes.html", :layout => :html5
 page "/products/efree.html", :layout => :html5
 page "/products/bakery.html", :layout => :html5
 
-page "/prodotti/pasteacide.html", :layout => :html5 
-page "/prodotti/malti.html", :layout => :html5
-page "/prodotti/fermenti.html", :layout => :html5
-page "/prodotti/enzimi.html", :layout => :html5
-page "/prodotti/efree.html", :layout => :html5
-page "/prodotti/bakery.html", :layout => :html5
+page "/it/prodotti/pasteacide.html", :layout => :html5 
+page "/it/prodotti/malti.html", :layout => :html5
+page "/it/prodotti/fermenti.html", :layout => :html5
+page "/it/prodotti/enzimi.html", :layout => :html5
+page "/it/prodotti/efree.html", :layout => :html5
+page "/it/prodotti/bakery.html", :layout => :html5
 page "/404.html", :layout => :html5
 page "/sitemap.xml", :layout => false
 
