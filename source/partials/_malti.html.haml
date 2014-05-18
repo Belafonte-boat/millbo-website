@@ -1,0 +1,71 @@
+---
+title: "main page"
+metas: "main"
+---
+= partial "partials/header"
+#container
+  .logo-left
+  #aboutus
+    .left3
+      %h2
+        MALTI
+    .right9
+      %p.desc
+        Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci.
+  #table
+    %table{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th Codice
+          %th Prodotto
+          %th.special Colore
+          %th Applicazioni
+
+      %tbody
+        %tr.even
+          %th.numeric 4021
+          %td.numeric MALT IT 110
+          %td.numeric.color 
+            =image_tag("malti/malto_4021.png")
+          %td.numeric Malto d’orzo tostato
+        %tr.odd
+          %th.numeric 4022
+          %td.numeric MALT IT 40
+          %td.numeric.color 
+            =image_tag("malti/malto_4022.png")
+          %td.numeric Malto d’orzo tostato
+        %tr.even
+          %th.numeric 4023
+          %td.numeric MALT IT 130
+          %td.numeric.color  
+            =image_tag("malti/malto_4023.png")
+          %td.numeric Malto d’orzo tostato
+        %tr.odd
+          %th.numeric 4025
+          %td.numeric MALT IT 25
+          %td.numeric.color  
+            =image_tag("malti/malto_4025.png")
+          %td.numeric Malto d’orzo tostato
+        %tr.even
+          %th.numeric 4026
+          %td.numeric MALT IT 14
+          %td.numeric.color  
+            =image_tag("malti/malto_4026.png")
+          %td.numeric Malto d’orzo diastatico
+        %tr.odd
+          %th.numeric 4030
+          %td.numeric MALT IT 110Z
+          %td.numeric.color  
+            =image_tag("malti/malto_4030.png")
+          %td.numeric Malto d’orzo tostato
+        %tr.even
+          %th.numeric 4039
+          %td.numeric MALT IT 12W
+          %td.numeric.color  
+            =image_tag("malti/malto_4039.png")
+          %td.numeric Malto di frumento tostato
+    .button-container
+      %a.button{href:"/pdf/malti.pdf", target: "_blank"}
+        SCARICA MALTI IN PDF 
+  = partial "partials/footer"
+        

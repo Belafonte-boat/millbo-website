@@ -1,0 +1,69 @@
+---
+title: "main page"
+metas: "main"
+---
+= partial "partials/header"
+#container
+  .logo-left
+  #aboutus
+    .left3
+      %h2
+        = I18n.t("efree.title")
+        
+    .right9
+      %p.desc
+        = I18n.t("efree.description")
+        
+  #table
+    %table{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th 
+            = I18n.t("efree.head1") 
+          %th 
+            = I18n.t("efree.head2")
+          %th 
+            = I18n.t("efree.head3")
+          %th.special 
+            = I18n.t("efree.head4")
+      %tbody
+        %tr.even
+          %th.numeric 
+            = I18n.t("efree.row1.cell1")
+          %td.numeric 
+            = I18n.t("efree.row1.cell1")
+          %td.numeric 
+            = I18n.t("efree.row1.cell1")
+          %td.numeric 
+            = I18n.t("efree.row1.cell1")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("efree.row2.cell1")
+          %td.numeric 
+            = I18n.t("efree.row2.cell1")
+          %td.numeric 
+            = I18n.t("efree.row2.cell1")
+          %td.numeric 
+            = I18n.t("efree.row2.cell1")
+        %tr.even
+          %th.numeric 
+            = I18n.t("efree.row3.cell1")
+          %td.numeric 
+            = I18n.t("efree.row3.cell1")
+          %td.numeric 
+            = I18n.t("efree.row3.cell1")
+          %td.numeric 
+            = I18n.t("efree.row3.cell1")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("efree.row4.cell1")
+          %td.numeric 
+            = I18n.t("efree.row4.cell1")
+          %td.numeric 
+            = I18n.t("efree.row4.cell1")
+          %td.numeric 
+            = I18n.t("efree.row4.cell1")
+    .button-container
+      %a.button{href:"/pdf/efree_solutions.pdf", target: "_blank"}
+        SCARICA E-FREE SOLUTIONS IN PDF 
+  = partial "partials/footer"      

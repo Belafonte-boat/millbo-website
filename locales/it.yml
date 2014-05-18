@@ -1,0 +1,163 @@
+---
+it:
+  url: "http://millbo.com"
+  menu:
+    item1: "Home"
+    url1: "/"
+    item2: "Chi siamo"
+    url2: "#aboutus"
+    item3: "E-free Clean label"
+    url3: "#efree"
+    item4: "Prodotti"
+    url4: "#products"
+    item5: "Certificazioni"
+    url5: "#certificate"
+    item6: "Contatti"
+    url6: "contacts"
+    item7: "ENGLISH"
+    url7: "/"
+    subItem1: "Paste acide"
+    subUrl1: "/prodotti/pasteacide.html"
+    subItem2: "Malti"
+    subUrl2: "/prodotti/malti.html"
+    subItem3: "Enzimi"
+    subUrl3: "/prodotti/enzimi.html"
+    subItem4: "Fermenti"
+    subUrl4: "/prodotti/fermenti.html"
+    subItem5: "E-free solutions"
+    subUrl5: "/prodotti/efree.html"
+    subItem6: "Bakery solutions"
+    subUrl7: "/prodotti/bakery.html"
+  claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
+  about:
+    title: "CHI SIAMO"
+    description: "Millbo è un'azienda italiana a forte vocazione internazionale, specializzata in soluzioni altamente innovative e naturali per la panificazione.<br /> Con oltre quarant'anni di esperienza nel settore, Millbo è presente oggi in oltre sessanta mercati di tutto il mondo."
+  efree:
+    title: "E-FREE,CLEAN LABEL"
+    description1: "L' E-free è la nostra missione, che significa sviluppare, formulare e produrre ingredienti per la panificazione a base esclusivamente naturale."
+    description2: "A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura, assicurando alle marche e ai prodotti il vantaggio di una clean label, che le rende più attraenti per i consumatori contemporanei, sempre più sensibili ai temi della nutrizione, del gusto, della salute e della naturalità."
+    description3: "La ricerca e la progettazione custom-made sono il vero punto di forza della nostra azienda." 
+    description4: "Le nostre dimensioni e la nostra flessibilità, unite ad un reparto r&d d'eccellenza, ci permettono di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di pane e prodotti dolciari da forno."
+  products:
+    title: "I NOSTRI PRODOTTI"
+    description:
+      "Paste acide, malti, enzimi, fermenti, bakery solutions, E-free solutions. Le nostre soluzioni, appartenenti a sei fondamentali tipologie, permettono all'industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata. Mantenendo la promessa di naturalità fatta ai consumatori."
+    button: "SCHEDA TECNICA"
+    product1:
+      title: "PASTE ACIDE"
+      description: "Per migliorare aroma, gusto e qualità del pane. Solo dalla fermentazione di cereali in condizioni controllate."
+    product2:
+      title: "MALTI"
+      description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
+    product3:
+      title: "ENZIMI"
+      description: "Una gamma completa: dalle applicazioni essenziali per la panificazione agli articoli innovativi ed esclusivi. Massima performance in volume e freschezza con il massimo della naturalità."
+    product4:
+      title: "FERMENTI"
+      description: "Grazie alla ricerca avanzata, le colture raggiungono nuovi livelli di specializzazione ed efficienza, al servizio sia della produzione artigianale, sia di quella industriale."
+    product5:
+      title: "E-FREE SOLUTIONS"
+      description: "Incrementare volume e sofficità degli impasti, mantenere più a lungo la freschezza,aggiungere gusto e aroma: sempre con mezzi naturali che consentono una clean label."
+    product6:
+      title: "BAKERY SOLUTIONS"
+      description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e antimuffa."
+  certificates:
+    title: "SOLUZIONI NATURALI, SOLUZIONI CERTIFICATE"
+    description: "Le soluzioni naturali Millbo sono studiate per corrispondere agli standard più elevati da ogni punto di vista. Per questo il numero di certificazioni che hanno ottenuto è così alto."
+    button: "SCARICA LE CERTIFICAZIONI IN PDF"
+    certificate1: "ISO 9001:2008"
+    certificate2: "Certificato di Eccellenza"
+    certificate3: "ISO 14001:2004"
+    certificate4: "Campden BRI"
+    certificate5: "Certificato Kosher"
+    certificate6: "Certificazione Halal"
+    certificate7: "Certificato BRC"
+    certificate8: "FSSC 22000 2010"
+    certificate9: "OHSAS 18001:2007"
+    certificate10: "ISO 22000 2005"
+  contacts:
+    title: "CONTATTACI"
+    description: "Pensiamo che per produrre innovazione raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione giusta."
+    contact1: "Millbo S.p.a."
+    contact2: "Via Bellaria s.n. 28069 Trecate (NO) Italy"
+    contact3: "phone +39 0321795911 <br />fax +39 0321795920"
+    contact4: 'Per richiesta schede tecniche, campioni, info su prodotti e certificati : <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
+    contact5: 'Per ordini e/o consegne: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
+    contact6: "Per richieste diverse da quelle sopra indicate, compilate il form, Millbo vi ricontatterà  al più presto."
+    contact7: "Millbo spa Via Bellaria s.n. 28069 Trecate (NO) Italy Capitale Sociale € 8.000.000,00 interamente versato C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F.:06941560960 P.IVA: 06941560960"
+    form:
+      name: "Nome e Cognome"
+      email: "Email"
+      company: "Azienda"
+      country: "Country"
+      phone: "Telefono"
+      object: "Oggetto"
+      message: "Message"
+      button: "invia"
+  bakery:
+    title: "BAKERY SOLUTIONS"
+    description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
+    button: SCARICA BAKERY SOLUTIONS IN PDF
+    head1: "Codice"
+    head2: "Descrizione"
+    head3: "Prodotto"
+    head4: "Dosaggio"
+    row1:
+      cell1: "6335"
+      cell2: "XTEND C"
+      cell3: "Coadiuvante ad azione anti raffermamento per prodotti a lievitazione naturale"
+      cell4: "0,5%"
+    row2: 
+      cell1: "4701"
+      cell2: "SPRING X-tra Life 1%"
+      cell3: "Coadiuvante per panificazione supportato su pasta acida disidradata; con effetto inibitore per le muffe"
+      cell4: "1%"
+    row3:
+      cell1: "4700"
+      cell2: "SPRING X-tra Life 2%"
+      cell3: "Coadiuvante per panificazione supportato su pasta acida disidradata; con effetto inibitore per le muffe"
+      cell4: "2%"
+    row4:
+      cell1: "6304"
+      cell2: "X TEND III G"
+      cell3: "Coadiuvante ad azione anti raffermamento per prodotti a lievitazione naturale"
+      cell4: "0,5%"
+    row5:
+      cell1: "6688"
+      cell2: "XTEND 2X2"
+      cell3: "Coadiuvante ad azione anti raffermamento per pani in cassetta"
+      cell4: ""
+    row6:
+      cell1: "6689"
+      cell2: "XTEND 2X2 dolci"
+      cell3: "Coadiuvante ad azione anti raffermamento per dolci"
+      cell4: ""
+  efree: 
+    title: "E-FREE SOLUTIONS: FOR CAKES AND SWEET GOODS"
+    description: "Incrementare volume e sofficità degli impasti, mantenere più a lungo la freschezza,aggiungere gusto e aroma: sempre con mezzi naturali che consentono una clean label."
+    head1: "Codice"
+    head2: "prodotto"
+    head3: "Descrizione"
+    head4: "Dosaggio"
+    row1:
+      cell1: "3000"
+      cell2: "EF.FECTO.CAKE"
+      cell3: "Sofficità, volume e durabilità nei dolci"
+      cell4: "0.5% sulla farina"
+    row2:
+      cell1: "3020"
+      cell2: "EF.FECTO.EGG"
+      cell3: "Riduzione delle uova nei dolci"
+      cell4: "0.5% sul totale delle uova intere liquide in ricetta"
+    row3:
+      cell1: "3030"
+      cell2: "EF.FECTO.LITE"
+      cell3: "Riduzione dei grassi nei dolci"
+      cell4: "5% sulla ricetta"
+    row4:
+      cell1: "7900"
+      cell2: "EF.FECTO.FREEZE"
+      cell3: "Sostituzione del Guar"
+      cell4: "Come IL GUAR, 0.5%circa"
+
+

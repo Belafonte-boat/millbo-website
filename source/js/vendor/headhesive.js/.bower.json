@@ -1,0 +1,38 @@
+{
+  "name": "Headhesive.js",
+  "version": "1.1.0",
+  "homepage": "http://markgoodyear.com/labs/headhesive/",
+  "authors": [
+    "Mark Goodyear <hello@markgoodyear.com>"
+  ],
+  "description": "An on-demand sticky header",
+  "main": "dist/headhesive.min.js",
+  "keywords": [
+    "header",
+    "head",
+    "sticky",
+    "banner",
+    "navigation",
+    "nav",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "demo",
+    "tests"
+  ],
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.0",
+    "commit": "80154fae66e9c307131cb7e6f648e4469ca109b0"
+  },
+  "_source": "git://github.com/markgoodyear/headhesive.js.git",
+  "_target": "~1.1.0",
+  "_originalSource": "headhesive.js",
+  "_direct": true
+}

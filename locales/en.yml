@@ -1,0 +1,136 @@
+---
+en:
+  url: "http://millbo.com"
+  menu:
+    item1: "Home"
+    url1: "/"
+    item2: "Chi siamo"
+    url2: "#aboutus"
+    item3: "E-free Clean label"
+    url3: "#efree"
+    item4: "Prodotti"
+    url4: "#products"
+    item5: "Certificazioni"
+    url5: "#certificate"
+    item6: "Contatti"
+    url6: "contacts"
+    item7: "ITALIANO"
+    url7: "/"
+    subItem1: "Paste acide"
+    subUrl1: "/prodotti/pasteacide.html"
+    subItem2: "Malti"
+    subUrl2: "/prodotti/malti.html"
+    subItem3: "Enzimi"
+    subUrl3: "/prodotti/enzimi.html"
+    subItem4: "Fermenti"
+    subUrl4: "/prodotti/fermenti.html"
+    subItem5: "E-free solutions"
+    subUrl5: "/prodotti/efree.html"
+    subItem6: "Bakery solutions"
+    subUrl7: "/prodotti/bakery.html"
+  claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
+  about:
+    title: "ABOUT US"
+    description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br /> Thanks to a forty-year experience on the market, Millbo is currently active inside more than sixty countries worldwide."
+  efree:
+    title: "E-FREE,CLEAN LABEL"
+    description1: "E-free is our mission, meaning the development and production of whole-natural baking ingredients."
+    description2: "E-free offers natural-based solutions to all industrial baking needs. The advantages of a clean label ensured to brands and products by Millbo, allow them to become more appealing to the contemporary consumer, more sensitive to the topic of nutrition, taste and health."
+    description3: "Reasearch and custom-made solutions are the core value of our company." 
+    description4: "Our size and flexibility together with an excellent r&d division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
+  products:
+    title: "OUR PRODUCTS"
+    description:
+      "Sourdough, malts, bakery enzymes,cultures, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
+    button: "TECHNICAL FILE"
+    product1:
+      title: "SOURDOUGH"
+      description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals that have been fermented within controlled conditions."
+    product2:
+      title: "MALTS"
+      description: "All the colors of naturality, with the ideal shades to make bread and cakes more desirable."
+    product3:
+      title: "BAKERY ENZYMES"
+      description: "A full stack: from essential applications for bakery to innovative and exclusive products. Maximum performance in volume and freshness, fully natural."
+    product4:
+      title: "CULTURES"
+      description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
+    product5:
+      title: "E-FREE SOLUTIONS"
+      description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma. Natural elements ensure a clean label."
+    product6:
+      title: "BAKERY SOLUTIONS"
+      description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
+  certificates:
+    title: "NATURAL SOLUTIONS, CERTIFIED SOLUTIONS"
+    description: "Millbo's natural solutions have been created to satisfy the higher standards from any point of view. For this reason Millbo has obtained such a great certifications' number."
+    button: "DOWNLOAD CERTIFICATIONS PDF"
+    certificate1: "ISO 9001:2008"
+    certificate2: "Certificato di Eccellenza"
+    certificate3: "ISO 14001:2004"
+    certificate4: "Campden BRI"
+    certificate5: "Kosher Certification"
+    certificate6: "Halal Certification"
+    certificate7: "BRC Certification"
+    certificate8: "FSSC 22000 2010"
+    certificate9: "OHSAS 18001:2007"
+    certificate10: "ISO 22000 2005"
+  contacts:
+    title: "CONTACT US"
+    description: "We believe that to create innovation is necessary to take on new challanges first. Tell us about your projects and objectives. We will join nature and technology to give you the right solution."
+    contact1: "Millbo S.p.a."
+    contact2: "Via Bellaria s.n. 28069 Trecate (NO) Italy"
+    contact3: "phone +39 0321795911 fax +39 0321795920"
+    contact4: 'For technical files, samples, info over products and certifications: <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
+    contact5: 'For orders and/or deliveries: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
+    contact6: "For general enquires not included above, please fill out the form, Millbo will contact you as soon as possible."
+    contact7: "Millbo spa Via Bellaria s.n. 28069 Trecate (NO) Italy Capitale Sociale € 8.000.000,00 interamente versato C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F.:06941560960 P.IVA: 06941560960"
+    form:
+      name: "Nome e Cognome"
+      email: "Email"
+      company: "Azienda"
+      country: "Country"
+      phone: "Telefono"
+      object: "Oggetto"
+      message: "Message"
+      button: "invia"
+  bakery:
+    title: "BAKERY SOLUTIONS"
+    description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
+    button: SCARICA BAKERY SOLUTIONS IN PDF
+    head1: "Codice"
+    head2: "Descrizione"
+    head3: "Prodotto"
+    head4: "Dosaggio"
+    row1:
+      cell1: "6335"
+      cell2: "XTEND C"
+      cell3: "Coadiuvante ad azione anti raffermamento per prodotti a lievitazione naturale"
+      cell4: "0,5%"
+    row2: 
+      cell1: "4701"
+      cell2: "SPRING X-tra Life 1%"
+      cell3: "Coadiuvante per panificazione supportato su pasta acida disidradata; con effetto inibitore per le muffe"
+      cell4: "1%"
+    row3:
+      cell1: "4700"
+      cell2: "SPRING X-tra Life 2%"
+      cell3: "Coadiuvante per panificazione supportato su pasta acida disidradata; con effetto inibitore per le muffe"
+      cell4: "2%"
+    row4:
+      cell1: "6304"
+      cell2: "X TEND III G"
+      cell3: "Coadiuvante ad azione anti raffermamento per prodotti a lievitazione naturale"
+      cell4: "0,5%"
+    row5:
+      cell1: "6688"
+      cell2: "XTEND 2X2"
+      cell3: "Coadiuvante ad azione anti raffermamento per pani in cassetta"
+      cell4: ""
+    row6:
+      cell1: "6689"
+      cell2: "XTEND 2X2 dolci"
+      cell3: "Coadiuvante ad azione anti raffermamento per dolci"
+      cell4: ""
+
+

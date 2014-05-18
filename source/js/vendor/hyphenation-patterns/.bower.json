@@ -1,0 +1,14 @@
+{
+  "name": "hyphenation-patterns",
+  "homepage": "https://github.com/bramstein/hyphenation-patterns",
+  "version": "0.2.1",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.1",
+    "commit": "6acdefe671dbfca0ede19064ca34e2edba08fb77"
+  },
+  "_source": "https://github.com/bramstein/hyphenation-patterns.git",
+  "_target": "~0.2.1",
+  "_originalSource": "https://github.com/bramstein/hyphenation-patterns.git"
+}

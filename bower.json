@@ -1,0 +1,29 @@
+{
+  "name": "rewend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thedoers/rewend",
+  "authors": [
+    "Piermaria Cosina <piermaria@thedoersproject.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.scrollTo": "~1.4.7",
+    "jquery": "~2.0.3",
+    "Slides": "*",
+    "hypher": "https://github.com/bramstein/hypher.git#~0.2.1",
+    "jquery.fadeloader": "https://github.com/periplox/jquery.fadeloader.git#~1.0.1",
+    "modernizr": "~2.7.1",
+    "jquery.easing": "~1.3.0",
+    "hyphenation-patterns": "https://github.com/bramstein/hyphenation-patterns.git#~0.2.1",
+    "bxslider-4": "*"
+  }
+}

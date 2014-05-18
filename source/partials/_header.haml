@@ -1,0 +1,41 @@
+.banner
+  #menu
+    .container
+      #main
+        %ul.menubar.black
+          %li
+            %a{href:"/"}
+              = I18n.t("menu.item1")
+          %li
+            %a.aboutus{href:"/#aboutus"}
+              = I18n.t("menu.item2")
+          %li
+            %a.efree{href:"/#efree"}
+              = I18n.t("menu.item3")
+          %li
+            %a.products{href:"/#products"}
+              = I18n.t("menu.item4")
+            %ul
+              %li 
+                = link_to I18n.t("menu.subItem1"), I18n.t("menu.subUrl1")
+              %li 
+                = link_to I18n.t("menu.subItem2"), I18n.t("menu.subUrl2")
+              %li 
+                = link_to I18n.t("menu.subItem3"), I18n.t("menu.subUrl3")
+              %li 
+                = link_to I18n.t("menu.subItem4"), I18n.t("menu.subUrl4")
+              %li 
+                = link_to I18n.t("menu.subItem5"), I18n.t("menu.subUrl5")
+              %li 
+                = link_to I18n.t("menu.subItem6"), I18n.t("menu.subUrl6")
+          %li
+            %a.certificate{href:"/#products"}
+              = I18n.t("menu.item5")
+              
+          %li
+            %a.contactus{href:"/#products"}
+              = I18n.t("menu.item6")
+              
+      #lang
+        %a{href:"#{I18n.t("menu.url7")}"}
+          = I18n.t("menu.item7")

@@ -1,0 +1,46 @@
+---
+title: "main page"
+metas: "main"
+---
+= partial "partials/header"
+#container
+  .logo-left
+  #aboutus
+    .left3
+      %h2
+        FERMENTI
+    .right9
+      %p.desc
+        Una linea completa di miglioratori studiati per ogni necessità: dalla produzione artigianale a quella industriale.
+  #table
+    %table{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th Codice
+          %th Prodotto
+          %th Applicazioni
+      %tbody
+        %tr.even
+          %th.numeric 2002
+          %td.numeric AURUM Plantarum
+          %td.numeric per pane bianco, baguette, pane in cassetta
+        %tr.odd
+          %th.numeric 2003
+          %td.numeric AURUM Brevis
+          %td.numeric Per pane con accentuata nota acida
+        %tr.even
+          %th.numeric 2004
+          %td.numeric AURUM Italia
+          %td.numeric Per tutti i tipi di pane
+        %tr.odd
+          %th.numeric 2005
+          %td.numeric AURUM Gusto
+          %td.numeric Per tutti i tipi di pane, accentuata nota aromatica
+        %tr.even
+          %th.numeric 2010
+          %td.numeric AURUM SF
+          %td.numeric Per pane dal caratteristico aroma del pane di SFrancisco
+    .button-container
+      %a.button{href:"/pdf/fermenti.pdf", target: "_blank"}
+        SCARICA FERMENTI IN PDF 
+  = partial "partials/footer"

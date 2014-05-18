@@ -1,0 +1,64 @@
+-# coding: utf-8
+!!!5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+%html.no-js{lang:"it",:"xmlns:fb" => "http://ogp.me/ns/fb#"}
+  %head
+    %meta{:charset => "utf-8"}
+
+    %title
+      = page_title
+
+    //= page_metas
+    %link{:rel=>"canonical", :href=>"http://millbo.com"}
+    %link{:href=>"https://plus.google.com/", :rel=>"publisher"}
+    %meta{:name => "description", :content => "#{t("description-meta_messages")}"}
+    %meta{:name => "viewport", :content => "initial-scale=1, maximum-scale=1"}
+    %meta{:name => "apple-mobile-web-app-capable", :content =>"yes"}
+    %meta{:name => "apple-mobile-web-app-status-bar-style", :content => "black"}
+    %meta{:name => "keywords", :content => "millbo" }
+
+    %meta{:property=>"og:title", :content=>"Millbo"}
+    %meta{:property=>"og:type", :content=>"website"}
+    %meta{:property=>"og:description", :content => "#{t("description-meta_messages")}"}
+    %meta{:property=>"og:url", :content=>"http://millbo.com"}
+    %meta{:property=>"og:image", :content=>"http://millbo.com"}
+
+    <!-- Favicons and touch icons -->
+    <!-- For retina-display iPads -->
+    %link{ :href=>"/apple-touch-icon-144x144-precomposed.png?v=1", :rel=>"apple-touch-icon-precomposed", :sizes=>"144x144", :type=>"image/png" }
+    <!-- For retina-display iPhones -->
+    %link{ :href=>"/apple-touch-icon-144x144-precomposed.png?v=1", :rel=>"apple-touch-icon-precomposed", :sizes=>"114x114", :type=>"image/png" }
+    <!-- For iPad 1 -->
+    %link{ :href=>"/apple-touch-icon-72x72-precomposed.png?v=1", :rel=>"apple-touch-icon-precomposed", :sizes=>"72x72", :type=>"image/png" }
+    <!-- For iPhone 3G, iPod Touch and Android -->
+    %link{ :href=>"/apple-touch-icon-57x57-precomposed.png?v=1", :rel=>"apple-touch-icon-precomposed", :type=>"image/png" }
+    <!-- For Nokia -->
+    %link{ :href=>"/apple-touch-icon-original.png?v=1", :rel=>"shortcut icon" }
+    <!-- For everything else -->
+    %link{ :href=>"/favicon.png?v=1", :rel=>"shortcut icon", :type=>"image/png" }
+    %link{ :href=>"/favicon.ico?v=1", :rel=>"shortcut icon", :type=>"image/x-icon" }
+
+    = javascript_include_tag "vendor/modernizr"
+    = stylesheet_link_tag "application"
+    %link{href: "http://fonts.googleapis.com/css?family=Lato:300,400,700|Josefin+Sans:300,400,700", rel: "stylesheet", type: "text/css"}/
+
+    :javascript
+      (function (d, t) {
+        var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        bh.type = 'text/javascript';
+        bh.src = '//www.bugherd.com/sidebarv2.js?apikey=mw1ykc6ipnehhmpx4cxera';
+        s.parentNode.insertBefore(bh, s);
+        })(document, 'script');
+  %body
+    = partial'partials/tag-manager'
+    = yield
+
+    = javascript_include_tag "site"
+
+
+
+
+
+

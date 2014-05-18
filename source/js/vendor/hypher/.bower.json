@@ -1,0 +1,14 @@
+{
+  "name": "hypher",
+  "homepage": "https://github.com/bramstein/hypher",
+  "version": "0.2.1",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.1",
+    "commit": "d61885376f0505bca88f05799fc6efb195295637"
+  },
+  "_source": "https://github.com/bramstein/hypher.git",
+  "_target": "~0.2.1",
+  "_originalSource": "https://github.com/bramstein/hypher.git"
+}
