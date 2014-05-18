@@ -190,6 +190,70 @@ it:
       cell1: "2010"
       cell2: "AURUM SF"
       cell3: "Per pane dal caratteristico aroma del pane di SFrancisco"
+  enzymes:
+    title: "ENZIMI"
+    description: "Una selezione per tutti gli usi: dai più comuni ai più specifici. Massima performance in volume e freschezza con il massimo della naturalità."
+    button: "SCARICA FERMENTI IN PDF"
+    head1: "Codice"
+    head2: "Prodotto"
+    head3: "Descrizione"
+    head4: "Dosaggi"
+  row1:
+    cell1: "1171"
+    cell2: "M 100 BAKERMATE"
+    cell3: "Alfa amilasi"
+    cell4: "1 – 10 ppm"
+  row2:
+    cell1: "1118"
+    cell2: "M 200 P"
+    cell3: "Xilanasi"
+    cell4: "5 – 50 ppm"
+  row3:
+    cell1: "1159"
+    cell2: "ML 210 N"
+    cell3: "Amilasi antistaling"
+    cell4: "10- 100 ppm"
+  row4:
+    cell1: "1133"
+    cell2: "ML 210 C"
+    cell3: "Amilasi antistaling"
+    cell4: "40- 100 ppm"
+  row5:
+    cell1: "1108"
+    cell2: "M 300 B4"
+    cell3: "Glucosio ossidasi"
+    cell4: "5 – 60 ppm"
+  row6:
+    cell1: "1124"
+    cell2: "M 300 LP"
+    cell3: "Lipasi"
+    cell4: "5 – 60 ppm"
+  row7:
+    cell1: "2600"
+    cell2: "M 213 L"
+    cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
+    cell4: "100-200 ppm"
+  row8:
+    cell1: "2601"
+    cell2: "M 213 H"
+    cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
+    cell4: "200-300 ppm"
+  row9:
+    cell1: "1135"
+    cell2: "M 500 FL"
+    cell3: "Amilasi antistaling"
+    cell4: "40 – 100 ppm"
+  row10:
+    cell1: "1123"
+    cell2: "M 500 NS"
+    cell3: "Amilasi antistaling"
+    cell4: "100 – 300 ppm"
+  row11:
+    cell1: "1172"
+    cell2: "M 920"
+    cell3: "Proteasi"
+    cell4: "10 – 100 ppm"
+
   matls:
     title: "MALTI"
     description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
@@ -240,53 +304,53 @@ it:
     head4: "Applicazioni"
     button: "SCARICA PASTE ACIDE IN PDF" 
     row1:
-      cell1: "SPRING W6"
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4146"
+      cell2: "SPRING W6"
+      cell3: "Pasta acida da farina di frumento"
+      cell4: "Tutti i tipi di pane, mix per panificazione"
     row2:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4139"
+      cell2: "SPRING R 10"
+      cell3: "Pasta acida da farina di segale"
+      cell4: "Multisemi, pani di segale, mix per panificazione"
     row3:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4505"
+      cell2: "SPRING SIENA"
+      cell3: "Pasta acida da farina di segale emalto"
+      cell4: "Pane di segale, mix per panificazione"
     row4:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4507"
+      cell2: "SPRING NORCIA"
+      cell3: "Pasta acida da farina di segale,malto d’orzo tostato, germe di grano"
+      cell4: "Pane integrale, ai cereali e multicereali"
     row5:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4508"
+      cell2: "SPRING ALBA"
+      cell3: "Pasta acida da farina di frumento"
+      cell4: "Tutti i tipi di pane "
     row6:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4228"
+      cell2: "SPRING FOCACCIA"
+      cell3: "Pasta acida da farina di frumento"
+      cell4: "Focaccia italiana"
     row7:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4199"
+      cell2: "SPRING PANE"
+      cell3: "Pasta acida da farina di frumento"
+      cell4: "Pane bianco dal gusto delicato"
     row8:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4131"
+      cell2: "SPRING PANETTONE"
+      cell3: "Semilavorato per dolci lievitati tradizionali"
+      cell4: "Panettone"
     row9:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4260"
+      cell2: "SPRING TRADIZIONE"
+      cell3: "Pasta acida per impasti a lievitazione naturale"
+      cell4: "Tutti i tipi di pane,mix per panificazione"
     row10:
-      cell1: 
-      cell2: 
-      cell3: 
-      cell4:
+      cell1: "4262"
+      cell2: "SPRING TRADIZIONE SF"
+      cell3: "Pasta acida per impasti a lievitazione naturale"
+      cell4: "Pani rustici, di qualità elevata che ricercano il gusto della tradizione"
 
