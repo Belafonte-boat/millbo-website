@@ -32,7 +32,7 @@ it:
   about:
     title: "CHI SIAMO"
     description: "Millbo è un'azienda italiana a forte vocazione internazionale, specializzata in soluzioni altamente innovative e naturali per la panificazione.<br /> Con oltre quarant'anni di esperienza nel settore, Millbo è presente oggi in oltre sessanta mercati di tutto il mondo."
-  efree:
+  efreesection:
     title: "E-FREE,CLEAN LABEL"
     description1: "L' E-free è la nostra missione, che significa sviluppare, formulare e produrre ingredienti per la panificazione a base esclusivamente naturale."
     description2: "A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura, assicurando alle marche e ai prodotti il vantaggio di una clean label, che le rende più attraenti per i consumatori contemporanei, sempre più sensibili ai temi della nutrizione, del gusto, della salute e della naturalità."
@@ -65,6 +65,7 @@ it:
     title: "SOLUZIONI NATURALI, SOLUZIONI CERTIFICATE"
     description: "Le soluzioni naturali Millbo sono studiate per corrispondere agli standard più elevati da ogni punto di vista. Per questo il numero di certificazioni che hanno ottenuto è così alto."
     button: "SCARICA LE CERTIFICAZIONI IN PDF"
+    pdf-url: "/pdf/it/Certificazioni_MILLBO.pdf"
     certificate1: "ISO 9001:2008"
     certificate2: "Certificato di Eccellenza"
     certificate3: "ISO 14001:2004"
@@ -98,6 +99,7 @@ it:
     title: "BAKERY SOLUTIONS"
     description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
     button: SCARICA BAKERY SOLUTIONS IN PDF
+    pdf-url: "/pdf/it/bakery_solutions.pdf"
     head1: "Codice"
     head2: "Descrizione"
     head3: "Prodotto"
@@ -139,6 +141,8 @@ it:
     head2: "prodotto"
     head3: "Descrizione"
     head4: "Dosaggio"
+    button: "SCARICA E-FREE SOLUTIONS IN PDF "
+    pdf-url: "/pdf/it/efree_solutions.pdf"
     row1:
       cell1: "3000"
       cell2: "EF.FECTO.CAKE"
@@ -163,6 +167,7 @@ it:
     title: "FERMENTI"
     description: "Una linea completa di miglioratori studiati per ogni necessità: dalla produzione artigianale a quella industriale."
     button: "SCARICA FERMENTI IN PDF"
+    pdf-url: "/pdf/it/fermenti.pdf"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Applicazioni"
@@ -194,6 +199,7 @@ it:
     title: "ENZIMI"
     description: "Una selezione per tutti gli usi: dai più comuni ai più specifici. Massima performance in volume e freschezza con il massimo della naturalità."
     button: "SCARICA FERMENTI IN PDF"
+    pdf-url: "/pdf/it/fermenti.pdf"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Descrizione"
@@ -295,6 +301,7 @@ it:
       cell1: "4039"
       cell2: "MALT IT 12W"
       cell3: "Malto di frumento tostato"
+
   sourdough:
     title: "PASTE ACIDE"
     description: "Per migliorare aroma, gusto e qualità del pane. Solo dalla fermentazione di cereali in condizioni controllate."
@@ -303,6 +310,7 @@ it:
     head3: "Descrizione"
     head4: "Applicazioni"
     button: "SCARICA PASTE ACIDE IN PDF" 
+    pdf-url: "/pdf/it/paste-acide.pdf"
     row1:
       cell1: "4146"
       cell2: "SPRING W6"

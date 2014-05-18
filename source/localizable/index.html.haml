@@ -28,17 +28,17 @@ metas: "main"
     .logo-small
     .left3
       %h2
-        = I18n.t("efree.title")
+        = I18n.t("efreesection.title")
         
     .right9
       %p.desc
-        = I18n.t("efree.description1")
+        = I18n.t("efreesection.description1")
       %p
-        = t("efree.description2")
+        = t("efreesection.description2")
       %p
-        = t("efree.description3")
+        = t("efreesection.description3")
       %p
-        = t("efree.description4")
+        = t("efreesection.description4")
     .logo-small
   
   #products.section
@@ -132,7 +132,7 @@ metas: "main"
         = t("certificates.certificate10")
         
       .button-container
-        %a.button{href:"/pdf/Certificazioni_MILLBO.pdf", target: "_blank"}
+        %a.button{href:"#{I18n.t("certificates.pdf-url")}", target: "_blank"}
           = t("certificates.button")
           
     .logo-small

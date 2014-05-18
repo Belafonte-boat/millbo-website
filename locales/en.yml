@@ -32,7 +32,7 @@ en:
   about:
     title: "ABOUT US"
     description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br /> Thanks to a forty-year experience on the market, Millbo is currently active inside more than sixty countries worldwide."
-  efree:
+  efreesection:
     title: "E-FREE,CLEAN LABEL"
     description1: "E-free is our mission, meaning the development and production of whole-natural baking ingredients."
     description2: "E-free offers natural-based solutions to all industrial baking needs. The advantages of a clean label ensured to brands and products by Millbo, allow them to become more appealing to the contemporary consumer, more sensitive to the topic of nutrition, taste and health."
@@ -65,6 +65,7 @@ en:
     title: "NATURAL SOLUTIONS, CERTIFIED SOLUTIONS"
     description: "Millbo's natural solutions have been created to satisfy the higher standards from any point of view. For this reason Millbo has obtained such a great certifications' number."
     button: "DOWNLOAD CERTIFICATIONS PDF"
+    pdf-url: "/pdf/en/Certification_MILLBO.pdf"
     certificate1: "ISO 9001:2008"
     certificate2: "Certificato di Eccellenza"
     certificate3: "ISO 14001:2004"
@@ -98,6 +99,7 @@ en:
     title: "BAKERY SOLUTIONS"
     description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
     button: SCARICA BAKERY SOLUTIONS IN PDF
+    pdf-url: "/pdf/it/bakery_solutions.pdf"
     head1: "Codice"
     head2: "Descrizione"
     head3: "Prodotto"
@@ -141,6 +143,7 @@ en:
     head2: "prodotto"
     head3: "Descrizione"
     head4: "Dosaggio"
+    pdf-url: "/pdf/en/efree_solutions.pdf"
     row1:
       cell1: "3000"
       cell2: "EF.FECTO.CAKE"
@@ -165,6 +168,7 @@ en:
     title: "FERMENTI"
     description: "Una linea completa di miglioratori studiati per ogni necessità: dalla produzione artigianale a quella industriale."
     button: "SCARICA FERMENTI IN PDF"
+    pdf-url: "/pdf/en/cultures.pdf"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Applicazioni"
@@ -196,65 +200,66 @@ en:
     title: "ENZIMI"
     description: "Una selezione per tutti gli usi: dai più comuni ai più specifici. Massima performance in volume e freschezza con il massimo della naturalità."
     button: "SCARICA FERMENTI IN PDF"
+    pdf-url: "/pdf/en/bakery_enzymes.pdf"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Descrizione"
     head4: "Dosaggi"
-  row1:
-    cell1: "1171"
-    cell2: "M 100 BAKERMATE"
-    cell3: "Alfa amilasi"
-    cell4: "1 – 10 ppm"
-  row2:
-    cell1: "1118"
-    cell2: "M 200 P"
-    cell3: "Xilanasi"
-    cell4: "5 – 50 ppm"
-  row3:
-    cell1: "1159"
-    cell2: "ML 210 N"
-    cell3: "Amilasi antistaling"
-    cell4: "10- 100 ppm"
-  row4:
-    cell1: "1133"
-    cell2: "ML 210 C"
-    cell3: "Amilasi antistaling"
-    cell4: "40- 100 ppm"
-  row5:
-    cell1: "1108"
-    cell2: "M 300 B4"
-    cell3: "Glucosio ossidasi"
-    cell4: "5 – 60 ppm"
-  row6:
-    cell1: "1124"
-    cell2: "M 300 LP"
-    cell3: "Lipasi"
-    cell4: "5 – 60 ppm"
-  row7:
-    cell1: "2600"
-    cell2: "M 213 L"
-    cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
-    cell4: "100-200 ppm"
-  row8:
-    cell1: "2601"
-    cell2: "M 213 H"
-    cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
-    cell4: "200-300 ppm"
-  row9:
-    cell1: "1135"
-    cell2: "M 500 FL"
-    cell3: "Amilasi antistaling"
-    cell4: "40 – 100 ppm"
-  row10:
-    cell1: "1123"
-    cell2: "M 500 NS"
-    cell3: "Amilasi antistaling"
-    cell4: "100 – 300 ppm"
-  row11:
-    cell1: "1172"
-    cell2: "M 920"
-    cell3: "Proteasi"
-    cell4: "10 – 100 ppm"
+    row1:
+      cell1: "1171"
+      cell2: "M 100 BAKERMATE"
+      cell3: "Alfa amilasi"
+      cell4: "1 – 10 ppm"
+    row2:
+      cell1: "1118"
+      cell2: "M 200 P"
+      cell3: "Xilanasi"
+      cell4: "5 – 50 ppm"
+    row3:
+      cell1: "1159"
+      cell2: "ML 210 N"
+      cell3: "Amilasi antistaling"
+      cell4: "10- 100 ppm"
+    row4:
+      cell1: "1133"
+      cell2: "ML 210 C"
+      cell3: "Amilasi antistaling"
+      cell4: "40- 100 ppm"
+    row5:
+      cell1: "1108"
+      cell2: "M 300 B4"
+      cell3: "Glucosio ossidasi"
+      cell4: "5 – 60 ppm"
+    row6:
+      cell1: "1124"
+      cell2: "M 300 LP"
+      cell3: "Lipasi"
+      cell4: "5 – 60 ppm"
+    row7:
+      cell1: "2600"
+      cell2: "M 213 L"
+      cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
+      cell4: "100-200 ppm"
+    row8:
+      cell1: "2601"
+      cell2: "M 213 H"
+      cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
+      cell4: "200-300 ppm"
+    row9:
+      cell1: "1135"
+      cell2: "M 500 FL"
+      cell3: "Amilasi antistaling"
+      cell4: "40 – 100 ppm"
+    row10:
+      cell1: "1123"
+      cell2: "M 500 NS"
+      cell3: "Amilasi antistaling"
+      cell4: "100 – 300 ppm"
+    row11:
+      cell1: "1172"
+      cell2: "M 920"
+      cell3: "Proteasi"
+      cell4: "10 – 100 ppm"
 
   matls:
     title: "MALTI"

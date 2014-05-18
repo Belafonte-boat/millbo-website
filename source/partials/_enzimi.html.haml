@@ -125,6 +125,6 @@ metas: "main"
           %td.numeric 
             = I18n.t("enzymes.row11.cell4")
     .button-container
-      %a.button{href:"/pdf/fermenti.pdf", target: "_blank"}
+      %a.button{href:"#{I18n.t("enzymes.pdf-url")}", target: "_blank"}
         = I18n.t("enzymes.button")
   = partial "partials/footer"         
