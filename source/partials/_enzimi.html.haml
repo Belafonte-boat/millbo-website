@@ -8,75 +8,123 @@ metas: "main"
   #aboutus
     .left3
       %h2
-        ENZIMI
+        = I18n.t("enzymes.title")
     .right9
       %p.desc
-        Una selezione per tutti gli usi: dai più comuni ai più specifici. Massima performance in volume e freschezza con il massimo della naturalità.
+        = I18n.t("enzymes.description")
   #table
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th Codice
-          %th Prodotto
-          %th Descrizione
-          %th.special Dosaggi
+          %th 
+            = I18n.t("enzymes.head1")
+          %th
+            = I18n.t("enzymes.head2")
+          %th 
+            = I18n.t("enzymes.head3")
+          %th.special
+            = I18n.t("enzymes.head4")
       %tbody
         %tr.even
-          %th.numeric 1171
-          %td.numeric M 100 BAKERMATE
-          %td.numeric Alfa amilasi
-          %td.numeric T1 – 10 ppm
+          %th.numeric
+            = I18n.t("enzymes.row1.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row1.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row1.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row1.cell4")
         %tr.odd
-          %th.numeric 1118
-          %td.numeric M 200 P
-          %td.numeric Xilanasi
-          %td.numeric 5 – 50 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row2.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row2.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row2.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row2.cell4")
         %tr.even
-          %th.numeric 1159
-          %td.numeric ML 210 N
-          %td.numeric Amilasi antistaling
-          %td.numeric 10- 100 ppm 
+          %th.numeric 
+            = I18n.t("enzymes.row3.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row3.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row3.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row3.cell4") 
         %tr.odd
-          %th.numeric 1133
-          %td.numeric ML 210 C
-          %td.numeric Amilasi antistaling
-          %td.numeric 40- 100 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row4.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row4.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row4.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row4.cell4")
         %tr.even
-          %th.numeric 1108
-          %td.numeric M 300 B4
-          %td.numeric Glucosio ossidasi
-          %td.numeric 5 – 60 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row5.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row5.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row5.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row5.cell4")
         %tr.odd
-          %th.numeric 1124
-          %td.numeric M 300 LP
-          %td.numeric Lipasi
-          %td.numeric 5 – 60 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row6.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row6.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row6.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row6.cell4")
         %tr.even
-          %th.numeric 2600
-          %td.numeric M 213 L
-          %td.numeric Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno
-          %td.numeric 100-200 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row7.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row7.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row7.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row7.cell4")
         %tr.odd
-          %th.numeric 2601
-          %td.numeric M 213 H
-          %td.numeric Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno
-          %td.numeric 200-300 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row8.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row8.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row8.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row8.cell4")
         %tr.even
-          %th.numeric 1135
-          %td.numeric M 500 FL
-          %td.numeric Amilasi antistaling
-          %td.numeric 40 – 100 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row9.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row9.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row9.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row9.cell4")
         %tr.odd
-          %th.numeric 1123
-          %td.numeric M 500 NS
-          %td.numeric Amilasi antistaling
-          %td.numeric 100 – 300 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row10.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row10.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row10.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row10.cell4")
         %tr.even
-          %th.numeric 1172
-          %td.numeric M 920
-          %td.numeric Proteasi
-          %td.numeric 10 – 100 ppm
+          %th.numeric 
+            = I18n.t("enzymes.row11.cell1")
+          %td.numeric 
+            = I18n.t("enzymes.row11.cell2")
+          %td.numeric 
+            = I18n.t("enzymes.row11.cell3")
+          %td.numeric 
+            = I18n.t("enzymes.row11.cell4")
     .button-container
       %a.button{href:"/pdf/fermenti.pdf", target: "_blank"}
-        SCARICA FERMENTI IN PDF 
+        = I18n.t("enzymes.button")
   = partial "partials/footer"         
