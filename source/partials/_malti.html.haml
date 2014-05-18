@@ -8,64 +8,91 @@ metas: "main"
   #aboutus
     .left3
       %h2
-        MALTI
+        = I18n.t("malts.title")
+        
     .right9
       %p.desc
-        Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci.
+        = I18n.t("malts.description")
+        
   #table
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th Codice
-          %th Prodotto
-          %th.special Colore
-          %th Applicazioni
+          %th 
+            = I18n.t("malts.head1")
+          %th 
+            = I18n.t("malts.head2")
+          %th.special 
+            = I18n.t("malts.head3")
+          %th 
+            = I18n.t("malts.head4")
 
       %tbody
         %tr.even
-          %th.numeric 4021
-          %td.numeric MALT IT 110
+          %th.numeric 
+            = I18n.t("malts.row1.cell1")
+          %td.numeric 
+            = I18n.t("malts.row1.cell2")
           %td.numeric.color 
             =image_tag("malti/malto_4021.png")
-          %td.numeric Malto d’orzo tostato
+          %td.numeric 
+            = I18n.t("malts.row1.cell3")
         %tr.odd
-          %th.numeric 4022
-          %td.numeric MALT IT 40
+          %th.numeric 
+            = I18n.t("malts.row2.cell1")
+          %td.numeric 
+            = I18n.t("malts.row2.cell2")
           %td.numeric.color 
             =image_tag("malti/malto_4022.png")
-          %td.numeric Malto d’orzo tostato
+          %td.numeric 
+            = I18n.t("malts.row2.cell3")
         %tr.even
-          %th.numeric 4023
-          %td.numeric MALT IT 130
+          %th.numeric 
+            = I18n.t("malts.row3.cell1")
+          %td.numeric 
+            = I18n.t("malts.row3.cell2")
           %td.numeric.color  
             =image_tag("malti/malto_4023.png")
-          %td.numeric Malto d’orzo tostato
+          %td.numeric 
+            = I18n.t("malts.row3.cell3")
         %tr.odd
-          %th.numeric 4025
-          %td.numeric MALT IT 25
+          %th.numeric 
+            = I18n.t("malts.row4.cell1")
+          %td.numeric 
+            = I18n.t("malts.row4.cell2")
           %td.numeric.color  
             =image_tag("malti/malto_4025.png")
-          %td.numeric Malto d’orzo tostato
+          %td.numeric 
+            = I18n.t("malts.row4.cell3")
         %tr.even
-          %th.numeric 4026
-          %td.numeric MALT IT 14
+          %th.numeric 
+            = I18n.t("malts.row5.cell1")
+          %td.numeric 
+            = I18n.t("malts.row5.cell2")
           %td.numeric.color  
             =image_tag("malti/malto_4026.png")
-          %td.numeric Malto d’orzo diastatico
+          %td.numeric 
+            = I18n.t("malts.row5.cell3")
         %tr.odd
-          %th.numeric 4030
-          %td.numeric MALT IT 110Z
+          %th.numeric 
+            = I18n.t("malts.row6.cell1")
+          %td.numeric 
+            = I18n.t("malts.row6.cell2")
           %td.numeric.color  
             =image_tag("malti/malto_4030.png")
-          %td.numeric Malto d’orzo tostato
+          %td.numeric 
+            = I18n.t("malts.row6.cell3")
         %tr.even
-          %th.numeric 4039
-          %td.numeric MALT IT 12W
+          %th.numeric 
+            = I18n.t("malts.row7.cell1")
+          %td.numeric 
+            = I18n.t("malts.row7.cell2")
           %td.numeric.color  
             =image_tag("malti/malto_4039.png")
-          %td.numeric Malto di frumento tostato
+          %td.numeric 
+            = I18n.t("malts.row7.cell3")
     .button-container
       %a.button{href:"/pdf/malti.pdf", target: "_blank"}
-        SCARICA MALTI IN PDF 
+        = I18n.t("malts.button")
   = partial "partials/footer"
         

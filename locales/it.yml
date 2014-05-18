@@ -159,5 +159,134 @@ it:
       cell2: "EF.FECTO.FREEZE"
       cell3: "Sostituzione del Guar"
       cell4: "Come IL GUAR, 0.5%circa"
+  cultures:
+    title: "FERMENTI"
+    description: "Una linea completa di miglioratori studiati per ogni necessità: dalla produzione artigianale a quella industriale."
+    button: "SCARICA FERMENTI IN PDF"
+    head1: "Codice"
+    head2: "Prodotto"
+    head3: "Applicazioni"
+    row1:
+      cell1: "2002"
+      cell2: "AURUM Plantarum"
+      cell3: "per pane bianco, baguette, pane in cassetta"
 
+    row2:
+      cell1: "2003"
+      cell2: "AURUM Brevis"
+      cell3: "Per pane con accentuata nota acida"
+
+    row3:
+      cell1: "2004"
+      cell2: "AURUM Italia"
+      cell3: "Per tutti i tipi di pane"
+
+    row4:
+      cell1: "2005"
+      cell2: "AURUM Gusto"
+      cell3: "Per tutti i tipi di pane, accentuata nota aromatica"
+
+    row5:
+      cell1: "2010"
+      cell2: "AURUM SF"
+      cell3: "Per pane dal caratteristico aroma del pane di SFrancisco"
+  matls:
+    title: "MALTI"
+    description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
+    head1: "Codice"
+    head2: "Prodotto"
+    head3: "Colore"
+    head4: "Applicazioni"
+    button: "SCARICA MALTI IN PDF"
+    row1:
+      cell1: "4021"
+      cell2: "MALT IT 110"
+      cell3: "Malto d’orzo tostato"
+    row2:
+      cell1: "4022"
+      cell2: "MALT IT 40"
+      cell3: "Malto d’orzo tostato"
+
+    row3:
+      cell1: "4023"
+      cell2: "MALT IT 130"
+      cell3: "Malto d’orzo tostato"
+
+    row4:
+      cell1: "4025"
+      cell2: "MALT IT 25"
+      cell3: "Malto d’orzo tostato"
+
+    row5:
+      cell1: "4026"
+      cell2: "MALT IT 14"
+      cell3: "Malto d’orzo diastatico"
+
+    row6:
+      cell1: "4030"
+      cell2: "MALT IT 110Z"
+      cell3: "Malto d’orzo tostato"
+
+    row7:
+      cell1: "4039"
+      cell2: "MALT IT 12W"
+      cell3: "Malto di frumento tostato"
+  sourdough:
+    title: "PASTE ACIDE"
+    description: "Per migliorare aroma, gusto e qualità del pane. Solo dalla fermentazione di cereali in condizioni controllate."
+    head1: "Codice"
+    head2: "Prodotto"
+    head3: "Descrizione"
+    head4: "Applicazioni"
+    button: "SCARICA PASTE ACIDE IN PDF" 
+    row1:
+      cell1: "SPRING W6"
+      cell2: 
+      cell3: 
+      cell4:
+    row2:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row3:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row4:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row5:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row6:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row7:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row8:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row9:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
+    row10:
+      cell1: 
+      cell2: 
+      cell3: 
+      cell4:
 

@@ -15,7 +15,7 @@ page "/it/", :layout => :html5
 page "/products/sourdough.html", :layout => :html5 
 page "/products/malts.html", :layout => :html5
 page "/products/cultures.html", :layout => :html5
-page "/products/enzimes.html", :layout => :html5
+page "/products/enzymes.html", :layout => :html5
 page "/products/efree.html", :layout => :html5
 page "/products/bakery.html", :layout => :html5
 

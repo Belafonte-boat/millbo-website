@@ -8,39 +8,59 @@ metas: "main"
   #aboutus
     .left3
       %h2
-        FERMENTI
+        = I18n.t("coltures.title")
+        
     .right9
       %p.desc
-        Una linea completa di miglioratori studiati per ogni necessità: dalla produzione artigianale a quella industriale.
+        = I18n.t("coltures.description")
+        
   #table
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th Codice
-          %th Prodotto
-          %th Applicazioni
+          %th 
+            = I18n.t("coltures.head1")
+          %th 
+            = I18n.t("coltures.head2")
+          %th 
+            = I18n.t("coltures.head3")
       %tbody
         %tr.even
-          %th.numeric 2002
-          %td.numeric AURUM Plantarum
-          %td.numeric per pane bianco, baguette, pane in cassetta
+          %th.numeric 
+            = I18n.t("coltures.row1.cell1")
+          %td.numeric 
+            = I18n.t("coltures.row1.cell2")
+          %td.numeric 
+            = I18n.t("coltures.row1.cell3")
         %tr.odd
-          %th.numeric 2003
-          %td.numeric AURUM Brevis
-          %td.numeric Per pane con accentuata nota acida
+          %th.numeric 
+            = I18n.t("coltures.row2.cell1")
+          %td.numeric 
+            = I18n.t("coltures.row2.cell2")
+          %td.numeric 
+            = I18n.t("coltures.row2.cell3")
         %tr.even
-          %th.numeric 2004
-          %td.numeric AURUM Italia
-          %td.numeric Per tutti i tipi di pane
+          %th.numeric 
+            = I18n.t("coltures.row3.cell1")
+          %td.numeric 
+            = I18n.t("coltures.row3.cell2")
+          %td.numeric 
+            = I18n.t("coltures.row3.cell3")
         %tr.odd
-          %th.numeric 2005
-          %td.numeric AURUM Gusto
-          %td.numeric Per tutti i tipi di pane, accentuata nota aromatica
+          %th.numeric 
+            = I18n.t("coltures.row4.cell1")
+          %td.numeric 
+            = I18n.t("coltures.row4.cell2")
+          %td.numeric 
+            = I18n.t("coltures.row4.cell3")
         %tr.even
-          %th.numeric 2010
-          %td.numeric AURUM SF
-          %td.numeric Per pane dal caratteristico aroma del pane di SFrancisco
+          %th.numeric 
+            = I18n.t("coltures.row5.cell1")
+          %td.numeric 
+            = I18n.t("coltures.row5.cell2")
+          %td.numeric 
+            = I18n.t("coltures.row5.cell3")
     .button-container
       %a.button{href:"/pdf/fermenti.pdf", target: "_blank"}
-        SCARICA FERMENTI IN PDF 
+        = I18n.t("coltures.button")
   = partial "partials/footer"
