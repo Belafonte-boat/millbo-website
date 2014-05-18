@@ -362,4 +362,36 @@ it:
       cell2: "SPRING TRADIZIONE SF"
       cell3: "Pasta acida per impasti a lievitazione naturale"
       cell4: "Pani rustici, di qualità elevata che ricercano il gusto della tradizione"
+      
+      
+      Liquidi
+    row11:
+      cell1: "4888"
+      cell2: "LS1"
+      cell3: "Pasta acida liquida da frumento per pane bianco"
+      cell4: "Ogni tipologia di pane che necessiti di una caratteristica nota acidula"
+    row12:
+      cell1: "4889"
+      cell2: "LS2"
+      cell3: "Pasta acida liquida da frumento per pane di segale"
+      cell4: "Ogni tipologia di pane che necessiti di una caratteristica nota acidula"
+      
+      
+      Home Baking
+    row13:
+      cell1: "4002"
+      cell2: "SPRING FOCACCIA HOME"
+      cell3: "Pasta acida per mix per homebaking"
+      cell4: "Focaccia italiana"
+    row14:
+      cell1: "4003"
+      cell2: "SPRING PANETTONE HOME"
+      cell3: "Pasta acida per mix per homebaking"
+      cell4: "Panettone"
+    row15:
+      cell1: "4004"
+      cell2: "SPRING PANE HOME"
+      cell3: "Pasta acida per mix per homebaking"
+      cell4: "Pane"
+      
 
