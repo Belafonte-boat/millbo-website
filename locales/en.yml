@@ -27,7 +27,7 @@ en:
     subItem5: "E-free solutions"
     subUrl5: "/products/efree.html"
     subItem6: "Bakery solutions"
-    subUrl7: "/products/bakery.html"
+    subUrl6: "/products/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
     title: "ABOUT US"
@@ -169,6 +169,7 @@ en:
     title: "CULTURES"
     description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
     button: "DOWNLOAD CULTURES PDF"
+    pdf-url: "/pdf/en/cultures.pdf"
     head1: "Code"
     head2: "Product"
     head3: "Applications"
@@ -204,61 +205,61 @@ en:
     head2: "Product"
     head3: "Description"
     head4: "Dose"
-  row1:
-    cell1: "1171"
-    cell2: "M 100 BAKERMATE"
-    cell3: "Alpha amylase"
-    cell4: "1 – 10 ppm"
-  row2:
-    cell1: "1118"
-    cell2: "M 200 P"
-    cell3: "Xylanase"
-    cell4: "5 – 50 ppm"
-  row3:
-    cell1: "1159"
-    cell2: "ML 210 N"
-    cell3: "Antistaling amylase"
-    cell4: "10- 100 ppm"
-  row4:
-    cell1: "1133"
-    cell2: "ML 210 C"
-    cell3: "Antistaling amylase"
-    cell4: "40- 100 ppm"
-  row5:
-    cell1: "1108"
-    cell2: "M 300 B4"
-    cell3: "Glucose oxidase"
-    cell4: "5 – 60 ppm"
-  row6:
-    cell1: "1124"
-    cell2: "M 300 LP"
-    cell3: "Lipase"
-    cell4: "5 – 60 ppm"
-  row7:
-    cell1: "2600"
-    cell2: "M 213 L"
-    cell3: "Processing aids for bakery: bakery enzyme"
-    cell4: "100-200 ppm"
-  row8:
-    cell1: "2601"
-    cell2: "M 213 H"
-    cell3: "Processing aids for bakery: bakery enzyme"
-    cell4: "200-300 ppm"
-  row9:
-    cell1: "1135"
-    cell2: "M 500 FL"
-    cell3: "Antistaling amylase"
-    cell4: "40 – 100 ppm"
-  row10:
-    cell1: "1123"
-    cell2: "M 500 NS"
-    cell3: "Antistaling amylase"
-    cell4: "100 – 300 ppm"
-  row11:
-    cell1: "1172"
-    cell2: "M 920"
-    cell3: "Protease"
-    cell4: "10 – 100 ppm"
+    row1:
+      cell1: "1171"
+      cell2: "M 100 BAKERMATE"
+      cell3: "Alpha amylase"
+      cell4: "1 – 10 ppm"
+    row2:
+      cell1: "1118"
+      cell2: "M 200 P"
+      cell3: "Xylanase"
+      cell4: "5 – 50 ppm"
+    row3:
+      cell1: "1159"
+      cell2: "ML 210 N"
+      cell3: "Antistaling amylase"
+      cell4: "10- 100 ppm"
+    row4:
+      cell1: "1133"
+      cell2: "ML 210 C"
+      cell3: "Antistaling amylase"
+      cell4: "40- 100 ppm"
+    row5:
+      cell1: "1108"
+      cell2: "M 300 B4"
+      cell3: "Glucose oxidase"
+      cell4: "5 – 60 ppm"
+    row6:
+      cell1: "1124"
+      cell2: "M 300 LP"
+      cell3: "Lipase"
+      cell4: "5 – 60 ppm"
+    row7:
+      cell1: "2600"
+      cell2: "M 213 L"
+      cell3: "Processing aids for bakery: bakery enzyme"
+      cell4: "100-200 ppm"
+    row8:
+      cell1: "2601"
+      cell2: "M 213 H"
+      cell3: "Processing aids for bakery: bakery enzyme"
+      cell4: "200-300 ppm"
+    row9:
+      cell1: "1135"
+      cell2: "M 500 FL"
+      cell3: "Antistaling amylase"
+      cell4: "40 – 100 ppm"
+    row10:
+      cell1: "1123"
+      cell2: "M 500 NS"
+      cell3: "Antistaling amylase"
+      cell4: "100 – 300 ppm"
+    row11:
+      cell1: "1172"
+      cell2: "M 920"
+      cell3: "Protease"
+      cell4: "10 – 100 ppm"
 
   malts:
     title: "MALTS"
