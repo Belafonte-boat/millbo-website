@@ -355,5 +355,35 @@ en:
       cell2: "SPRING TRADIZIONE SF"
       cell3: "Dried sourdough for natual leavened mixture"
       cell4: "High quality rustic bread, with the taste of tradition"
+      
+     LIQUID 
+    row11:
+      cell1: "4888"
+      cell2: "LS1"
+      cell3: "Liquid sourdough from wheat flour for white bread"
+      cell4: "Any type of bread that requires a characteristic sour note"
+    row12:
+      cell1: "4889"
+      cell2: "LS2"
+      cell3: "Liquid sourdough from wheat flour for rye bread"
+      cell4: "Any type of bread that requires a characteristic sour note"
+      
+    HOME BAKING  
+    row13:
+      cell1: "4002"
+      cell2: "SPRING FOCACCIA HOME"
+      cell3: "Sourdough for homebaking mix"
+      cell4: "Italian focaccia"
+    row14:
+      cell1: "4003"
+      cell2: "SPRING PANETTONE HOME"
+      cell3: "Sourdough for homebaking mix"
+      cell4: "Panettone"
+    row15:
+      cell1: "4004"
+      cell2: "SPRING PANE HOME"
+      cell3: "Sourdough for homebaking mix"
+      cell4: "Bread"
+
 
 
