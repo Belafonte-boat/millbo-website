@@ -17,17 +17,17 @@ it:
     item7: "ENGLISH"
     url7: "/"
     subItem1: "Paste acide"
-    subUrl1: "/prodotti/pasteacide.html"
+    subUrl1: "/it/prodotti/pasteacide.html"
     subItem2: "Malti"
-    subUrl2: "/prodotti/malti.html"
+    subUrl2: "/it/prodotti/malti.html"
     subItem3: "Enzimi"
-    subUrl3: "/prodotti/enzimi.html"
+    subUrl3: "/it/prodotti/enzimi.html"
     subItem4: "Fermenti"
-    subUrl4: "/prodotti/fermenti.html"
+    subUrl4: "/it/prodotti/fermenti.html"
     subItem5: "E-free solutions"
-    subUrl5: "/prodotti/efree.html"
+    subUrl5: "/it/prodotti/efree.html"
     subItem6: "Bakery solutions"
-    subUrl7: "/prodotti/bakery.html"
+    subUrl7: "/it/prodotti/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
     title: "CHI SIAMO"
@@ -260,7 +260,7 @@ it:
     cell3: "Proteasi"
     cell4: "10 – 100 ppm"
 
-  matls:
+  malts:
     title: "MALTI"
     description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
     head1: "Codice"
@@ -268,6 +268,7 @@ it:
     head3: "Colore"
     head4: "Applicazioni"
     button: "SCARICA MALTI IN PDF"
+    pdf-url: "/pdf/it/malti.pdf"
     row1:
       cell1: "4021"
       cell2: "MALT IT 110"

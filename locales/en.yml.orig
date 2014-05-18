@@ -4,30 +4,30 @@ en:
   menu:
     item1: "Home"
     url1: "/"
-    item2: "About us"
+    item2: "Chi siamo"
     url2: "#aboutus"
     item3: "E-free Clean label"
     url3: "#efree"
-    item4: "Products"
+    item4: "Prodotti"
     url4: "#products"
-    item5: "Certifications"
+    item5: "Certificazioni"
     url5: "#certificate"
-    item6: "Contact us"
+    item6: "Contatti"
     url6: "contacts"
     item7: "ITALIANO"
     url7: "/"
-    subItem1: "Sourdough"
-    subUrl1: "/products/sourdough.html"
-    subItem2: "Malts"
-    subUrl2: "/products/malts.html"
-    subItem3: "Enzymes"
-    subUrl3: "/products/enzymes.html"
-    subItem4: "Cultures"
-    subUrl4: "/products/cultures.html"
+    subItem1: "Paste acide"
+    subUrl1: "/prodotti/pasteacide.html"
+    subItem2: "Malti"
+    subUrl2: "/prodotti/malti.html"
+    subItem3: "Enzimi"
+    subUrl3: "/prodotti/enzimi.html"
+    subItem4: "Fermenti"
+    subUrl4: "/prodotti/fermenti.html"
     subItem5: "E-free solutions"
-    subUrl5: "/products/efree.html"
+    subUrl5: "/prodotti/efree.html"
     subItem6: "Bakery solutions"
-    subUrl7: "/products/bakery.html"
+    subUrl7: "/prodotti/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
     title: "ABOUT US"
@@ -97,13 +97,22 @@ en:
       button: "invia"
   bakery:
     title: "BAKERY SOLUTIONS"
+<<<<<<< HEAD
+    description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
+    button: SCARICA BAKERY SOLUTIONS IN PDF
+    pdf-url: "/pdf/it/bakery_solutions.pdf"
+    head1: "Codice"
+    head2: "Descrizione"
+    head3: "Prodotto"
+    head4: "Dosaggio"
+=======
     description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
     button: "DOWNLOAD BAKERY SOLUTIONS PDF"
-    pdf-url: "/pdf/it/bakery_solutions.pdf"
     head1: "Code"
     head2: "Description"
     head3: "Product"
     head4: "Dose"
+>>>>>>> FETCH_HEAD
     row1:
       cell1: "6335"
       cell2: "XTEND C"
@@ -138,13 +147,21 @@ en:
 
   efree: 
     title: "E-FREE SOLUTIONS: FOR CAKES AND SWEET GOODS"
+<<<<<<< HEAD
+    description: "Incrementare volume e sofficità degli impasti, mantenere più a lungo la freschezza,aggiungere gusto e aroma: sempre con mezzi naturali che consentono una clean label."
+    head1: "Codice"
+    head2: "prodotto"
+    head3: "Descrizione"
+    head4: "Dosaggio"
+    pdf-url: "/pdf/en/efree_solutions.pdf"
+=======
     description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma.Natural elements ensure a clean label."
     button: "DOWNLOAD E-FREE SOLUTIONS PDF"
-    pdf-url: "/pdf/en/efree_solutions.pdf"
     head1: "Code"
     head2: "Product"
     head3: "Description"
     head4: "Dose"
+>>>>>>> FETCH_HEAD
     row1:
       cell1: "3000"
       cell2: "EF.FECTO.CAKE"
@@ -166,13 +183,22 @@ en:
       cell3: "GUAR substitution"
       cell4: "As GUAR, 0.5% circa"
   cultures:
+<<<<<<< HEAD
+    title: "FERMENTI"
+    description: "Una linea completa di miglioratori studiati per ogni necessità: dalla produzione artigianale a quella industriale."
+    button: "SCARICA FERMENTI IN PDF"
+    pdf-url: "/pdf/en/cultures.pdf"
+    head1: "Codice"
+    head2: "Prodotto"
+    head3: "Applicazioni"
+=======
     title: "CULTURES"
     description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
-
     button: "DOWNLOAD CULTURES PDF"
     head1: "Code"
     head2: "Product"
     head3: "Applications"
+>>>>>>> FETCH_HEAD
     row1:
       cell1: "2002"
       cell2: "AURUM Plantarum"
@@ -197,10 +223,74 @@ en:
       cell2: "AURUM SF"
       cell3: "For the characteristic San Francisco aroma bread"
   enzymes:
+<<<<<<< HEAD
+    title: "ENZIMI"
+    description: "Una selezione per tutti gli usi: dai più comuni ai più specifici. Massima performance in volume e freschezza con il massimo della naturalità."
+    button: "SCARICA FERMENTI IN PDF"
+    pdf-url: "/pdf/en/bakery_enzymes.pdf"
+    head1: "Codice"
+    head2: "Prodotto"
+    head3: "Descrizione"
+    head4: "Dosaggi"
+    row1:
+      cell1: "1171"
+      cell2: "M 100 BAKERMATE"
+      cell3: "Alfa amilasi"
+      cell4: "1 – 10 ppm"
+    row2:
+      cell1: "1118"
+      cell2: "M 200 P"
+      cell3: "Xilanasi"
+      cell4: "5 – 50 ppm"
+    row3:
+      cell1: "1159"
+      cell2: "ML 210 N"
+      cell3: "Amilasi antistaling"
+      cell4: "10- 100 ppm"
+    row4:
+      cell1: "1133"
+      cell2: "ML 210 C"
+      cell3: "Amilasi antistaling"
+      cell4: "40- 100 ppm"
+    row5:
+      cell1: "1108"
+      cell2: "M 300 B4"
+      cell3: "Glucosio ossidasi"
+      cell4: "5 – 60 ppm"
+    row6:
+      cell1: "1124"
+      cell2: "M 300 LP"
+      cell3: "Lipasi"
+      cell4: "5 – 60 ppm"
+    row7:
+      cell1: "2600"
+      cell2: "M 213 L"
+      cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
+      cell4: "100-200 ppm"
+    row8:
+      cell1: "2601"
+      cell2: "M 213 H"
+      cell3: "Coadiuvante tecnologico per prodotti da forno: enzima per prodotti da forno"
+      cell4: "200-300 ppm"
+    row9:
+      cell1: "1135"
+      cell2: "M 500 FL"
+      cell3: "Amilasi antistaling"
+      cell4: "40 – 100 ppm"
+    row10:
+      cell1: "1123"
+      cell2: "M 500 NS"
+      cell3: "Amilasi antistaling"
+      cell4: "100 – 300 ppm"
+    row11:
+      cell1: "1172"
+      cell2: "M 920"
+      cell3: "Proteasi"
+      cell4: "10 – 100 ppm"
+=======
     title: "BAKERY ENZYMES"
     description: "A full stack: from essential applications for bakery to innovative and exclusive products. Maximum performance in volume and freshness, fully natural."
     button: "DOWLOAD BAKERY ENZYMES PDF"
-    pdf-url: "/pdf/en/bakery_enzymes.pdf"
     head1: "Code"
     head2: "Product"
     head3: "Description"
@@ -260,16 +350,16 @@ en:
     cell2: "M 920"
     cell3: "Protease"
     cell4: "10 – 100 ppm"
+>>>>>>> FETCH_HEAD
 
-  malts:
+  matls:
     title: "MALTS"
-    description: 
+    description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
     head1: "Code"
     head2: "Product"
     head3: "Color"
     head4: "Application"
     button: "DOWLOAD MALTS PDF"
-    pdf-url: "/pdf/en/malts.pdf"
     row1:
       cell1: "4021"
       cell2: "MALT IT 110"
@@ -310,8 +400,7 @@ en:
     head2: "Product"
     head3: "Description"
     head4: "Applications"
-    button: "DOWNLOAD SOURDOUGH PDF"
-    pdf-url: "/pdf/en/sourdough.pdf"
+    button: "DOWNLOAD SOURDOUGH PDF" 
     row1:
       cell1: "4146"
       cell2: "SPRING W6"
