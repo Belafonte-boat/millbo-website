@@ -191,6 +191,14 @@ p
   background: image-url("millbo_small_logo.png") no-repeat center center
   margin-bottom: 80px
   margin-top: 80px
+.logo-center
+  position: relative
+  +span-columns(12,12)
+  height: image-height("logo_centrato_millbo.png")
+  background: image-url("logo_centrato_millbo.png") no-repeat center center
+  margin-bottom: 20px
+  margin-top: 30px
+
 .product.last
   +omega
 
@@ -319,6 +327,7 @@ p
   .info
     +span-columns(12,12)
     font-size: px-to-em(16px,16px)
+    text-align: center
     span
       font-family: "Lato", sans-serif
       font-weight: 300
