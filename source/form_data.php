@@ -4,7 +4,7 @@
         require_once('mandrill.php');
 
 
-        $mandrill = new Mandrill('VxTThM6exCb4zKCbbxkrtg');
+        $mandrill = new Mandrill('m53jOMAsJCXrCQGVu7NHug');
         // EDIT THE 2 LINES BELOW AS REQUIRED
         $email_to = "piermaria@belafonte.co";
         $email_subject = "Test Belafonte";
