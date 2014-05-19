@@ -18,7 +18,7 @@ var options = {
     	$("a.aboutus").click(function(e){
 		e.preventDefault();
 		$.scrollTo("#aboutus",{
-	                offset: -100,
+	                offset: -20,
 	                duration: 750
 	            });
 		})
@@ -26,7 +26,7 @@ var options = {
 		$("a.efree").click(function(e){
 			e.preventDefault();
 			$.scrollTo("#efree",{
-		                offset: -100,
+		                offset: -20,
 		                duration: 750
 		            });
 		})
@@ -34,14 +34,14 @@ var options = {
 		$("a.certificate").click(function(e){
 			e.preventDefault();
 			$.scrollTo("#certificate",{
-		                offset: -100,
+		                offset: -20,
 		                duration: 750
 		            });
 		})
 		$("a.contactus").click(function(e){
 			e.preventDefault();
 			$.scrollTo("#contactus",{
-		                offset: -100,
+		                offset: -20,
 		                duration: 750
 		            });
 		})
@@ -51,7 +51,7 @@ if(pathname == "/" || pathname == "/it/"){
 	$("a.aboutus").click(function(e){
 		e.preventDefault();
 		$.scrollTo("#aboutus",{
-	                offset: -100,
+	                offset: -20,
 	                duration: 750
 	            });
 	})
@@ -59,7 +59,7 @@ if(pathname == "/" || pathname == "/it/"){
 	$("a.efree").click(function(e){
 		e.preventDefault();
 		$.scrollTo("#efree",{
-	                offset: -100,
+	                offset: -20,
 	                duration: 750
 	            });
 	})
@@ -70,14 +70,14 @@ if(pathname == "/" || pathname == "/it/"){
 	$("a.certificate").click(function(e){
 		e.preventDefault();
 		$.scrollTo("#certificate",{
-	                offset: -100,
+	                offset: -20,
 	                duration: 750
 	            });
 	})
 	$("a.contactus").click(function(e){
 		e.preventDefault();
 		$.scrollTo("#contactus",{
-	                offset: -100,
+	                offset: -20,
 	                duration: 750
 	            });
 	})
