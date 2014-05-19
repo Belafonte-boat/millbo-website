@@ -31,12 +31,12 @@ en:
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
     title: "ABOUT US"
-    description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br /> Thanks to a forty-year experience on the market, Millbo is currently active inside more than sixty countries worldwide."
+    description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br /> Thanks to a forty-year experience on the market, Millbo is currently active in more than sixty countries worldwide."
   efreesection:
     title: "E-FREE,CLEAN LABEL"
     description1: "E-free is our mission, meaning the development and production of whole-natural baking ingredients."
-    description2: "E-free offers natural-based solutions to all industrial baking needs. The advantages of a clean label ensured to brands and products by Millbo, allow them to become more appealing to the contemporary consumer, more sensitive to the topic of nutrition, taste and health."
-    description3: "Reasearch and custom-made solutions are the core value of our company." 
+    description2: "E-free offers natural-based solutions for all industrial baking needs. Brands and products are ensured with the advantages of a clean label, increasing the appeal to the contemporary consumer, who is now more sensitive to the topic of nutrition, taste and health."
+    description3: "Reasearch and custom-made solutions are the core values of our company." 
     description4: "Our size and flexibility together with an excellent r&d division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
   products:
     title: "OUR PRODUCTS"
@@ -45,10 +45,10 @@ en:
     button: "TECHNICAL FILE"
     product1:
       title: "SOURDOUGH"
-      description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals that have been fermented within controlled conditions."
+      description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals fermented within controlled conditions."
     product2:
       title: "MALTS"
-      description: "All the colors of naturality, with the ideal shades to make bread and cakes more desirable."
+      description: "All the colors of naturality, with the perfect shades to make bread and cakes more desirable."
     product3:
       title: "BAKERY ENZYMES"
       description: "A full stack: from essential applications for bakery to innovative and exclusive products. Maximum performance in volume and freshness, fully natural."
@@ -63,7 +63,7 @@ en:
       description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
   certificates:
     title: "NATURAL SOLUTIONS, CERTIFIED SOLUTIONS"
-    description: "Millbo's natural solutions have been created to satisfy the higher standards from any point of view. For this reason Millbo has obtained such a great certifications' number."
+    description: "Millbo's natural solutions have been created to satisfy the higher standards from any point of view. For this reason Millbo obtained such a great number of certifications."
     button: "DOWNLOAD CERTIFICATIONS PDF"
     pdf-url: "/pdf/en/Certification_MILLBO.pdf"
     certificate1: "ISO 9001:2008"
@@ -138,7 +138,7 @@ en:
 
   efree: 
     title: "E-FREE SOLUTIONS: FOR CAKES AND SWEET GOODS"
-    description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma.Natural elements ensure a clean label."
+    description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma. Natural elements ensure a clean label."
     button: "DOWNLOAD E-FREE SOLUTIONS PDF"
     pdf-url: "/pdf/en/efree_solutions.pdf"
     head1: "Code"
@@ -263,7 +263,7 @@ en:
 
   malts:
     title: "MALTS"
-    description: "All the colors of naturality, with the ideal shades to make bread and cakes more desirable."
+    description: "All the colors of naturality, with the perfect shades to make bread and cakes more desirable."
     head1: "Code"
     head2: "Product"
     head3: "Color"
@@ -305,7 +305,7 @@ en:
       cell3: "Toasted wheat malt"
   sourdough:
     title: "SOURDOUGH"
-    description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals that have been fermented within controlled conditions"
+    description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals fermented within controlled conditions."
     head1: "Code"
     head2: "Product"
     head3: "Description"
