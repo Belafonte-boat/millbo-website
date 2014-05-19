@@ -4,16 +4,16 @@
       #main
         %ul.menubar.black
           %li
-            %a{href:"/"}
+            %a{href:"#{I18n.t("menu.url1")}"}
               = I18n.t("menu.item1")
           %li
-            %a.aboutus{href:"/#aboutus"}
+            %a.aboutus{href:"#{I18n.t("menu.url2")}"}
               = I18n.t("menu.item2")
           %li
-            %a.efree{href:"/#efree"}
+            %a.efree{href:"#{I18n.t("menu.url3")}"}
               = I18n.t("menu.item3")
           %li
-            %a.products{href:"/#products"}
+            %a.products{href:"#{I18n.t("menu.url4")}"}
               = I18n.t("menu.item4")
             %ul
               %li 
@@ -29,11 +29,11 @@
               %li 
                 = link_to I18n.t("menu.subItem6"), I18n.t("menu.subUrl6")
           %li
-            %a.certificate{href:"/#products"}
+            %a.certificate{href:"#{I18n.t("menu.url5")}"}
               = I18n.t("menu.item5")
               
           %li
-            %a.contactus{href:"/#products"}
+            %a.contactus{href:"#{I18n.t("menu.url6")}"}
               = I18n.t("menu.item6")
               
       #lang
