@@ -1,6 +1,10 @@
 <?php
     if(isset($_POST['email'])) {
          
+        require_once('mandrill.php');
+
+
+        $mandrill = new Mandrill('VxTThM6exCb4zKCbbxkrtg');
         // EDIT THE 2 LINES BELOW AS REQUIRED
         $email_to = "piermaria@belafonte.co";
         $email_subject = "Test Belafonte";
@@ -31,11 +35,26 @@
          
          
     // create email headers
-    $headers = 'From: '.$email_from."\r\n".
-    'Reply-To: '.$email_from."\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers); 
 
+    $params = array(
+            'html' => $email_message,
+            'subject' => $email_subject,
+            'from_email' => $email_from,
+            'from_name' => $ime,
+            'to' => array(
+                array(
+                    'email' => $email_to, 
+                    'name' => $email["name"]
+                )
+            ),
+            'headers' => array(
+                array(
+                    'X-MC-SigningDomain'=> 'belafonte.co'
+                    )
+                )
+            
+    );
+    $result = $mandrill->messages->send($params);
 }
 ?>
  

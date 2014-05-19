@@ -85,7 +85,7 @@ it:
     contact4: 'Per richiesta schede tecniche, campioni, info su prodotti e certificati : <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'Per ordini e/o consegne: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "Per richieste diverse da quelle sopra indicate, compilate il form, Millbo vi ricontatterà  al più presto."
-    contact7: "Millbo spa Via Bellaria s.n. 28069 Trecate (NO) Italy Capitale Sociale <span>€</span> 8.000.000,00 interamente versato C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F.:06941560960 P.IVA: 06941560960"
+    contact7: "Millbo spa Via Bellaria s.n. 28069 Trecate (NO) Italy Capitale Sociale <span>€</span> 8.000.000,00 interamente versato <br />C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F.:06941560960 P.IVA: 06941560960"
     form:
       name: "Nome e Cognome"
       email: "Email"

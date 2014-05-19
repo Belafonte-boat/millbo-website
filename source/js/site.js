@@ -7,7 +7,7 @@
 
     // Options
 var options = {
-    offset: 100,
+    offset: 0,
     classes: {
                 clone:   'banner--clone',
                 stick:   'banner--stick',
