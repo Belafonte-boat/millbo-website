@@ -24,7 +24,7 @@
     %form.contact-form{action: "form_data.php", method: "post", novalidate: ""}
       %input#name.form-name{name: "name", placeholder: I18n.t("contacts.form.name"), type: "text"}/
       %input#email.form-email{name: "company", placeholder: I18n.t("contacts.form.company"), type: "text"}/
-      %input#nationality.form-email{name: "nationality", placeholder: I18n.t("contacts.form.country"), type: "text"}/
+      %input#nationality.form-email{name: "country", placeholder: I18n.t("contacts.form.country"), type: "text"}/
       %input#company.form-email{name: "email", placeholder: I18n.t("contacts.form.email"), type: "email"}/
       %input#phone.form-phone{name: "phone", placeholder: I18n.t("contacts.form.phone"), type: "text"}/
       %input#object.form-message{name: "object", placeholder: I18n.t("contacts.form.object")}
@@ -33,7 +33,6 @@
         %button.btn.lightgreen 
           = I18n.t("contacts.form.button")
   .logo-small
-  .right10  
-    %p.info
-      = I18n.t("contacts.contact7")
+  %p.info
+    = I18n.t("contacts.contact7")
       

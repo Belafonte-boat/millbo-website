@@ -23,9 +23,9 @@ metas: "main"
       %p.desc
         = I18n.t("about.description")
       = image_tag "millbo_logo_certificazione.png"
-  
-  #efree.section
     .logo-small
+  #efree.section
+    
     .left3
       %h2
         = I18n.t("efreesection.title")
@@ -57,7 +57,7 @@ metas: "main"
             = t("products.product1.title")
           %p.hyphenate
             = t("products.product1.description")
-          %a.button{href:"prodotti/pasteacide.html"}
+          %a.button{href:"#{I18n.t("menu.subUrl1")}"}
             = t("products.button")
         .product  
           = image_tag "products/millbo_malti.jpg"
@@ -65,7 +65,7 @@ metas: "main"
             = t("products.product2.title")
           %P.hyphenate
             = t("products.product2.description")
-          %a.button{href:"prodotti/malti.html"}
+          %a.button{href:"#{I18n.t("menu.subUrl2")}"}
             = t("products.button")
         .product.last
           = image_tag "products/millbo_enzimi.jpg"
@@ -73,7 +73,7 @@ metas: "main"
             = t("products.product3.title")
           %p.hyphenate
             = t("products.product3.description")
-          %a.button{href:"prodotti/enzimi.html"}
+          %a.button{href:"#{I18n.t("menu.subUrl3")}"}
             = t("products.button")
       .line2
         .product
@@ -82,7 +82,7 @@ metas: "main"
             = t("products.product4.title")
           %p.hyphenate
             = t("products.product4.description")
-          %a.button{href:"prodotti/fermenti.html"}
+          %a.button{href:"#{I18n.t("menu.subUrl4")}"}
             = t("products.button")
         .product
           = image_tag "products/millbo_fermenti.jpg"
@@ -90,7 +90,7 @@ metas: "main"
             = t("products.product5.title")
           %p.hyphenate
             = t("products.product5.description")
-          %a.button{href:"prodotti/efree.html"}
+          %a.button{href:"#{I18n.t("menu.subUrl5")}"}
             = t("products.button")
         .product.last
           = image_tag "products/millbo_bakery.jpg"
@@ -98,7 +98,7 @@ metas: "main"
             = t("products.product6.title")
           %p.hyphenate
             = t("products.product6.description")  
-          %a.button{href:"prodotti/bakery.html"}
+          %a.button{href:"#{I18n.t("menu.subUrl6")}"}
             = t("products.button")
     .logo-small
   
