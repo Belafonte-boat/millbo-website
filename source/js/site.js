@@ -1,8 +1,7 @@
 //= require "vendor/jquery/jquery"
 //= require "vendor/jquery.easing/js/jquery.easing.min"
 //= require "vendor/jquery.scrollTo/jquery.scrollTo"
-//= require "vendor/hypher/dist/jquery.hypher"
-//= require "vendor/hyphenation-patterns/dist/browser/it"
+
 //= require "vendor/headhesive.js/dist/headhesive.js"
 //= require "vendor/jquery-html5-placeholder-shim-master/jquery.html5-placeholder-shim.js"
 var pathname = window.location.pathname;
@@ -84,10 +83,6 @@ if(pathname == "/" || pathname == "/it/"){
 }
 // Create a new instance of Headhesive and pass in some options
 var banner = new Headhesive('.banner', options);
-$(document).ready(function(){
-    $('.hyphenate').hyphenate('it');
-
-});
 
 
 

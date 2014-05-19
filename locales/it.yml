@@ -33,7 +33,7 @@ it:
     title: "CHI SIAMO"
     description: "Millbo è un'azienda italiana a forte vocazione internazionale, specializzata in soluzioni altamente innovative e naturali per la panificazione.<br /> Con oltre quarant'anni di esperienza nel settore, Millbo è presente oggi in oltre sessanta mercati di tutto il mondo."
   efreesection:
-    title: "E-FREE,CLEAN LABEL"
+    title: "E-FREE, CLEAN LABEL"
     description1: "L' E-free è la nostra missione, che significa sviluppare, formulare e produrre ingredienti per la panificazione a base esclusivamente naturale."
     description2: "A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura, assicurando alle marche e ai prodotti il vantaggio di una clean label, che le rende più attraenti per i consumatori contemporanei, sempre più sensibili ai temi della nutrizione, del gusto, della salute e della naturalità."
     description3: "La ricerca e la progettazione custom-made sono il vero punto di forza della nostra azienda." 
@@ -80,12 +80,12 @@ it:
     title: "CONTATTACI"
     description: "Pensiamo che per produrre innovazione raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione giusta."
     contact1: "Millbo S.p.a."
-    contact2: "Via Bellaria s.n. 28069 Trecate (NO) Italy"
+    contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
     contact3: "phone +39 0321795911 <br />fax +39 0321795920"
     contact4: 'Per richiesta schede tecniche, campioni, info su prodotti e certificati : <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'Per ordini e/o consegne: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "Per richieste diverse da quelle sopra indicate, compilate il form, Millbo vi ricontatterà  al più presto."
-    contact7: "Millbo spa Via Bellaria s.n. 28069 Trecate (NO) Italy Capitale Sociale <span>€</span> 8.000.000,00 interamente versato <br />C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F.:06941560960 P.IVA: 06941560960"
+    contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato <br />C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
     form:
       name: "Nome e Cognome"
       email: "Email"
@@ -170,7 +170,7 @@ it:
     pdf-url: "/pdf/it/fermenti.pdf"
     head1: "Codice"
     head2: "Prodotto"
-    head3: "Applicazioni"
+    head3: "Descrizione"
     row1:
       cell1: "2002"
       cell2: "AURUM Plantarum"
@@ -268,7 +268,7 @@ it:
     head1: "Codice"
     head2: "Prodotto"
     head3: "Colore"
-    head4: "Applicazioni"
+    head4: "Descrizione"
     
     row1:
       cell1: "4021"

@@ -41,7 +41,7 @@ en:
   products:
     title: "OUR PRODUCTS"
     description:
-      "Sourdough, malts, bakery enzymes,cultures, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
+      "Sourdough, malts, bakery enzymes, cultures, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
     button: "TECHNICAL FILE"
     product1:
       title: "SOURDOUGH"
@@ -57,7 +57,7 @@ en:
       description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
     product5:
       title: "E-FREE SOLUTIONS"
-      description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma. Natural elements ensure a clean label."
+      description: "To increase volume and softness of the dough, while keepTAng freshness longer, adding taste and aroma. Natural elements ensure a clean label."
     product6:
       title: "BAKERY SOLUTIONS"
       description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
@@ -67,7 +67,7 @@ en:
     button: "DOWNLOAD CERTIFICATIONS PDF"
     pdf-url: "/pdf/en/Certification_MILLBO.pdf"
     certificate1: "ISO 9001:2008"
-    certificate2: "Certificato di Eccellenza"
+    certificate2: "Certificate of Excellence"
     certificate3: "ISO 14001:2004"
     certificate4: "Campden BRI"
     certificate5: "Kosher Certification"
@@ -80,26 +80,26 @@ en:
     title: "CONTACT US"
     description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will join nature and technology to give you the right solution."
     contact1: "Millbo S.p.a."
-    contact2: "Via Bellaria s.n. 28069 Trecate (NO) Italy"
+    contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
     contact3: "phone +39 0321795911 fax +39 0321795920"
     contact4: 'For technical files, samples, info over products and certifications: <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'For orders and/or deliveries: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "For general enquires not included above, please fill out the form, Millbo will contact you as soon as possible."
-    contact7: "Millbo spa Via Bellaria s.n. 28069 Trecate (NO) Italy Capitale Sociale <span>€</span> 8.000.000,00 interamente versato<br /> C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F.:06941560960 P.IVA: 06941560960"
+    contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato<br /> C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
     form:
-      name: "Name and Surname"
+      name: "Name and Lastname"
       email: "Email"
       company: "Company"
       country: "Country"
       phone: "Phone"
       object: "Subject"
       message: "Message"
-      button: "invia"
+      button: "Send"
   bakery:
     title: "BAKERY SOLUTIONS"
     description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
     button: "DOWNLOAD BAKERY SOLUTIONS PDF"
-    pdf-url: "/pdf/it/bakery_solutions.pdf"
+    pdf-url: "/pdf/en/bakery_solutions.pdf"
     head1: "Code"
     head2: "Description"
     head3: "Product"
@@ -172,11 +172,11 @@ en:
     pdf-url: "/pdf/en/cultures.pdf"
     head1: "Code"
     head2: "Product"
-    head3: "Applications"
+    head3: "Description"
     row1:
       cell1: "2002"
       cell2: "AURUM Plantarum"
-      cell3: "For white bread,baguette, loaf"
+      cell3: "For white bread, baguette, loaf"
 
     row2:
       cell1: "2003"
@@ -191,7 +191,7 @@ en:
     row4:
       cell1: "2005"
       cell2: "AURUM Gusto"
-      cell3: "All type of bread,strong aromatic note "
+      cell3: "All type of bread, strong aromatic note "
     row5:
       cell1: "2010"
       cell2: "AURUM SF"
@@ -244,7 +244,7 @@ en:
       cell1: "2601"
       cell2: "M 213 H"
       cell3: "Processing aids for bakery: bakery enzyme"
-      cell4: "200-300 ppm"
+      cell4: "40-60ppm"
     row9:
       cell1: "1135"
       cell2: "M 500 FL"
@@ -267,7 +267,7 @@ en:
     head1: "Code"
     head2: "Product"
     head3: "Color"
-    head4: "Application"
+    head4: "Description"
     button: "DOWLOAD MALTS PDF"
     pdf-url: "/pdf/en/malts.pdf"
     row1:
@@ -316,7 +316,7 @@ en:
       cell1: "4146"
       cell2: "SPRING W6"
       cell3: "Dried sourdough from wheat flour"
-      cell4: "TAll type of bread,baking mix"
+      cell4: "All type of bread, baking mix"
     row2:
       cell1: "4139"
       cell2: "SPRING R 10"
@@ -330,7 +330,7 @@ en:
     row4:
       cell1: "4507"
       cell2: "SPRING NORCIA"
-      cell3: "Dried sourdough from rye,toasted barley and weat germ flours"
+      cell3: "Dried sourdough from rye, toasted barley and weat germ flours"
       cell4: "Brown bread, cereals bread, multi cereal bread"
     row5:
       cell1: "4508"
@@ -356,7 +356,7 @@ en:
       cell1: "4260"
       cell2: "SPRING TRADIZIONE"
       cell3: "Dried sourdough for natual leavened mixture"
-      cell4: "All type of bread,baking mix"
+      cell4: "All type of bread, baking mix"
     row10:
       cell1: "4262"
       cell2: "SPRING TRADIZIONE SF"
