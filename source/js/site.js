@@ -14,37 +14,42 @@ var options = {
                 unstick: 'banner--unstick'
             },
     onStick: function() {
-    	$("a.aboutus").click(function(e){
-		e.preventDefault();
-		$.scrollTo("#aboutus",{
-	                offset: -20,
-	                duration: 750
-	            });
-		})
+		if(pathname == "/" || pathname == "/it/"){
+			$("a.aboutus").click(function(e){
+				e.preventDefault();
+				$.scrollTo("#aboutus",{
+			                offset: -20,
+			                duration: 750
+			            });
+			})
 
-		$("a.efree").click(function(e){
-			e.preventDefault();
-			$.scrollTo("#efree",{
-		                offset: -20,
-		                duration: 750
-		            });
-		})
-
-		$("a.certificate").click(function(e){
-			e.preventDefault();
-			$.scrollTo("#certificate",{
-		                offset: -20,
-		                duration: 750
-		            });
-		})
-		$("a.contactus").click(function(e){
-			e.preventDefault();
-			$.scrollTo("#contactus",{
-		                offset: -20,
-		                duration: 750
-		            });
-		})
-    }
+			$("a.efree").click(function(e){
+				e.preventDefault();
+				$.scrollTo("#efree",{
+			                offset: -20,
+			                duration: 750
+			            });
+			})
+			$("a.products").click(function(e){
+				e.preventDefault();
+				
+			})
+			$("a.certificate").click(function(e){
+				e.preventDefault();
+				$.scrollTo("#certificate",{
+			                offset: -20,
+			                duration: 750
+			            });
+			})
+			$("a.contactus").click(function(e){
+				e.preventDefault();
+				$.scrollTo("#contactus",{
+			                offset: -20,
+			                duration: 750
+			            });
+			})
+		 }
+	}
 }
 if(pathname == "/" || pathname == "/it/"){
 	$("a.aboutus").click(function(e){

@@ -36,13 +36,13 @@ en:
     title: "E-FREE, CLEAN LABEL"
     description1: "E-free is our mission, meaning the development and production of whole-natural baking ingredients."
     description2: "E-free offers natural-based solutions for all industrial baking needs. Brands and products are ensured with the advantages of a clean label, increasing the appeal to the contemporary consumer, who is now more sensitive to the topic of nutrition, taste and health."
-    description3: "Reasearch and custom-made solutions are the core values of our company." 
-    description4: "Our size and flexibility together with an excellent r&d division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
+    description3: "Research and custom-made solutions are the core values of our company." 
+    description4: "Our size and flexibility together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
   products:
     title: "OUR PRODUCTS"
     description:
       "Sourdough, malts, bakery enzymes, cultures, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
-    button: "TECHNICAL FILE"
+    button: "PRODUCTS RANGE"
     product1:
       title: "SOURDOUGH"
       description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals fermented within controlled conditions."
@@ -51,13 +51,13 @@ en:
       description: "All the colors of naturality, with the perfect shades to make bread and cakes more desirable."
     product3:
       title: "BAKERY ENZYMES"
-      description: "A full stack: from essential applications for bakery to innovative and exclusive products. Maximum performance in volume and freshness, fully natural."
+      description: "From essential applications for bakery to innovative and exclusive products. A complete range that includes both pure enzymes and blended solutions designed to increase volume, shelf life extension and freshness."
     product4:
-      title: "CULTURES"
-      description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
+      title: "FERMENTS"
+      description: "Thanks to our advanced research, the cultures reach new levels of specialization and efficiency, serving both the craft and industrial production."
     product5:
       title: "E-FREE SOLUTIONS"
-      description: "To increase volume and softness of the dough, while keepTAng freshness longer, adding taste and aroma. Natural elements ensure a clean label."
+      description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma. Natural elements ensure a clean label."
     product6:
       title: "BAKERY SOLUTIONS"
       description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
@@ -81,13 +81,13 @@ en:
     description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will join nature and technology to give you the right solution."
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
-    contact3: "phone +39 0321795911 fax +39 0321795920"
+    contact3: "phone +39 0321795911<br />fax +39 0321795920"
     contact4: 'For technical files, samples, info over products and certifications: <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'For orders and/or deliveries: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "For general enquires not included above, please fill out the form, Millbo will contact you as soon as possible."
     contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato<br /> C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
     form:
-      name: "Name and Lastname"
+      name: "Name and Last name"
       email: "Email"
       company: "Company"
       country: "Country"
@@ -198,7 +198,7 @@ en:
       cell3: "For the characteristic San Francisco aroma bread"
   enzymes:
     title: "BAKERY ENZYMES"
-    description: "A full stack: from essential applications for bakery to innovative and exclusive products. Maximum performance in volume and freshness, fully natural."
+    description: "From essential applications for bakery to innovative and exclusive products. A complete range that includes both pure enzymes and blended solutions designed to increase volume, shelf life extension and freshness."
     button: "DOWLOAD BAKERY ENZYMES PDF"
     pdf-url: "/pdf/en/bakery_enzymes.pdf"
     head1: "Code"

@@ -42,7 +42,7 @@ it:
     title: "I NOSTRI PRODOTTI"
     description:
       "Paste acide, malti, enzimi, fermenti, bakery solutions, E-free solutions. Le nostre soluzioni, appartenenti a sei fondamentali tipologie, permettono all'industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata. Mantenendo la promessa di naturalità fatta ai consumatori."
-    button: "SCHEDA TECNICA"
+    button: "LINEA PRODOTTI"
     product1:
       title: "PASTE ACIDE"
       description: "Per migliorare aroma, gusto e qualità del pane. Solo dalla fermentazione di cereali in condizioni controllate."
@@ -51,7 +51,7 @@ it:
       description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
     product3:
       title: "ENZIMI"
-      description: "Una gamma completa: dalle applicazioni essenziali per la panificazione agli articoli innovativi ed esclusivi. Massima performance in volume e freschezza con il massimo della naturalità."
+      description: "Dalle applicazioni essenziali per la panificazione agli articoli innovativi ed esclusivi. Una vasta gamma che include enzimi puri e soluzioni studiate per aumentare volume, vita a scaffale e freschezza."
     product4:
       title: "FERMENTI"
       description: "Grazie alla ricerca avanzata, le colture raggiungono nuovi livelli di specializzazione ed efficienza, al servizio sia della produzione artigianale, sia di quella industriale."
@@ -145,22 +145,22 @@ it:
     pdf-url: "/pdf/it/efree_solutions.pdf"
     row1:
       cell1: "3000"
-      cell2: "EF.FECTO.CAKE"
+      cell2: "EF.FECTO CAKE"
       cell3: "Sofficità, volume e durabilità nei dolci"
-      cell4: "0.5% sulla farina"
+      cell4: "0,5% sul totale della farina"
     row2:
       cell1: "3020"
-      cell2: "EF.FECTO.EGG"
+      cell2: "EF.FECTO EGG"
       cell3: "Riduzione delle uova nei dolci"
       cell4: "0.5% sul totale delle uova intere liquide in ricetta"
     row3:
       cell1: "3030"
-      cell2: "EF.FECTO.LITE"
+      cell2: "EF.FECTO LITE"
       cell3: "Riduzione dei grassi nei dolci"
-      cell4: "5% sulla ricetta"
+      cell4: "5% sul totale della ricetta"
     row4:
       cell1: "7900"
-      cell2: "EF.FECTO.FREEZE"
+      cell2: "EF.FECTO FREEZE"
       cell3: "Sostituzione del Guar"
       cell4: "Come IL GUAR, 0.5%circa"
   cultures:
@@ -197,7 +197,7 @@ it:
       cell3: "Per pane dal caratteristico aroma del pane di SFrancisco"
   enzymes:
     title: "ENZIMI"
-    description: "Una selezione per tutti gli usi: dai più comuni ai più specifici. Massima performance in volume e freschezza con il massimo della naturalità."
+    description: "Dalle applicazioni essenziali per la panificazione agli articoli innovativi ed esclusivi. Una vasta gamma che include enzimi puri e soluzioni studiate per aumentare volume, vita a scaffale e freschezza."
     button: "SCARICA ENZIMI IN PDF"
     pdf-url: "/pdf/it/enzimi.pdf"
     head1: "Codice"
@@ -218,12 +218,12 @@ it:
       cell1: "1159"
       cell2: "ML 210 N"
       cell3: "Amilasi antistaling"
-      cell4: "10- 100 ppm"
+      cell4: "10 - 100 ppm"
     row4:
       cell1: "1133"
       cell2: "ML 210 C"
       cell3: "Amilasi antistaling"
-      cell4: "40- 100 ppm"
+      cell4: "40 - 100 ppm"
     row5:
       cell1: "1108"
       cell2: "M 300 B4"
@@ -238,12 +238,12 @@ it:
       cell1: "2600"
       cell2: "M 213 L"
       cell3: "Soluzioni enzimatiche per la correzione delle farine."
-      cell4: "100-200 ppm"
+      cell4: "100 - 200 ppm"
     row8:
       cell1: "2601"
       cell2: "M 213 H"
       cell3: "Soluzioni enzimatiche per la correzione delle farine."
-      cell4: "40-60ppm"
+      cell4: "40 - 60ppm"
     row9:
       cell1: "1135"
       cell2: "M 500 FL"

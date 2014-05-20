@@ -16,9 +16,7 @@ function get_contact($email_to,$mandrill,$email_subject){
     $text = $_POST['message']; // required
      
     $email_message = "Nuovo contatto dal sito Millbo <br />";
-     
-    
-     
+
     $email_message .= "Name: ".clean_string($ime)."\n<br />";
     $email_message .= "Email: ".clean_string($email_from)."\n<br />";
     $email_message .= "Company: ".clean_string($company)."\n<br />";
@@ -31,8 +29,8 @@ function get_contact($email_to,$mandrill,$email_subject){
     // create email headers
 
     $params = array(
-            'html' => $text,
-            'subject' => $subject,
+            'html' => $email_message,
+            'subject' => $email_subject." ".$subject,
             'from_email' => $email_from,
             'from_name' => $ime,
             'to' => array(
@@ -43,7 +41,7 @@ function get_contact($email_to,$mandrill,$email_subject){
             ),
             'headers' => array(
                 array(
-                    'X-MC-SigningDomain'=> 'belafonte.co'
+                    'X-MC-SigningDomain'=> 'millbo.com'
                     )
                 )
             
@@ -58,12 +56,9 @@ if(isset($_POST['email'])) {
 
         $mandrill = new Mandrill('m53jOMAsJCXrCQGVu7NHug');
         // EDIT THE 2 LINES BELOW AS REQUIRED
-        $email_subject = "Email dal sito Millbo";
+        $email_subject = "Email dal sito Millbo:";
         
-        $emails = [
-            ["name"=>"Piermaria Cosina","email"=>"piermaria@belafonte.co"],
-            ["name"=>"Giulia Barra","email"=>"giulia@belafonte.co"]
-        ];
+        $emails = array(array("name"=>"Piermaria Cosina","email"=>"piermaria@belafonte.co"),array("name"=>"Giulia Barra","email"=>"giulia@belafonte.co"));
          foreach ($emails as $email_to) {
             get_contact($email_to,$mandrill,$email_subject);
         }
