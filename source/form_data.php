@@ -58,7 +58,7 @@ if(isset($_POST['email'])) {
         // EDIT THE 2 LINES BELOW AS REQUIRED
         $email_subject = "Email dal sito Millbo:";
         
-        $emails = array(array("name"=>"Piermaria Cosina","email"=>"piermaria@belafonte.co"),array("name"=>"Giulia Barra","email"=>"giulia@belafonte.co"));
+        $emails = array(array("name"=>"mrosa.zeno@millbo.it","email"=>"p.zocchi@millbo.it"),array("name"=>"mrosa.zeno@millbo.it","email"=>"mrosa.zeno@millbo.it"));
          foreach ($emails as $email_to) {
             get_contact($email_to,$mandrill,$email_subject);
         }
