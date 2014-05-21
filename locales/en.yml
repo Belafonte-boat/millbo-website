@@ -22,7 +22,7 @@ en:
     subUrl2: "/products/malts.html"
     subItem3: "Enzymes"
     subUrl3: "/products/enzymes.html"
-    subItem4: "Cultures"
+    subItem4: "Ferments"
     subUrl4: "/products/cultures.html"
     subItem5: "E-free solutions"
     subUrl5: "/products/efree.html"
@@ -41,7 +41,7 @@ en:
   products:
     title: "OUR PRODUCTS"
     description:
-      "Sourdough, malts, bakery enzymes, cultures, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
+      "Sourdough, malts, bakery enzymes, ferments, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
     button: "PRODUCTS RANGE"
     product1:
       title: "SOURDOUGH"
@@ -166,10 +166,10 @@ en:
       cell3: "GUAR substitution"
       cell4: "As GUAR, 0.5% circa"
   cultures:
-    title: "CULTURES"
+    title: "Ferments"
     description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
-    button: "DOWNLOAD CULTURES PDF"
-    pdf-url: "/pdf/en/cultures.pdf"
+    button: "DOWNLOAD FERMENTS PDF"
+    pdf-url: "/pdf/en/ferments.pdf"
     head1: "Code"
     head2: "Product"
     head3: "Description"
