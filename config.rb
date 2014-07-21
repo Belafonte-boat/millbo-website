@@ -19,6 +19,7 @@ activate :i18n, :mount_at_root => :en
 
 page "/", :layout => :html5
 page "/it/", :layout => :html5
+page "/products.html", :layout => :html5
 page "/products/sourdough.html", :layout => :html5 
 page "/products/malts.html", :layout => :html5
 page "/products/cultures.html", :layout => :html5
