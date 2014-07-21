@@ -19,9 +19,6 @@ gem "builder"
 gem 'oily_png'
 gem 'mini_magick'
 
-
-
-
 gem 'compass-sourcemaps'
 gem 'font-awesome-middleman'
 
