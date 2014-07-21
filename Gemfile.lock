@@ -76,6 +76,7 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.2.17, < 4.0)
       uglifier (~> 2.5)
+    middleman-angularjs (0.0.2)
     middleman-bower (1.0.2)
       sprockets-bower (>= 0.0.2)
     middleman-core (3.3.3)
@@ -196,6 +197,7 @@ DEPENDENCIES
   compass-sourcemaps
   font-awesome-middleman
   middleman (~> 3.3.3)
+  middleman-angularjs (~> 0.0.2)
   middleman-bower
   middleman-deploy
   middleman-favicon-maker (~> 3.5)
