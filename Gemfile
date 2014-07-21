@@ -19,7 +19,7 @@ gem "builder"
 gem 'oily_png'
 gem 'mini_magick'
 
-
+gem 'middleman-angularjs', '~> 0.0.2'
 
 
 gem 'compass-sourcemaps'
