@@ -40,66 +40,7 @@ metas: "main"
         = t("efreesection.description4")
     .logo-small
   
-  #products.section
-    .left3
-      %h2
-        = t("products.title")
-        
-    .right9
-      %p.desc
-        = t("products.description")
-        
-      .line1
-        .product
-          = image_tag "products/millbo_pasteacide.jpg"
-          %h3
-            = t("products.product1.title")
-          %p
-            = t("products.product1.description")
-          %a.button{href:"#{I18n.t("menu.subUrl1")}"}
-            = t("products.button")
-        .product  
-          = image_tag "products/millbo_malti.jpg"
-          %h3
-            = t("products.product2.title")
-          %P
-            = t("products.product2.description")
-          %a.button{href:"#{I18n.t("menu.subUrl2")}"}
-            = t("products.button")
-        .product.last
-          = image_tag "products/millbo_enzimi.jpg"
-          %h3
-            = t("products.product3.title")
-          %p
-            = t("products.product3.description")
-          %a.button{href:"#{I18n.t("menu.subUrl3")}"}
-            = t("products.button")
-      .line2
-        .product
-          = image_tag "products/millbo_efree.jpg"
-          %h3
-            = t("products.product4.title")
-          %p
-            = t("products.product4.description")
-          %a.button{href:"#{I18n.t("menu.subUrl4")}"}
-            = t("products.button")
-        .product
-          = image_tag "products/millbo_fermenti.jpg"
-          %h3
-            = t("products.product5.title")
-          %p
-            = t("products.product5.description")
-          %a.button{href:"#{I18n.t("menu.subUrl5")}"}
-            = t("products.button")
-        .product.last
-          = image_tag "products/millbo_bakery.jpg"
-          %h3
-            = t("products.product6.title")
-          %p
-            = t("products.product6.description")  
-          %a.button{href:"#{I18n.t("menu.subUrl6")}"}
-            = t("products.button")
-    .logo-small
+  = partial "partials/products"
   
   #certificate.section
     .left3
