@@ -6,6 +6,8 @@ $light-green: #5dc3b1
 
 p.desc
   margin-top: 30px
+
+
 .section
   +span-columns(12,12)
   position: relative
@@ -388,3 +390,389 @@ p
         background-color: $light-green
         color: white
 
++at-breakpoint($screen $break)
+  p.desc
+    margin-top: 30px
+
+
+  .section
+    +span-columns(12,12)
+    position: relative
+    padding-top: 80px
+  .banner--clone
+    z-index: 100
+    position: fixed
+    top: 0
+    width: 100%
+
+
+    background-color: white
+
+    -webkit-transform: translateY(-100%)
+    -ms-transform: translateY(-100%)
+    transform: translateY(-100%)
+
+    -webkit-transition: all 300ms ease-in
+    -moz-transition: all 300ms ease-in
+    transition: all 300ms ease-in
+    #menu
+      #lang
+        border: none
+
+
+
+  .banner--stick
+    z-index: 100
+    -webkit-transform: translateY(0%)
+    -ms-transform: translateY(0%)
+    transform: translateY(0%)
+    border-bottom: 1px solid $light-green
+    #menu
+      #lang
+        border: 1px solid $light-green
+      #main
+
+        ul
+          li
+            border-bottom: none
+
+  h1
+    font-family: 'Lato', sans-serif
+    font-size: px-to-em(24px,16px)
+    font-weight: 300
+    color: $dark-grey
+    +opacity(0.9)
+  h2
+    font-family: 'Lato', sans-serif
+    font-size: px-to-em(31px,16px)
+    font-weight: 300
+    color: $dark-green
+    line-height: px-to-em(18px,16px)
+  h3
+    font-family: 'Josefin Sans', sans-serif
+    font-size: px-to-em(24px,16px)
+    font-weight: 400
+    color: $dark-grey
+  p
+    font-family: 'Josefin Sans', sans-serif
+    font-size: px-to-em(21px,16px)
+    font-weight: 400
+    color: $dark-grey
+
+  .banner
+    background-color: white
+
+  #menu
+    margin-top: 10px
+    margin-bottom: -1px
+    #main
+      +span-columns(10, 12)
+
+
+
+      ul
+        +horizontal-list
+        overflow: visible
+        li
+          +horizontal-list-item(0)
+          position: relative
+          border: 1px solid white
+          a
+            text-decoration: none
+            font-family: 'Josefin Sans', sans-serif
+            font-size: px-to-em(20px,16px)
+            font-weight: 400
+            color: $dark-grey
+            padding: 10px 12px 10px 12px
+            display: block
+
+
+          &:hover
+            background-color: $light-green
+            border: 1px solid $light-green
+            a
+              color: white
+          &:hover ul
+            display: block
+            opacity: 1
+            visibility: visible
+          ul
+            z-index: 10
+            padding: 0
+            position: absolute
+            top: 45px
+            left: -1px
+            width: 150px
+            display: block
+            opacity: 1
+            visibility: hidden
+            -webkit-transiton: opacity 0.2s
+            -moz-transition: opacity 0.2s
+            -ms-transition: opacity 0.2s
+            -o-transition: opacity 0.2s
+            -transition: opacity 0.2s
+            li
+              background: $light-green
+              display: block
+              color: white
+              border: 1px solid $light-green
+              width: 190px
+              &:hover
+                background: $dark-green
+                a
+                  border: 1px solid $dark-green
+              a
+                border: 1px solid $light-green
+                color: white
+                font-size: px-to-em(18px,16px)
+
+    #lang
+      +span-columns(2 omega, 12)
+      border: 1px solid $light-green
+      +box-sizing(border-box)
+      a
+        +span-columns(2, 2)
+        text-decoration: none
+        font-family: 'Josefin Sans', sans-serif
+        font-size: px-to-em(16px,16px)
+        padding: 10px 0 10px 0
+        font-weight: 400
+        color: $light-green
+
+        display: block
+        text-align: center
+        &:hover
+          background-color: $light-green
+          color: white
+
+
+
+  #branding
+    position: relative
+    z-index: 2
+  #logo
+    margin: 50px auto 0 auto
+    width: image-width("millbo_big_logo.png")
+    height: image-height("millbo_big_logo.png")
+    background: image-url("millbo_big_logo.png") no-repeat top left
+
+
+  #claim
+    text-align: center
+    margin-top: 32px
+
+  .product
+    +span-columns(3,9)
+
+  .line1, .line2
+    +span-columns(9,9)
+  .logo-left
+    position: relative
+    +span-columns(12,12)
+    margin-bottom: 20px
+    margin-top: 40px
+    height: image-height("logo_lato.png")
+    background: image-url("logo_lato.png") no-repeat center left
+
+  .logo-small
+    position: relative
+    +span-columns(12,12)
+    height: image-height("millbo_small_logo.png")
+    background: image-url("millbo_small_logo.png") no-repeat center center
+
+    margin-top: 80px
+  .logo-center
+    position: relative
+    +span-columns(12,12)
+    height: image-height("logo_centrato_millbo.png")
+    background: image-url("logo_centrato_millbo.png") no-repeat center center
+    margin-bottom: 20px
+    margin-top: 30px
+
+  .product.last
+    +omega
+
+  #img-bread
+
+    margin-top: -100px
+    margin-bottom: -100px
+    position: relative
+    img
+      width: 100%
+      height: auto
+
+  .left3
+    +span-columns(3,12)
+    img
+      width: 100%
+      height: auto
+  .right9
+    +span-columns(9 omega,12)
+  .right10
+    +span-columns(8 omega,12)
+
+    +pre(1)
+  #products
+    .product
+      margin-bottom: 20px
+      margin-top: 20px
+      p
+        height: 200px
+    h3
+      height: 50px
+
+    img
+      width: 100%
+      height: auto
+      margin-bottom: 10px
+    a.button
+      border: 1px solid $light-green
+      color: $light-green
+      width: 100%
+      display: block
+      text-align: center
+      text-decoration: none
+      padding-top: 20px
+      padding-bottom: 20px
+      &:hover
+        background-color: $light-green
+        color: white
+
+  #certificate
+    .right10
+      h3
+        +span-columns(3,8)
+
+      h3.last
+        +pre(1)
+        +span-columns(3,8)
+      .button-container
+        margin-top: 40px
+        margin-bottom: 40px
+        +span-columns(8,8)
+
+        a.button
+          position: relative
+          border: 1px solid $light-green
+          color: $light-green
+          width: 100%
+          display: block
+          text-align: center
+          text-decoration: none
+          padding-top: 20px
+          padding-bottom: 20px
+          +span-columns(4, 8)
+          +pre(0)
+          &:hover
+            background-color: $light-green
+            color: white
+  #contactus
+    input,textarea
+      width: 95% !important
+      font-family: 'Lato', sans-serif
+      font-size: px-to-em(16px,16px)
+      font-weight: 300
+      color: $dark-grey
+      +span-columns(7,8)
+      color: #353535
+      border: 1px solid $light-green
+      padding: 15px
+      margin-bottom: 20px
+    textarea
+      min-height: 200px
+    .button-container
+      margin-top: 20px
+      margin-bottom: 40px
+      +span-columns(8,8)
+      button
+        clear: both
+        +float-right
+        padding: 10px 40px
+        font-family: 'Lato', sans-serif
+        font-size: px-to-em(18px,16px)
+        font-weight: 300
+        color: $light-green
+        background-color: white
+        border: 1px solid $light-green
+        &:hover
+          color: white
+          background-color: $light-green
+          border: 1px solid $light-green
+
+
+    a
+      color: $light-green
+      font-weight: 700 !important
+      &:hover
+        color: $dark-green
+    .right10
+      p.desc
+        +span-columns(8,8)
+      .right4
+        +span-columns(3,8)
+        +pre(1)
+      .left4
+        +span-columns(3,8)
+      .special
+        +span-columns(8,8)
+    .info
+      +span-columns(12,12)
+      font-size: px-to-em(16px,16px)
+      text-align: center
+      span
+        font-family: "Lato", sans-serif
+        font-weight: 300
+
+  #table
+    +span-columns(12,12)
+    table
+      width: 100%
+      $table-color : white
+      +table-scaffolding
+      +inner-table-borders(1px, #cccccc)
+      +outer-table-borders(1px, #cccccc)
+
+    thead
+      th
+        font-size: px-to-em(24px,16px)
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        background-color: $light-green
+        color: white
+        padding: 20px
+        &.special
+          background-color: $dark-green
+
+    tbody
+      th, td
+        font-size: px-to-em(18px,16px)
+        font-family: 'Josefin sans', sans-serif
+        font-weight: 400
+        padding: 20px
+      th
+        text-align: center !important
+        padding: 20px
+      td.color
+        text-align: center
+
+    .button-container
+      margin-top: 40px
+      margin-bottom: 40px
+      +span-columns(12,12)
+
+      a.button
+        position: relative
+        border: 1px solid $light-green
+        color: $light-green
+        width: 100%
+        display: block
+        text-align: center
+        text-decoration: none
+        padding-top: 20px
+        padding-bottom: 20px
+        width: 350px
+        margin: 0 auto
+
+        &:hover
+          background-color: $light-green
+          color: white
