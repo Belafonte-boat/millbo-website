@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem "middleman-livereload", :platforms => [:ruby]
 gem "middleman-bower"
-gem "middleman"
-gem "middleman-favicon-maker", :platforms => [:ruby]
+gem "middleman", '~> 3.3.3'
+gem "middleman-favicon-maker", "~> 3.5"
 gem "middleman-deploy"
 gem "middleman-smusher"
 gem "middleman-minify-html"
@@ -18,5 +18,13 @@ gem "builder"
 
 gem 'oily_png'
 gem 'mini_magick'
+
+
+
+
+gem 'compass-sourcemaps'
+gem 'font-awesome-middleman'
+
+gem "middleman-imageoptim", "~> 0.1.4"
 
 
