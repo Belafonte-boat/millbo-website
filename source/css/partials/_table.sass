@@ -1,0 +1,109 @@
+#table
+  +span-columns(12,12)
+  table
+    width: 100%
+    $table-color : white
+    +table-scaffolding
+    +inner-table-borders(1px, #cccccc)
+    +outer-table-borders(1px, #cccccc)
+
+  thead
+    th
+      font-size: px-to-em(24px,16px)
+      font-family: 'Lato', sans-serif
+      font-weight: 400
+      background-color: $light-green
+      color: white
+      padding: 20px
+      &.special
+        background-color: $dark-green
+
+  tbody
+    th, td
+      font-size: px-to-em(18px,16px)
+      font-family: 'Josefin sans', sans-serif
+      font-weight: 400
+      padding: 20px
+    th
+      text-align: center !important
+      padding: 20px
+    td.color
+      text-align: center
+
+  .button-container
+    margin-top: 40px
+    margin-bottom: 40px
+    +span-columns(12,12)
+
+    a.button
+      position: relative
+      border: 1px solid $light-green
+      color: $light-green
+      width: 100%
+      display: block
+      text-align: center
+      text-decoration: none
+      padding-top: 20px
+      padding-bottom: 20px
+      width: 350px
+      margin: 0 auto
+
+      &:hover
+        background-color: $light-green
+        color: white
+
+
++at-breakpoint($screen $break)
+  #table
+    +span-columns(12,12)
+    table
+      width: 100%
+      $table-color : white
+      +table-scaffolding
+      +inner-table-borders(1px, #cccccc)
+      +outer-table-borders(1px, #cccccc)
+
+    thead
+      th
+        font-size: px-to-em(24px,16px)
+        font-family: 'Lato', sans-serif
+        font-weight: 400
+        background-color: $light-green
+        color: white
+        padding: 20px
+        &.special
+          background-color: $dark-green
+
+    tbody
+      th, td
+        font-size: px-to-em(18px,16px)
+        font-family: 'Josefin sans', sans-serif
+        font-weight: 400
+        padding: 20px
+      th
+        text-align: center !important
+        padding: 20px
+      td.color
+        text-align: center
+
+    .button-container
+      margin-top: 40px
+      margin-bottom: 40px
+      +span-columns(12,12)
+
+      a.button
+        position: relative
+        border: 1px solid $light-green
+        color: $light-green
+        width: 100%
+        display: block
+        text-align: center
+        text-decoration: none
+        padding-top: 20px
+        padding-bottom: 20px
+        width: 350px
+        margin: 0 auto
+
+        &:hover
+          background-color: $light-green
+          color: white

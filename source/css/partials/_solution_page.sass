@@ -3,3 +3,67 @@
 
 .line1, .line2
   +span-columns(6,6)
+
+.product.last
+  +omega
+
+#products
+  .product
+    margin-bottom: 20px
+    margin-top: 20px
+    p
+      height: 200px
+  h3
+    height: 50px
+
+  img
+    width: 100%
+    height: auto
+    margin-bottom: 10px
+  a.button
+    border: 1px solid $light-green
+    color: $light-green
+    width: 100%
+    display: block
+    text-align: center
+    text-decoration: none
+    padding-top: 20px
+    padding-bottom: 20px
+    &:hover
+      background-color: $light-green
+      color: white
+
+
++at-breakpoint($screen $break)
+  #products
+    .product
+      margin-bottom: 20px
+      margin-top: 20px
+      p
+        height: 200px
+    h3
+      height: 50px
+
+    img
+      width: 100%
+      height: auto
+      margin-bottom: 10px
+    a.button
+      border: 1px solid $light-green
+      color: $light-green
+      width: 100%
+      display: block
+      text-align: center
+      text-decoration: none
+      padding-top: 20px
+      padding-bottom: 20px
+      &:hover
+        background-color: $light-green
+        color: white
+  .product.last
+    +omega
+  .product
+    +span-columns(3,9)
+
+  .line1, .line2
+    +span-columns(9,9)

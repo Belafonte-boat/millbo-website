@@ -1,0 +1,58 @@
+#certificate
+  .right10
+    h3
+      +span-columns(6,6)
+
+    h3.last
+
+      +span-columns(6,6)
+    .button-container
+      margin-top: 40px
+      margin-bottom: 40px
+      +span-columns(6,6)
+
+      a.button
+        position: relative
+        border: 1px solid $light-green
+        color: $light-green
+        width: 100%
+        display: block
+        text-align: center
+        text-decoration: none
+        padding-top: 20px
+        padding-bottom: 20px
+        +span-columns(6, 6)
+        +pre(0)
+        &:hover
+          background-color: $light-green
+          color: white
+
++at-breakpoint($screen $break)
+  #certificate
+    .right10
+      h3
+        +span-columns(3,8)
+
+      h3.last
+        +pre(1)
+        +span-columns(3,8)
+      .button-container
+        margin-top: 40px
+        margin-bottom: 40px
+        +span-columns(8,8)
+
+        a.button
+          position: relative
+          border: 1px solid $light-green
+          color: $light-green
+          width: 100%
+          display: block
+          text-align: center
+          text-decoration: none
+          padding-top: 20px
+          padding-bottom: 20px
+          +span-columns(4, 8)
+          +pre(0)
+          &:hover
+            background-color: $light-green
+            color: white

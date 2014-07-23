@@ -1,0 +1,46 @@
+#branding
+  position: relative
+  z-index: 2
+#logo
+  margin: 50px auto 0 auto
+  width: 100%
+  height: image-height("millbo_big_logo.png")
+  background: image-url("millbo_big_logo.png") no-repeat center center
+
+
+
+#claim
+  text-align: center
+  margin-top: 32px
+
+#img-bread
+  margin-top: -40px
+  margin-bottom: -100px
+  position: relative
+  img
+    width: 100%
+    height: auto
+
+
++at-breakpoint($screen $break)
+  #branding
+    position: relative
+    z-index: 2
+  #logo
+    margin: 50px auto 0 auto
+    width: image-width("millbo_big_logo.png")
+    height: image-height("millbo_big_logo.png")
+    background: image-url("millbo_big_logo.png") no-repeat top left
+
+
+  #claim
+    text-align: center
+    margin-top: 32px
+  #img-bread
+
+    margin-top: -100px
+    margin-bottom: -100px
+    position: relative
+    img
+      width: 100%
+      height: auto

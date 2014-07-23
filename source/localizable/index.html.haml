@@ -3,17 +3,17 @@ title: "main page"
 metas: "main"
 ---
 = partial "partials/header"
+#container
+  #subheader
+    #branding
+      #logo
+      %h1#claim
+        = I18n.t("claim")
 
-#subheader
-  #branding
-    #logo
-    %h1#claim
-      = I18n.t("claim")
+    #img-bread
 
-  #img-bread
+      = image_tag "bread.jpg"
 
-    = image_tag "bread.jpg"
-#container 
   #aboutus.section
     .left3
 
