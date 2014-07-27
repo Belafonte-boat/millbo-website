@@ -26,12 +26,31 @@ p
 
 p.desc
   margin-top: 30px
+.separator
+  +span-columns(6,6)
+  margin-top: 50px
+  position: relative
+  hr
+    height: 1px
+    color: $dark-green
+    background: $dark-green
+    font-size: 0
+    border: 0
+
+
+    +span-columns(1,6)
+    &:last-child
+      +omega
+  img
+    width: 100%
+    height: auto
+    +span-columns(4,6)
 
 
 .section
   +span-columns(6,6)
   position: relative
-  padding-top: 80px
+  padding-top: 50px
 
 .left3
   +span-columns(6,6)
@@ -42,8 +61,12 @@ p.desc
     margin-bottom: 0
 .right9
   +span-columns(6,6)
+  position: relative
+  z-index: 10
 .right10
   +span-columns(6,6)
+  position: relative
+  z-index: 10
 
 .right10
   p.desc
@@ -70,7 +93,6 @@ p.desc
   height: image-height("millbo_small_logo.png")
   background: image-url("millbo_small_logo.png") no-repeat center center
 
-  margin-top: 80px
 .logo-center
   position: relative
   +span-columns(6,6)
@@ -88,7 +110,7 @@ p.desc
   .section
     +span-columns(12,12)
     position: relative
-    padding-top: 80px
+    padding-top: 50px
 
 
 
@@ -96,17 +118,34 @@ p.desc
     position: relative
     +span-columns(12,12)
     margin-bottom: 20px
-    margin-top: 40px
+    margin-top: 50px
     height: image-height("logo_lato.png")
     background: image-url("logo_lato.png") no-repeat center left
 
-  .logo-small
-    position: relative
+  .separator
     +span-columns(12,12)
-    height: image-height("millbo_small_logo.png")
-    background: image-url("millbo_small_logo.png") no-repeat center center
+    margin-top: 40px
+    position: relative
+    hr
+      height: 1px
+      color: $dark-green
+      background: $dark-green
+      font-size: 0
+      border: 0
 
-    margin-top: 80px
+
+      +span-columns(3,12)
+      &:last-child
+        +omega
+    img
+      width: 100%
+      height: auto
+      +span-columns(4,12)
+      +pre(1)
+      +post(1)
+
+
+
   .logo-center
     position: relative
     +span-columns(12,12)

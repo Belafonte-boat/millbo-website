@@ -1,8 +1,8 @@
 //= require "vendor/jquery/jquery"
 //= require "vendor/jquery.easing/js/jquery.easing.min"
 //= require "vendor/jquery.scrollTo/jquery.scrollTo"
+//= require "footable/js/footable.js"
 
-//= require "vendor/headhesive.js/dist/headhesive.js"
 //= require "vendor/jquery-html5-placeholder-shim-master/jquery.html5-placeholder-shim.js"
 var pathname = window.location.pathname;
     // Options
@@ -30,10 +30,7 @@ var options = {
 			                duration: 750
 			            });
 			})
-			$("a.products").click(function(e){
-				e.preventDefault();
-				
-			})
+
 			$("a.certificate").click(function(e){
 				e.preventDefault();
 				$.scrollTo("#certificate",{
@@ -41,13 +38,7 @@ var options = {
 			                duration: 750
 			            });
 			})
-			$("a.contactus").click(function(e){
-				e.preventDefault();
-				$.scrollTo("#contactus",{
-			                offset: -20,
-			                duration: 750
-			            });
-			})
+
 		 }
 	}
 }
@@ -67,10 +58,7 @@ if(pathname == "/" || pathname == "/it/"){
 	                duration: 750
 	            });
 	})
-	$("a.products").click(function(e){
-		e.preventDefault();
-		
-	})
+
 	$("a.certificate").click(function(e){
 		e.preventDefault();
 		$.scrollTo("#certificate",{
@@ -78,17 +66,38 @@ if(pathname == "/" || pathname == "/it/"){
 	                duration: 750
 	            });
 	})
-	$("a.contactus").click(function(e){
-		e.preventDefault();
-		$.scrollTo("#contactus",{
-	                offset: -20,
-	                duration: 750
-	            });
-	})
+
 }
+
+$(document).ready(function() {
+    $('.footable').footable({
+            breakpoints: {
+                phone: 480,
+                tablet: 1024
+            }
+        }
+
+    );
+
+    $("#menu-icon").click(function (e) {
+
+
+        $("#nav-toggle").toggleClass("active");
+        $("#menu").fadeToggle(400);
+        e.preventDefault();
+    });
+});
 // Create a new instance of Headhesive and pass in some options
-var banner = new Headhesive('.banner', options);
 
+$(window).load(function () {
+    $(".separator").each(function(){
+        imgH = $(this).find("img").height();
 
+        $(this).find("hr").each(function(){
+            $(this).css("margin-top",imgH*0.5+"px");
+
+        });
+    });
+});
 
 

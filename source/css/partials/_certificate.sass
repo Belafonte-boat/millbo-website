@@ -12,9 +12,10 @@
       +span-columns(6,6)
 
       a.button
+        +box-sizing("border-box")
         position: relative
-        border: 1px solid $light-green
-        color: $light-green
+        background-color: $light-green
+        color: white
         width: 100%
         display: block
         text-align: center
@@ -24,7 +25,7 @@
         +span-columns(6, 6)
         +pre(0)
         &:hover
-          background-color: $light-green
+          background-color: $dark-green
           color: white
 
 +at-breakpoint($screen $break)
@@ -43,8 +44,7 @@
 
         a.button
           position: relative
-          border: 1px solid $light-green
-          color: $light-green
+
           width: 100%
           display: block
           text-align: center
@@ -53,6 +53,3 @@
           padding-bottom: 20px
           +span-columns(4, 8)
           +pre(0)
-          &:hover
-            background-color: $light-green
-            color: white

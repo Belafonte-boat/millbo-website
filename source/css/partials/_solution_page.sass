@@ -9,8 +9,9 @@
 
 #products
   .product
-    margin-bottom: 20px
+    margin-bottom: 40px
     margin-top: 20px
+
     p
       height: 200px
   h3
@@ -20,24 +21,50 @@
     width: 100%
     height: auto
     margin-bottom: 10px
+    margin-top: -50px
+  .button-box
+    margin-top: 0
+    margin-bottom: 40px
+    +span-columns(6,6)
+
+    a.button
+      +box-sizing("border-box")
+      position: relative
+      width: 100%
+      display: block
+      text-align: center
+      text-decoration: none
+      padding-top: 20px
+      padding-bottom: 20px
+      text-transform: uppercase
+      font-family: "Lato", sans-serif
+      +span-columns(6, 6)
+      +pre(0)
+      color: white
+      background-color: $light-green
+      &:hover
+        background-color: $dark-green
+        color: white
   a.button
-    border: 1px solid $light-green
-    color: $light-green
+    +box-sizing("border-box")
     width: 100%
     display: block
     text-align: center
     text-decoration: none
     padding-top: 20px
     padding-bottom: 20px
+    color: white
+    background-color: $light-green
     &:hover
-      background-color: $light-green
+      background-color: $dark-green
       color: white
 
 
 +at-breakpoint($screen $break)
   #products
+    margin-top: 40px
     .product
-      margin-bottom: 20px
+      margin-bottom: 40px
       margin-top: 20px
       p
         height: 200px
@@ -48,18 +75,36 @@
       width: 100%
       height: auto
       margin-bottom: 10px
+
     a.button
-      border: 1px solid $light-green
-      color: $light-green
+
       width: 100%
       display: block
       text-align: center
       text-decoration: none
       padding-top: 20px
       padding-bottom: 20px
-      &:hover
-        background-color: $light-green
-        color: white
+
+    .button-box
+
+      margin-bottom: 40px
+      +span-columns(8,12)
+
+      a.button
+        +box-sizing("border-box")
+        position: relative
+
+        width: 100%
+        display: block
+        text-align: center
+        text-decoration: none
+        padding-top: 20px
+        padding-bottom: 20px
+        text-transform: uppercase
+        font-family: "Lato", sans-serif
+        +span-columns(4, 8)
+        +pre(4,8)
+
   .product.last
     +omega
   .product

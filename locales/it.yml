@@ -14,7 +14,7 @@ it:
     url5: "/it/#certificate"
     item6: "Contatti"
     url6: "/#contacts"
-    item7: "ENGLISH"
+    item7: "ENG"
     url7: "/"
     subItem1: "Paste acide"
     subUrl1: "/it/prodotti/pasteacide.html"
@@ -95,6 +95,8 @@ it:
       object: "Oggetto"
       message: "Messaggio"
       button: "invia"
+    page-url: "/it/contattaci.html"
+    button-text: "contattaci"
   bakery:
     title: "BAKERY SOLUTIONS"
     description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"

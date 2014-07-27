@@ -1,16 +1,65 @@
-#contactus.section
-  .left3
-    %h2
-      = I18n.t("contacts.title")
-    = image_tag "millbo_contatti_img.jpg"
-  .right10
-    .left4
-      %p.contact.desc
-        = I18n.t("contacts.contact4")
-      %p.contact
-        = I18n.t("contacts.contact5")
-
-
+#footer
   .logo-center
+  .links
+    .column
+      %h3
+        %a{href:"#{t("menu.url1")}"}
+          = t("menu.item1")
+      %ul
+        %li
+          %a{href:"#{t("menu.url2")}"}
+            = t("menu.item2")
+        %li
+          %a{href:"#{t("menu.url3")}"}
+            = t("menu.item3")
+        %li
+          %a{href:"#{t("menu.url5")}"}
+            = t("menu.item5")
+
+    .column
+      %h3
+        %a{href:"#{t("menu.url4")}"}
+          = t("menu.item4")
+      %ul
+        %li
+          %a{href:"#{t("menu.subUrl1")}"}
+            = t("menu.subItem1")
+        %li
+          %a{href:"#{t("menu.subUrl2")}"}
+            = t("menu.subItem2")
+        %li
+          %a{href:"#{t("menu.subUrl3")}"}
+            = t("menu.subItem3")
+        %li
+          %a{href:"#{t("menu.subUrl4")}"}
+            = t("menu.subItem4")
+        %li
+          %a{href:"#{t("menu.subUrl5")}"}
+            = t("menu.subItem5")
+        %li
+          %a{href:"#{t("menu.subUrl6")}"}
+            = t("menu.subItem6")
+    .column
+      %h3
+        = t("menu.item8")
+      %ul
+        %li
+          %a{href:"#{t("menu.url9")}"}
+            = t("menu.item9")
+        %li
+          %a{href:"#{t("menu.url10")}"}
+            = t("menu.item10")
+
+    .column.last-child
+      %h3
+        %a{href:"#{t("menu.url6")}"}
+          = t("menu.item6")
+      %ul
+        %li
+          %a{href:"#{t("menu.url12")}"}
+            = t("menu.item12")
+        %li
+          %a{href:"#{t("menu.url13")}"}
+            = t("menu.item13")
   %p.info
     = I18n.t("contacts.contact7")

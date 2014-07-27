@@ -1,7 +1,53 @@
 #contactus
-  input,textarea
-    +box-sizing("border-box")
+  .links
+    +span-columns(6,6)
+    +pre(0)
+  .column
+    +span-columns(3,6)
+    +nth-omega(even)
+    a
+      text-decoration: none
+      color: $dark-grey
+      &:hover
+        text-decoration: underline
+    .name
+      font-family: 'Josefin Sans', sans-serif
+      font-weight: 700
+      color: $dark-grey
+    .mail
+      font-family: 'Josefin Sans', sans-serif
+      font-weight: 300
+      color: $dark-green
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+    .phone
+      font-family: 'Josefin Sans', sans-serif
+      font-weight: 300
+      color: $dark-grey
+    h3
+      font-family: 'Lato', sans-serif
+      font-size: px-to-em(26px,16px)
+      font-weight: 400
+      color: $dark-green
+      a
+        font-family: 'Josefin Sans', sans-serif
+        font-weight: 700
+        color: $dark-grey
+    ul
+      +no-bullets
+      padding: 0
+      margin: 0
+      li
+        font-family: 'Josefin Sans', sans-serif
+        font-size: px-to-em(20px,16px)
+        font-weight: 400
+        color: $dark-grey
 
+  input,textarea
+
+    width: 100%
+    +box-sizing("border-box")
     font-family: 'Lato', sans-serif
     font-size: px-to-em(16px,16px)
     font-weight: 300
@@ -14,6 +60,29 @@
     width: 100%
   textarea
     min-height: 200px
+  .button-box
+    margin-top: 40px
+    margin-bottom: 40px
+    +span-columns(6,6)
+
+    a.button
+      position: relative
+      width: 100%
+      display: block
+      text-align: center
+      text-decoration: none
+      padding-top: 20px
+      padding-bottom: 20px
+      text-transform: uppercase
+      font-family: "Lato", sans-serif
+      font-weight: 400
+      +span-columns(6, 6)
+      +pre(0)
+      color: white
+      background-color: $light-green
+      &:hover
+        background-color: $dark-green
+        color: white
   .button-container
     margin-top: 20px
     margin-bottom: 40px
@@ -24,45 +93,63 @@
       padding: 10px 40px
       font-family: 'Lato', sans-serif
       font-size: px-to-em(18px,16px)
-      font-weight: 300
-      color: $light-green
-      background-color: white
-      border: 1px solid $light-green
+      font-weight: 400
+      border: none
+      color: white
+      background-color: $light-green
       &:hover
+        background-color: $dark-green
         color: white
-        background-color: $light-green
-        border: 1px solid $light-green
 
 
   a
     color: $light-green
-    font-weight: 700 !important
+    font-weight: 300
     &:hover
       color: $dark-green
 
-  .info
-    +span-columns(12,12)
-    font-size: px-to-em(16px,16px)
-    text-align: center
-    span
-      font-family: "Lato", sans-serif
-      font-weight: 300
 
+  #contactus-form
+    +span-columns(6,6)
 +at-breakpoint($screen $break)
   #contactus
+    .links
+      +span-columns(8,8)
+      +pre(0)
+    .column
+      +span-columns(3,6)
+      +nth-omega(even)
     input,textarea
-      width: 95% !important
+
       font-family: 'Lato', sans-serif
       font-size: px-to-em(16px,16px)
       font-weight: 300
       color: $dark-grey
-      +span-columns(7,8)
+      +span-columns(8,8)
       color: #353535
       border: 1px solid $light-green
       padding: 15px
       margin-bottom: 20px
     textarea
       min-height: 200px
+    .button-box
+      margin-top: 40px
+      margin-bottom: 40px
+      +span-columns(8,8)
+
+      a.button
+        position: relative
+        width: 100%
+        display: block
+        text-align: center
+        text-decoration: none
+        padding-top: 20px
+        padding-bottom: 20px
+        text-transform: uppercase
+        font-family: "Lato", sans-serif
+        +span-columns(4, 8)
+        +pre(0)
+
     .button-container
       margin-top: 20px
       margin-bottom: 40px
@@ -73,19 +160,15 @@
         padding: 10px 40px
         font-family: 'Lato', sans-serif
         font-size: px-to-em(18px,16px)
-        font-weight: 300
-        color: $light-green
-        background-color: white
-        border: 1px solid $light-green
-        &:hover
-          color: white
-          background-color: $light-green
-          border: 1px solid $light-green
+
+
+
+
 
 
     a
       color: $light-green
-      font-weight: 700 !important
+      font-weight: 300
       &:hover
         color: $dark-green
     .right10

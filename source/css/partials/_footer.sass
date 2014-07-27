@@ -1,0 +1,75 @@
+#footer
+  +span-columns(6,6)
+  .links
+    +span-columns(6,6)
+    +pre(0)
+  .column
+    +span-columns(3,6)
+    +nth-omega(even)
+    a
+      text-decoration: none
+      color: $dark-grey
+      &:hover
+        text-decoration: underline
+
+    h3
+      font-family: 'Josefin Sans', sans-serif
+      font-size: px-to-em(22px,16px)
+      font-weight: 700
+      color: $dark-grey
+
+    ul
+      +no-bullets
+      padding: 0
+      margin: 0
+      li
+        font-family: 'Josefin Sans', sans-serif
+        font-size: px-to-em(20px,16px)
+        font-weight: 400
+        color: $dark-grey
+
+  p.info
+    +span-columns(6,6)
+  .info
+    +span-columns(12,12)
+    font-size: px-to-em(16px,16px)
+    text-align: center
+    span
+      font-family: "Lato", sans-serif
+      font-weight: 300
++at-breakpoint($screen $break)
+  #footer
+    +span-columns(12,12)
+    .links
+      +span-columns(10,12)
+      +pre(1,12)
+    .column
+      +span-columns(3,12)
+      +remove-nth-omega(even)
+      &.last-child
+        +omega
+
+      a
+        text-decoration: none
+        color: $dark-grey
+        &:hover
+          text-decoration: underline
+
+      h3
+        font-family: 'Josefin Sans', sans-serif
+        font-size: px-to-em(22px,16px)
+        font-weight: 700
+        color: $dark-grey
+
+      ul
+        +no-bullets
+        padding: 0
+        margin: 0
+        li
+          font-family: 'Josefin Sans', sans-serif
+          font-size: px-to-em(20px,16px)
+          font-weight: 400
+          color: $dark-grey
+
+    p.info
+      +span-columns(12,12)

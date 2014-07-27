@@ -1,0 +1,13 @@
+#products.section
+  .left3
+    %h2
+      = t("products.title")
+
+  .right9
+    %p.desc
+      = t("products.description")
+
+  = image_tag "solutions.jpg"
+  .button-box
+    %a.button{href:"#{I18n.t("products.page-url")}", target: "_blank"}
+      = I18n.t("products.button-text")

@@ -1,0 +1,199 @@
+---
+title: "main page"
+metas: "main"
+---
+= partial "partials/header"
+#container
+  #solution
+    .left3
+      %h2
+        = I18n.t("sourdough.title")
+
+    .right9
+      .button-container
+        %a.button{href:"#{I18n.t("sourdough.pdf-url")}", target: "_blank"}
+          = I18n.t("sourdough.button")
+  #indepth
+    %table.footable{:cellspacing => "0"}
+      %thead.none
+        %tr
+          %th.text.main{class:"footable-first-column",:"data-toggle"=>"true"}
+            TITOLO
+          %th.text{class:"footable-last-column", :"data-hide"=>"phone,table" }
+      %tbody
+        %tr
+          %td.text.main
+            NOME PRODOTTO
+          %td.text
+            Spring W6
+        %tr.even
+          %td.text.main
+            CODICE PRODOTTO
+          %td.text
+            4508
+        %tr.even
+          %td.text.main
+            DESCRIZIONE
+          %td.text
+            Pasta acida disidratata
+        %tr.even
+          %td.text.main
+            DOSAGGIO
+          %td.text
+            0,5 – 2,5 % sulla farina
+        %tr.even
+          %td.text.main
+            INGREDIENTI
+          %td.text
+            Pasta acida disidratata prodotta da farina di frumento
+        %tr.even
+          %td.text.main
+            STATO DEL PRODOTTO
+          %td.text
+            Polvere
+        %tr.even
+          %td.text.main
+            TIPO DI IMBALLO
+          %td.text
+            Sacco multi strato con interfalda in PE
+        %tr.even
+          %td.text.main
+            PESO IMBALLO
+          %td.text
+            25kg
+        %tr.even
+          %td.text.main
+            CONDIZIONI DI STOCCAGGIO
+          %td.text
+            Luogo fresco e asciutto.
+        %tr.even
+          %td.text.main
+            SHELF-LIFE
+          %td.text
+            Un anno dalla data di produzione
+
+
+
+  #table
+    %table.footable{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+            Specifiche Chimico-Fisiche
+          %th{:"data-hide"=>"phone,table"}
+          %th{:"data-hide"=>"phone,table"}
+
+      %tbody
+        %tr.even
+          %td.text
+            Umidità
+          %td.numeric
+            Grammi / 100g
+          %td.numeric
+            6-9
+        %tr.even
+          %td.text
+            Ph
+          %td.numeric
+
+          %td.numeric
+            3,5 - 4,5
+    %table.footable{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+            Analisi Microbiologiche
+          %th{:"data-hide"=>"phone,table"}
+          %th{:"data-hide"=>"phone,table"}
+      %tbody
+        %tr.even
+          %td.text
+            Conta batterica totale
+          %td.numeric
+            UFC / g
+          %td.numeric
+            100.000
+
+        %tr.odd
+          %td.text
+            Lieviti e Muffe
+          %td.numeric
+            UFC / g
+          %td.numeric
+            1.000
+        %tr.odd
+          %td.text
+            Coliformi totali
+          %td.numeric
+            UFC / g
+          %td.numeric
+            100
+        %tr.odd
+          %td.text
+            Salmonella
+          %td.numeric
+            UFC / g
+          %td.numeric
+            Assente in 25 grammi
+        %tr.odd
+          %td.text
+            Filth test
+          %td.numeric
+
+          %td.numeric
+            25 frammenti max su 50 g
+
+    %h2
+      Tabella allergeni (Si: contiene / No: non contiene)
+    %table.footable{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th
+            Allergeni
+          %th{:"data-hide"=>"phone,table"}
+            Si
+          %th{:"data-hide"=>"phone,table"}
+            No
+
+      %tbody
+        %tr.even
+          %td.text
+            Cereali contenenti glutine (grano, segale, orzo, avena, farro, kamut o i loro ceppi ibridati) e prodotti derivati.
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.odd
+          %td.text
+            Crostacei e prodotti derivati.
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            Uova e prodotti derivati.
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.odd
+          %td.text
+            Pesce e prodotti derivati
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+            = image_tag "green_dot.png"
+
+        %tr.even
+          %td.text
+            Frutta a guscio - mandorle (Amigdalus communis L.), nocciole (Corylus avellana), noci comuni (Juglans regia), noci di acagiù (Anacardium occidentale), noci pecan (Carya illinoiesis (Wangenh) K. Koch), noci del Brasile (Bertholletia excelsa), pistacchi (Pistacia vera), noci del Queensland (Macadamia ternifolia) - e prodotti derivati.
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+
+
+
+  = partial "partials/separator-02"
+  = partial "partials/contactus-section"
+  = partial "partials/footer"

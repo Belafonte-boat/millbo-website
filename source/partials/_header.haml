@@ -1,11 +1,14 @@
 .banner
+  #menu-icon
+    %a#nav-toggle{href:"#"}
+      %span
   #menu
+
     .container
       #main
+        %a{href:"#{I18n.t("menu.url1")}"}
+          = image_tag "logo_menu.png"
         %ul.menubar.black
-          %li
-            %a{href:"#{I18n.t("menu.url1")}"}
-              = I18n.t("menu.item1")
           %li
             %a.aboutus{href:"#{I18n.t("menu.url2")}"}
               = I18n.t("menu.item2")
@@ -15,27 +18,17 @@
           %li
             %a.products{href:"#{I18n.t("menu.url4")}"}
               = I18n.t("menu.item4")
-            %ul
-              %li 
-                = link_to I18n.t("menu.subItem1"), I18n.t("menu.subUrl1")
-              %li 
-                = link_to I18n.t("menu.subItem2"), I18n.t("menu.subUrl2")
-              %li 
-                = link_to I18n.t("menu.subItem3"), I18n.t("menu.subUrl3")
-              %li 
-                = link_to I18n.t("menu.subItem4"), I18n.t("menu.subUrl4")
-              %li 
-                = link_to I18n.t("menu.subItem5"), I18n.t("menu.subUrl5")
-              %li 
-                = link_to I18n.t("menu.subItem6"), I18n.t("menu.subUrl6")
           %li
             %a.certificate{href:"#{I18n.t("menu.url5")}"}
               = I18n.t("menu.item5")
-              
+
+          %li
+            %a.news{href:"#{I18n.t("menu.url14")}"}
+              = I18n.t("menu.item14")
           %li
             %a.contactus{href:"#{I18n.t("menu.url6")}"}
               = I18n.t("menu.item6")
-              
-      #lang
-        %a{href:"#{I18n.t("menu.url7")}"}
-          = I18n.t("menu.item7")
+          %li
+            #lang
+              %a{href:"#{I18n.t("menu.url7")}"}
+                = I18n.t("menu.item7")
