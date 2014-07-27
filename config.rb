@@ -67,17 +67,4 @@ configure :build do
     }
   end
 
-  # # Enable cache buster
-  activate :cache_buster
-  #activate :image_optim
-
-  # # Use relative URLs
-  #activate :relative_assets
-  # # To put width and height inside tag and to compression
-
-  activate :gzip
-  activate :smusher
-
-  # Or use a different image path
-  #set :http_path, "http://thedoers.co/"
 end

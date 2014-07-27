@@ -5,7 +5,6 @@ gem "middleman-bower"
 gem "middleman", '~> 3.3.3'
 gem "middleman-favicon-maker", "~> 3.5"
 gem "middleman-deploy"
-gem "middleman-smusher"
 gem "middleman-minify-html"
 gem "therubyracer", :platforms => [:ruby]
 gem 'oj'
@@ -19,7 +18,6 @@ gem "builder"
 gem 'oily_png'
 gem 'mini_magick'
 
-gem 'middleman-angularjs', '~> 0.0.2'
 
 
 gem 'compass-sourcemaps'

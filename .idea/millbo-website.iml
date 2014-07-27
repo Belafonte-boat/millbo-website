@@ -115,7 +115,6 @@
     <orderEntry type="library" scope="PROVIDED" name="hooks (v0.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="htmlcompressor (v0.1.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="httpclient (v2.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.11, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="image_optim (v0.9.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="image_size (v1.1.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
@@ -125,7 +124,6 @@
     <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.16.14.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v1.3.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman (v3.3.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="middleman-angularjs (v0.0.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-bower (v1.0.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-core (v3.3.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-deploy (v0.2.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
@@ -133,7 +131,6 @@
     <orderEntry type="library" scope="PROVIDED" name="middleman-imageoptim (v0.1.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-livereload (v3.3.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-minify-html (v3.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="middleman-smusher (v3.0.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="middleman-sprockets (v3.3.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_magick (v3.8.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
@@ -149,13 +146,11 @@
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-livereload (v0.3.15, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v10.3.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-kqueue (v0.2.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="smusher (v0.4.9, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-bower (v0.0.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-helpers (v1.1.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
@@ -169,6 +164,7 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uber (v0.0.7, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.5.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="wdm (v0.1.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
