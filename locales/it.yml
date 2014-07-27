@@ -30,18 +30,51 @@ it:
     subUrl6: "/it/prodotti/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
-    title: "CHI SIAMO"
-    description: "Millbo è un'azienda italiana a forte vocazione internazionale, specializzata in soluzioni altamente innovative e naturali per la panificazione.<br /> Con oltre quarant'anni di esperienza nel settore, Millbo è presente oggi in oltre sessanta mercati di tutto il mondo."
+    title: "Millbo. Dove natura e tecnologia si incontrano"
+    description: "Italiana di nascita, ma proiettata verso il mercato internazionale, Millbo è un'azienda specializzata in soluzioni per la panificazione esclusivamente naturali e ad alto contenuto di innovazione. <br/ > Nella regione del nord ovest dove da sempre abbiamo sede, il Piemonte, industria e tecnologia si sono sviluppate su una solida tradizione di agricoltura. <br/ >
+                  Allo stesso modo natura e tecnologia si incontrano nei nostri prodotti, per offrire alla panificazione contemporanea nuove idee e nuove opportunità di mercato."
+  case-hisotries:
+    title:  " Case histories"
+    description: "Ai problemi che il mondo della panificazione contemporanea ci sottopone, rispondiamo con
+
+                  soluzioni tailor-made. Ecco come importanti aziende in Italia e nel mondo hanno migliorato aspetti
+
+                  diversi dei loro prodotti grazie a soluzioni appositamente studiate da Millbo."
   efreesection:
-    title: "E-FREE, CLEAN LABEL"
-    description1: "L' E-free è la nostra missione, che significa sviluppare, formulare e produrre ingredienti per la panificazione a base esclusivamente naturale."
-    description2: "A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura, assicurando alle marche e ai prodotti il vantaggio di una clean label, che le rende più attraenti per i consumatori contemporanei, sempre più sensibili ai temi della nutrizione, del gusto, della salute e della naturalità."
-    description3: "La ricerca e la progettazione custom-made sono il vero punto di forza della nostra azienda." 
-    description4: "Le nostre dimensioni e la nostra flessibilità, unite ad un reparto R&S d'eccellenza, ci permettono di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di pane e prodotti dolciari da forno."
+    title: "E-free. L'idea che piace ai nuovi consumatori"
+    description1: "Abbiamo scelto di essere E-free per permettere di esserlo a tutti i nostri clienti. <br />
+
+                  E-free infatti vuol dire sviluppo, formulazione e produzione di ingredienti per la panificazione a
+
+                  base esclusivamente naturale. <br />
+
+                  A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura,
+
+                  assicurando un'etichetta “pulita” dai lunghi elenchi di additivi. <br />
+
+                  E grazie alla clean label marche e prodotti diventano più attraenti, perchè tra i consumatori di oggi
+
+                  naturalità e bontà della nutrizione sono valori in costante crescita. <br />
+
+                  La nostra idea di E-free si basa su ricerca e progettazione custom-made, i due veri punti di forza
+
+                  dell'azienda.  <br />
+
+
+                  Le nostre dimensioni e la nostra flessibilità, unite ad un reparto R&S d'eccellenza, ci permettono
+
+                  infatti di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di
+
+                  pane e prodotti dolciari da forno."
   products:
-    title: "I NOSTRI PRODOTTI"
-    description:
-      "Paste acide, malti, enzimi, fermenti, bakery solutions, E-free solutions. Le nostre soluzioni, appartenenti a sei fondamentali tipologie, permettono all'industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata. Mantenendo la promessa di naturalità fatta ai consumatori."
+    title: "Soluzioni naturali, soluzioni certificate"
+    description: "Da oltre quarant'anni Millbo si dedica alla ricerca di soluzioni naturali per la panificazione. Il
+
+       risultato di questo impegno esclusivo sono le numerose certificazioni ottenute dai nostri prodotti.
+
+       Sotto ogni profilo – produttivo, nutrizionale e di conformità a prescrizioni religiose – le soluzioni
+
+       Millbo rispettano gli standard qualitativi più elevati."
     button: "LINEA PRODOTTI"
     product1:
       title: "PASTE ACIDE"
@@ -76,6 +109,13 @@ it:
     certificate8: "FSSC 22000 2010"
     certificate9: "OHSAS 18001:2007"
     certificate10: "ISO 22000 2005"
+  find us:
+      title: "Find us"
+      description: "Le nostre soluzioni naturali sono presenti in più di xx paesi attraverso distributori di fiducia. Se il
+
+                    vostro paese non appare nell'elenco, contattate direttamente la nostra sede italiana. Saremo lieti di
+
+                    studiare le vostre esigenze e di offrivi una risposta personalizzata."
   contacts:
     title: "CONTATTACI"
     description: "Pensiamo che per produrre innovazione raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione giusta."
