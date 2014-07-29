@@ -5,26 +5,7 @@
   .right10
     %p.desc
       = t("certificates.description")
-    %h3
-      = t("certificates.certificate1")
-    %h3.last
-      = t("certificates.certificate2")
-    %h3
-      = t("certificates.certificate3")
-    %h3.last
-      = t("certificates.certificate4")
-    %h3
-      = t("certificates.certificate5")
-    %h3.last
-      = t("certificates.certificate6")
-    %h3
-      = t("certificates.certificate7")
-    %h3.last
-      = t("certificates.certificate8")
-    %h3
-      = t("certificates.certificate9")
-    %h3.last
-      = t("certificates.certificate10")
+
     .button-container
-      %a.button{href:"#{I18n.t("certificates.pdf-url")}", target: "_blank"}
-        = t("certificates.button")
+      %a.button{href:"#{I18n.t("certificates.page-url")}", target: "_blank"}
+        = t("certificates.button-text")

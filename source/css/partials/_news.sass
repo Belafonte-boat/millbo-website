@@ -1,0 +1,37 @@
+#news
+  .right9
+    margin-top: 26px
+#news-single
+  .date
+    color: $dark-green
+    font-family: "josefin sans",sans-serif
+  .title
+    margin-top: 0
+
+  .content
+    +span-columns(6,6)
+    .left
+      +span-columns(6,6)
+    .right
+      +span-columns(6,6)
+      img
+        width: 100%
+        height: auto
+
++at-breakpoint($screen $break)
+  #news-single
+    .date
+      color: $dark-green
+      font-family: "josefin sans",sans-serif
+    .title
+      margin-top: 0
+
+    .content
+      +span-columns(9,9)
+      .left
+        +span-columns(4,9)
+      .right
+        +span-columns(5 omega,9)
+        img
+          width: 100%
+          height: auto

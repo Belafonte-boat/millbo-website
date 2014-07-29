@@ -1,18 +1,47 @@
+#solution
+  .right9
+    .button-container
+      margin-top: 10px
+      margin-bottom: 40px
+      +span-columns(9 omega,9)
+
+      a.button
+        position: relative
+        color: white
+        width: 100%
+        display: block
+        text-align: center
+        text-decoration: none
+        padding-top: 20px
+        padding-bottom: 20px
+        max-width: 350px
+        margin: 0
+        +float-right
+        background-color: $light-green
+        &:hover
+          background-color: $dark-green
+          color: white
+          +transition-property(background-color)
+          +transition-duration(0.5s)
+
+
 #table
   +span-columns(12,12)
 #indepth
+  margin-top: 20px
+  margin-bottom: 20px
   +span-columns(6,6)
   table, tbody, thead
-    border: none
+
     td
-      border: none
-      padding: 5px 0
+
+      padding: 10px
       font-family: 'Josefin sans', sans-serif
       font-size: px-to-em(21px,16px)
     td.main
       font-family: "Lato", sans-serif
       color: $dark-green
-      font-size: px-to-em(21px,16px)
+      font-size: px-to-em(16px,16px)
       font
 table
   width: 100%
@@ -60,7 +89,7 @@ tbody
     margin: auto
 
     &.hl:hover
-      background-color: $light-green
+      background-color: $citrus
     a.download
       display: block
       margin: 0 auto
@@ -93,10 +122,12 @@ tbody
     max-width: 350px
     margin: 0 auto
     background-color: $light-green
+    text-transform: uppercase
     &:hover
       background-color: $dark-green
       color: white
-
+      +transition-property(background-color)
+      +transition-duration(0.5s)
 
 +at-breakpoint($screen $break)
   #indepth

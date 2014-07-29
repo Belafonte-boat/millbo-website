@@ -7,28 +7,28 @@
     .container
       #main
         %a{href:"#{I18n.t("menu.url1")}"}
-          = image_tag "logo_menu.png"
+          = image_tag "logo_lato.png", class: "logo-menu"
         %ul.menubar.black
-          %li
+          %li.menu
             %a.aboutus{href:"#{I18n.t("menu.url2")}"}
               = I18n.t("menu.item2")
-          %li
+          %li.menu
             %a.efree{href:"#{I18n.t("menu.url3")}"}
               = I18n.t("menu.item3")
-          %li
+          %li.menu
             %a.products{href:"#{I18n.t("menu.url4")}"}
               = I18n.t("menu.item4")
-          %li
+          %li.menu
             %a.certificate{href:"#{I18n.t("menu.url5")}"}
               = I18n.t("menu.item5")
 
-          %li
+          %li.menu
             %a.news{href:"#{I18n.t("menu.url14")}"}
               = I18n.t("menu.item14")
-          %li
+          %li.menu
             %a.contactus{href:"#{I18n.t("menu.url6")}"}
               = I18n.t("menu.item6")
-          %li
+          %li.menu
             #lang
-              %a{href:"#{I18n.t("menu.url7")}"}
+              %a{href:"#"}
                 = I18n.t("menu.item7")

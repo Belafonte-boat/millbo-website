@@ -20,6 +20,7 @@ activate :i18n, :mount_at_root => :en
 page "/", :layout => :html5
 page "/it/", :layout => :html5
 page "/solutions.html", :layout => :html5
+page "/news.html", :layout => :html5
 page "/technicalsheets/technicalsheet.html", :layout => :html5
 page "/contactus.html", :layout => :html5
 page "/products/sourdough.html", :layout => :html5 
@@ -29,12 +30,18 @@ page "/products/enzymes.html", :layout => :html5
 page "/products/efree.html", :layout => :html5
 page "/products/bakery.html", :layout => :html5
 
-page "/it/prodotti/pasteacide.html", :layout => :html5 
+page "/it/prodotti/pasteacide.html", :layout => :html5
+page "/it/login.html", :layout => :html5
 page "/it/prodotti/malti.html", :layout => :html5
 page "/it/prodotti/fermenti.html", :layout => :html5
 page "/it/prodotti/enzimi.html", :layout => :html5
 page "/it/prodotti/efree.html", :layout => :html5
 page "/it/prodotti/bakery.html", :layout => :html5
+page "/it/news.html", :layout => :html5
+page "/it/soluzioni.html", :layout => :html5
+page "/it/contattaci.html", :layout => :html5
+page "/it/certificazioni.html", :layout => :html5
+page "/it/schedetecniche/schedatecnica.html", :layout => :html5
 page "/404.html", :layout => :html5
 page "/sitemap.xml", :layout => false
 
@@ -47,7 +54,7 @@ set :fonts_dir, 'fonts'
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
-
+  activate :asset_hash
   # # Minify Javascript on build
   activate :minify_javascript
   activate :minify_html

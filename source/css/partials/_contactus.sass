@@ -1,4 +1,4 @@
-#contactus
+#contactus, #login
   .links
     +span-columns(6,6)
     +pre(0)
@@ -83,6 +83,8 @@
       &:hover
         background-color: $dark-green
         color: white
+        +transition-property(background-color)
+        +transition-duration(0.5s)
   .button-container
     margin-top: 20px
     margin-bottom: 40px
@@ -100,7 +102,8 @@
       &:hover
         background-color: $dark-green
         color: white
-
+        +transition-property(background-color)
+        +transition-duration(0.5s)
 
   a
     color: $light-green
@@ -112,7 +115,7 @@
   #contactus-form
     +span-columns(6,6)
 +at-breakpoint($screen $break)
-  #contactus
+  #contactus, #login
     .links
       +span-columns(8,8)
       +pre(0)

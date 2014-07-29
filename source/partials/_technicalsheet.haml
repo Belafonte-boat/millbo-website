@@ -192,8 +192,12 @@ metas: "main"
             = image_tag "green_dot.png"
           %td.img
 
-
-
-  = partial "partials/separator-02"
+  .button-container
+    %a.button{href:"#{I18n.t("menu.subUrl1")}"}
+      = I18n.t("menu.subItem11")
+  .button-container
+    %a.button{href:"#{I18n.t("sourdough.pdf-url")}", target: "_blank"}
+      = I18n.t("sourdough.button")
+  = partial "partials/separator-05"
   = partial "partials/contactus-section"
   = partial "partials/footer"

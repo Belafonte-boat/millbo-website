@@ -8,15 +8,29 @@ it:
     url2: "/it/#aboutus"
     item3: "E-free Clean label"
     url3: "/it/#efree"
-    item4: "Prodotti"
-    url4: "/it/#products"
+    item4: "Soluzioni"
+    url4: "/it/soluzioni.html"
     item5: "Certificazioni"
-    url5: "/it/#certificate"
+    url5: "/it/certificazioni.html"
     item6: "Contatti"
-    url6: "/#contacts"
+    url6: "/it/contattaci.html"
     item7: "ENG"
     url7: "/"
+    item8: "Lingua"
+    item9: "Italiano"
+    url9: "/it/"
+    item10: "Inglese"
+    url10: "/"
+    item11: "News"
+    url11: "/it/news.html"
+    item12: "Managers"
+    url12: "/it/contattaci.html"
+    item13: "Form di contatto"
+    url13: "/it/contattaci.html#form"
+    item14: "News"
+    url14: "/it/news.html"
     subItem1: "Paste acide"
+    subItem11: "INDIETRO A PASTE ACIDE"
     subUrl1: "/it/prodotti/pasteacide.html"
     subItem2: "Malti"
     subUrl2: "/it/prodotti/malti.html"
@@ -29,6 +43,17 @@ it:
     subItem6: "Bakery solutions"
     subUrl6: "/it/prodotti/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
+  news:
+    title: "NEWS EVENTI"
+    news1:
+      title: 'La pasta acida SPRING TRADIZIONE ora anche con "lactobacillus sanfranciscensis"'
+      date: "24 Giugno 2014"
+      text: "SPRING TRADIZIONE SF contiene lactobacilli del genere  “Lactobacillus Sanfranciscensis” che donano  il gusto caratteristico del pane di San Francisco.
+             <br /><br />
+             Come tutte le soluzioni di  MILLBO,  anche questa permette all’industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata.
+             <br /><br />
+             Spring Tradizione SF è distribuito in esclusiva da ADEA S.r.l. che opera dal 1933 nella fornitura di ingredienti destinati all'industria alimentare italiana.
+        "
   about:
     title: "Millbo. Dove natura e tecnologia si incontrano"
     description: "Italiana di nascita, ma proiettata verso il mercato internazionale, Millbo è un'azienda specializzata in soluzioni per la panificazione esclusivamente naturali e ad alto contenuto di innovazione. <br/ > Nella regione del nord ovest dove da sempre abbiamo sede, il Piemonte, industria e tecnologia si sono sviluppate su una solida tradizione di agricoltura. <br/ >
@@ -41,41 +66,24 @@ it:
 
                   diversi dei loro prodotti grazie a soluzioni appositamente studiate da Millbo."
   efreesection:
-    title: "E-free. L'idea che piace ai nuovi consumatori"
-    description1: "Abbiamo scelto di essere E-free per permettere di esserlo a tutti i nostri clienti. <br />
-
-                  E-free infatti vuol dire sviluppo, formulazione e produzione di ingredienti per la panificazione a
-
-                  base esclusivamente naturale. <br />
-
-                  A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura,
-
-                  assicurando un'etichetta “pulita” dai lunghi elenchi di additivi. <br />
-
-                  E grazie alla clean label marche e prodotti diventano più attraenti, perchè tra i consumatori di oggi
-
-                  naturalità e bontà della nutrizione sono valori in costante crescita. <br />
-
-                  La nostra idea di E-free si basa su ricerca e progettazione custom-made, i due veri punti di forza
-
-                  dell'azienda.  <br />
-
-
-                  Le nostre dimensioni e la nostra flessibilità, unite ad un reparto R&S d'eccellenza, ci permettono
-
-                  infatti di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di
-
-                  pane e prodotti dolciari da forno."
+      title: "E-free. L'idea che piace ai nuovi consumatori"
+      description1: "Abbiamo scelto di essere E-free per permettere di esserlo a tutti i nostri clienti."
+      description2: " E-free infatti vuol dire sviluppo, formulazione e produzione di ingredienti per la panificazione a
+                     base esclusivamente naturale."
+      description3: "A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura,
+                     assicurando un'etichetta “pulita” dai lunghi elenchi di additivi."
+      description4: "E grazie alla clean label marche e prodotti diventano più attraenti, perchè tra i consumatori di oggi
+                     naturalità e bontà della nutrizione sono valori in costante crescita."
+      description5: "La nostra idea di E-free si basa su ricerca e progettazione custom-made, i due veri punti di forza
+                     dell'azienda."
+      description6: "Le nostre dimensioni e la nostra flessibilità, unite ad un reparto R&S d'eccellenza, ci permettono
+                    infatti di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di
+                    pane e prodotti dolciari da forno."
   products:
-    title: "Soluzioni naturali, soluzioni certificate"
-    description: "Da oltre quarant'anni Millbo si dedica alla ricerca di soluzioni naturali per la panificazione. Il
-
-       risultato di questo impegno esclusivo sono le numerose certificazioni ottenute dai nostri prodotti.
-
-       Sotto ogni profilo – produttivo, nutrizionale e di conformità a prescrizioni religiose – le soluzioni
-
-       Millbo rispettano gli standard qualitativi più elevati."
-    button: "LINEA PRODOTTI"
+    title: "LE NOSTRE SOLUZIONI"
+    page-url: "/it/soluzioni.html"
+    description: "Paste acide, malti, enzimi, fermenti, bakery solutions, E-free solutions. Le nostre soluzioni, appartenenti a sei fondamentali tipologie, permettono all'industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata. Mantenendo la promessa di naturalità fatta ai consumatori."
+    button: "LINEA SOLUZIONI"
     product1:
       title: "PASTE ACIDE"
       description: "Per migliorare aroma, gusto e qualità del pane. Solo dalla fermentazione di cereali in condizioni controllate."
@@ -94,31 +102,40 @@ it:
     product6:
       title: "BAKERY SOLUTIONS"
       description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e antimuffa."
+    button-text: "VEDI LE NOSTRE SOLUZIONI"
   certificates:
     title: "SOLUZIONI NATURALI, SOLUZIONI CERTIFICATE"
-    description: "Le soluzioni naturali Millbo sono studiate per corrispondere agli standard più elevati da ogni punto di vista. Per questo il numero di certificazioni che hanno ottenuto è così alto."
+    download: "download pdf"
+    description: "Da oltre quarant'anni Millbo si dedica alla ricerca di soluzioni naturali per la panificazione. Il
+
+                 risultato di questo impegno esclusivo sono le numerose certificazioni ottenute dalle nostre soluzioni.
+
+                 Da questa pagina potete scaricare, singolarmente o tutte, le nostre certificazioni in formato pdf. Nonostante il nostro continuo aggiornamento, potrebbe accadere che alcune di queste risultassero scadute. Ciò significa che stiamo attendendo dagli enti competenti il rilascio dei nuovi certificati."
     button: "SCARICA LE CERTIFICAZIONI IN PDF"
     pdf-url: "/pdf/it/Certificazioni_MILLBO.pdf"
-    certificate1: "ISO 9001:2008"
-    certificate2: "Certificato di Eccellenza"
-    certificate3: "ISO 14001:2004"
-    certificate4: "Campden BRI"
-    certificate5: "Certificato Kosher"
-    certificate6: "Certificazione Halal"
-    certificate7: "Certificato BRC"
-    certificate8: "FSSC 22000 2010"
-    certificate9: "OHSAS 18001:2007"
-    certificate10: "ISO 22000 2005"
+    button-text: "TUTTE LE CERTIFICAZIONI"
+    page-url: "/it/certificazioni.html"
+    certificate1: "BRC Certificate"
+    certificate2: "Leatherhead Food"
+    certificate3: "Certificato di Eccellenza"
+    certificate4: "Certiquality 9001"
+    certificate5: "ISO 14001 2014"
+    certificate6: "Certificazione Kosher"
+    certificate7: "OHSAS 18001 2007"
+    certificate8: "UNI EU ISO 14001 2014"
+    certificate9: "UNI EU ISO 22000 2005"
+
   find us:
       title: "Find us"
-      description: "Le nostre soluzioni naturali sono presenti in più di xx paesi attraverso distributori di fiducia. Se il
+      description: "Le nostre soluzioni naturali sono presenti in molti paesi attraverso distributori di fiducia. Se il
 
-                    vostro paese non appare nell'elenco, contattate direttamente la nostra sede italiana. Saremo lieti di
+                    vostro paese non appare nell'elenco, contattate direttamente la nostra sede centrale. Saremo lieti di
 
-                    studiare le vostre esigenze e di offrivi una risposta personalizzata."
+                    studiare le vostre esigenze e di offrivi una risposta rapida e personalizzata."
   contacts:
     title: "CONTATTACI"
-    description: "Pensiamo che per produrre innovazione raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione giusta."
+    description-page: "Pensiamo che per produrre innovazione, raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione Ideale."
+    description: "Pensiamo che per produrre innovazione, raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione Ideale."
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
     contact3: "phone +39 0321795911 <br />fax +39 0321795920"
@@ -131,6 +148,7 @@ it:
       email: "Email"
       company: "Azienda"
       country: "Paese"
+      password: "Password"
       phone: "Telefono"
       object: "Oggetto"
       message: "Messaggio"
@@ -353,6 +371,7 @@ it:
     head2: "Prodotto"
     head3: "Descrizione"
     head4: "Applicazioni"
+    head5: "Schede Tecniche"
     button: "SCARICA PASTE ACIDE IN PDF" 
     pdf-url: "/pdf/it/paste-acide.pdf"
     row1:
@@ -360,6 +379,7 @@ it:
       cell2: "SPRING W6"
       cell3: "Pasta acida da farina di frumento"
       cell4: "Tutti i tipi di pane, mix per panificazione"
+      cell5: "/it/login.html"
     row2:
       cell1: "4139"
       cell2: "SPRING R 10"
