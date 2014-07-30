@@ -129,6 +129,8 @@ if(pathname == "/" || pathname == "/it/"){
 
 
 }
+
+
 function login(username,password){
     Parse.User.logIn(username, password, {
         success: function(user) {
@@ -164,7 +166,10 @@ function signup(username, company, email, password){
 }
 
 $(document).ready(function() {
+    $("a.view").click(function(e){
+        e.preventDefault();
 
+    })
     $("#register-form").find(".btn").click(function(e){
 
         var username = $("#register-username").val();

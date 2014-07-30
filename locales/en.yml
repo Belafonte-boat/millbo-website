@@ -11,7 +11,7 @@ en:
     item4: "Solutions"
     url4: "/solutions.html"
     item5: "Certifications"
-    url5: "/#certificate"
+    url5: "/certifications.html"
     item6: "Contact us"
     url6: "/contactus.html"
     item7: "ITA"
@@ -43,19 +43,38 @@ en:
     subUrl6: "/products/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
-    title: "ABOUT US"
-    description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br /> Thanks to a forty-year experience on the market, Millbo is currently active in more than sixty countries worldwide."
+    title: "Millbo. Where nature and technology meet"
+    description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br />
+                  Located in the north west region of Piedmont, industry and technology have developed on agriculture tradition.<br />
+                  Equally nature and technology appear in our products, to offer new market ideas and opportunities of contemporary baking."
   efreesection:
-    title: "E-FREE, CLEAN LABEL"
-    description1: "E-free is our mission, meaning the development and production of whole-natural baking ingredients."
-    description2: "E-free offers natural-based solutions for all industrial baking needs. Brands and products are ensured with the advantages of a clean label, increasing the appeal to the contemporary consumer, who is now more sensitive to the topic of nutrition, taste and health."
-    description3: "Research and custom-made solutions are the core values of our company." 
-    description4: "Our size and flexibility together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
+    title: "E-free, the idea liked by new consumers "
+    description1: "We have chosen to be E-free to allow our clients to be so."
+    description2: "E-free means development, formulation and production of whole-natural baking ingredients."
+    description3: "E-free offers natural-based solutions for all industrial baking needs, answers coming from nature, ensuring advantages of a clean label from long additive lists."
+    description4: "Thanks to the clean label brands and products become more attractive among today consumers, who are now more sensitive to the topic of nutrition, taste and health."
+    description5: "Research and custom-made solutions are the core values of our company."
+    description6: "Our size and flexibility together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
+  registration:
+      description: "To view and download the technical sheets you are asked to register. You will immediately receive via email the necessary link to access the first time. From the second time on you can simply insert your username and the password that you have chosen."
+
+  news:
+      title: "NEWS AND EVENTS"
+      news1:
+        title: 'The SPRING TRADIZIONE sourdough now also with "lactobacillus sanfranciscensis"'
+        date: "24 Giugno 2014"
+        text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that give the particular tast of the  San Francisco's bread.
+               <br /><br />
+              Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and self-life products.
+               <br /><br />
+               Spring Tradizione SF is exclusively distributed by  ADEA S.r.l. that operates from 1933 providing ingredients destined to the italian food industry.
+          "
   products:
-    title: "OUR PRODUCTS"
+    title: "OUR SOLUTIONS"
     description:
       "Sourdough, malts, bakery enzymes, ferments, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
-    button: "PRODUCTS RANGE"
+    description-page: "In decades of activity we have faced and solved complex requests for companies worldwide. For each one on these our researchers have studied and suited customised and effective solutions without any chemical synthesis product. It is our peculiarity which we are proud of that distiguishes us from our competitors."
+    button: "SOLUTIONS RANGE"
     product1:
       title: "SOURDOUGH"
       description: "To improve aroma, taste and quality of bread. Our sourdough are exclusivily obtained using cereals fermented within controlled conditions."
@@ -77,27 +96,37 @@ en:
     page-url: "/solutions.html"
     button-text: "SEE ALL OUR SOLUTIONS"
   certificates:
-    title: "NATURAL SOLUTIONS, CERTIFIED SOLUTIONS"
-    description: "Millbo's natural solutions have been created to satisfy the higher standards from any point of view. For this reason Millbo obtained such a great number of certifications."
-    button: "DOWNLOAD CERTIFICATIONS PDF"
-    pdf-url: "/pdf/en/Certifications_MILLBO.pdf"
-    certificate1: "ISO 9001:2008"
-    certificate2: "Certificate of Excellence"
-    certificate3: "ISO 14001:2004"
-    certificate4: "Campden BRI"
-    certificate5: "Kosher Certification"
-    certificate6: "Halal Certification"
-    certificate7: "BRC Certification"
-    certificate8: "FSSC 22000 2010"
-    certificate9: "OHSAS 18001:2007"
-    certificate10: "ISO 22000 2005"
+      title: "Natural solutions, certified solutions"
+      download: "download pdf"
+      description: "Over fourty years Millbo dedicated to research of natural solutions for baking.
+      The result of the exclusive commitment are the numerous certified aknowledgements thanks to the quality of our productive processes
+      , the quality of our primary materials, the quality of our organization and our products.
+      Cliking the below button you can view and download the certifications in PDF format."
+      description-page: "Here you can see all the certifications that awards our daily effort and our continuous research of excellence. You can download singualarly in PDF format selecting the one of your interest or simply all of them cliking the button at the bottom page"
+      button: "DOWNLOAD THE CERTIFICATIONS IN PDF"
+      pdf-url: "/pdf/Certifications_MILLBO.pdf"
+      button-text: "ALL THE CERTIFICATIONS"
+      page-url: "/certifications.html"
+      certificate1: "BRC Certificate"
+      certificate2: "Leatherhead Food"
+      certificate3: "Certificato di Eccellenza"
+      certificate4: "Certiquality 9001"
+      certificate5: "ISO 14001 2014"
+      certificate6: "Kosher Certification"
+      certificate7: "OHSAS 18001 2007"
+      certificate8: "UNI EU ISO 14001 2014"
+      certificate9: "UNI EU ISO 22000 2005"
   case-histories:
     title: "CASE HISTORIES"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque magna tortor, posuere imperdiet porttitor mollis, pharetra ut felis. Praesent elementum tristique auctor. Vivamus suscipit felis vitae commodo elementum. Donec vestibulum sagittis velit non porta."
   contacts:
     title: "CONTACT US"
-    description-page: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will join nature and technology to give you the right solution."
-    description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will join nature and technology to give you the right solution."
+    description-page: "We are present in many countries of the world.
+                  To receive any necessary information, you can contact us directly at our central office sending and email to one of these adresses below.
+                  We would be pleased to analise your requests and to offer a prompt and personalised reply."
+    item1: "For Central & Eastern Europe ( inclusive Bulgaria, Romania, Moldova, Hungary, Czech Republic, Slovakia, Poland) contact:"
+    item2: "For the rest of the world contact:"
+    description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will combine nature and technology to give you the ideal solution."
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
     contact3: "phone +39 0321795911<br />fax +39 0321795920"

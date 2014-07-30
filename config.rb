@@ -20,6 +20,7 @@ activate :i18n, :mount_at_root => :en
 page "/", :layout => :html5
 page "/it/", :layout => :html5
 page "/solutions.html", :layout => :html5
+page "/certifications.html", :layout => :html5
 page "/news.html", :layout => :html5
 page "/technicalsheets/technicalsheet.html", :layout => :html5
 page "/contactus.html", :layout => :html5
