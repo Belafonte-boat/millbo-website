@@ -528,4 +528,9 @@ it:
       cell3: "Pasta acida per mix per homebaking"
       cell4: "Pane"
       
-
+  technicalsheet:
+    title: "TITOLO"
+    name: "NOME PRODOTTO"
+    code: "CODICE PRODOTTO"
+    description: "DESCRIZIONE"
+    dose: "DOSAGGIO"
