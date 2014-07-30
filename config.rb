@@ -29,9 +29,11 @@ page "/products/cultures.html", :layout => :html5
 page "/products/enzymes.html", :layout => :html5
 page "/products/efree.html", :layout => :html5
 page "/products/bakery.html", :layout => :html5
+page "/registration-confirmation.html", :layout => :html5
 
 page "/it/prodotti/pasteacide.html", :layout => :html5
 page "/it/login.html", :layout => :html5
+page "/it/registrazione.html", :layout => :html5
 page "/it/prodotti/malti.html", :layout => :html5
 page "/it/prodotti/fermenti.html", :layout => :html5
 page "/it/prodotti/enzimi.html", :layout => :html5

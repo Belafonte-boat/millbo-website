@@ -1,59 +1,8 @@
 = partial "partials/header"
 #container
-  #contactus.section
-    .left3
-      %h2
-        = I18n.t("contacts.title")
-    .right10
-      %p.desc
-        = I18n.t("find us.description")
-      .links
-        .column
-          %h3.location
-            Regno Unito
-          %ul
-            %li.name
-              Patty Smith
-            %li.mail
-              %a{href:"#"}
-                patty.smith@millbo.com
-            %li.phone
-              +42 34567893456
-        .column
-          %h3
-            Francia
-          %ul
-            %li.name
-              Marcel Burlon
-            %li.mail
-              %a{href:"#"}
-                marcel.burlon@millbo.com
-            %li.phone
-              +32 1234563124567
-        .column
-          %h3
-            Italia
-          %ul
-            %li.name
-              Mariarosa Zeno
-            %li.mail
-              %a{href:"#"}
-                mariarosa.zeno@millbo.com
-            %li.phone
-              +39 2345623456435
-        .column
-          %h3
-            Germania
-          %ul
-            %li.name
-              Frederick Heinz
-            %li.mail
-              %a{href:"#"}
-                frederick.heinz@millbo.com
-            %li.phone
-              +12 2134562345673456
-    = partial "partials/separator-07"
+  = partial "partials/contactus-contacts"
 
 
-    = partial "partials/contactus"
-    = partial "partials/footer"
+
+  = partial "partials/contactus"
+  = partial "partials/footer"

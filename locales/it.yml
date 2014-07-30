@@ -44,7 +44,7 @@ it:
     subUrl6: "/it/prodotti/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   news:
-    title: "NEWS EVENTI"
+    title: "NEWS ED EVENTI"
     news1:
       title: 'La pasta acida SPRING TRADIZIONE ora anche con "lactobacillus sanfranciscensis"'
       date: "24 Giugno 2014"
@@ -58,6 +58,19 @@ it:
     title: "Millbo. Dove natura e tecnologia si incontrano"
     description: "Italiana di nascita, ma proiettata verso il mercato internazionale, Millbo è un'azienda specializzata in soluzioni per la panificazione esclusivamente naturali e ad alto contenuto di innovazione. <br/ > Nella regione del nord ovest dove da sempre abbiamo sede, il Piemonte, industria e tecnologia si sono sviluppate su una solida tradizione di agricoltura. <br/ >
                   Allo stesso modo natura e tecnologia si incontrano nei nostri prodotti, per offrire alla panificazione contemporanea nuove idee e nuove opportunità di mercato."
+  registration:
+    description: "Per visionare ed eseguire il download delle schede tecniche vi
+
+                  viene chiesto di effettuare una rapida registrazione.
+
+                  Riceverete immediatamente via email il link necessario
+
+                  per poter accedere la prima volta. Dalla seconda volta in
+
+                  poi semplicemente dovrete inserire il vostro username e
+
+                  la password che avete scelto."
+
   case-hisotries:
     title:  " Case histories"
     description: "Ai problemi che il mondo della panificazione contemporanea ci sottopone, rispondiamo con
@@ -68,7 +81,7 @@ it:
   efreesection:
       title: "E-free. L'idea che piace ai nuovi consumatori"
       description1: "Abbiamo scelto di essere E-free per permettere di esserlo a tutti i nostri clienti."
-      description2: " E-free infatti vuol dire sviluppo, formulazione e produzione di ingredienti per la panificazione a
+      description2: " E-free infatti vuol dire sviluppo, formulazione e produzione di soluzioni per la panificazione a
                      base esclusivamente naturale."
       description3: "A tutte le esigenze della panificazione industriale l'E-free offre risposte che nascono dalla natura,
                      assicurando un'etichetta “pulita” dai lunghi elenchi di additivi."
@@ -82,6 +95,19 @@ it:
   products:
     title: "LE NOSTRE SOLUZIONI"
     page-url: "/it/soluzioni.html"
+    description-page: "In decenni di attività abbiamo affrontato e risolto le
+
+                       richieste più complesse per Aziende di tutto il mondo.
+
+                       Per ognuna di queste, i nostri ricercatori hanno studiato
+
+                       e messo a punto soluzioni personalizzate ed efficaci
+
+                       senza l’utilizzo di alcun prodotto chimico di sintesi. E’ una
+
+                       peculiarità della quale andiamo fieri e che ci distingue in
+
+                       modo inequivocabile dai nostri concorrenti."
     description: "Paste acide, malti, enzimi, fermenti, bakery solutions, E-free solutions. Le nostre soluzioni, appartenenti a sei fondamentali tipologie, permettono all'industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata. Mantenendo la promessa di naturalità fatta ai consumatori."
     button: "LINEA SOLUZIONI"
     product1:
@@ -106,11 +132,32 @@ it:
   certificates:
     title: "SOLUZIONI NATURALI, SOLUZIONI CERTIFICATE"
     download: "download pdf"
-    description: "Da oltre quarant'anni Millbo si dedica alla ricerca di soluzioni naturali per la panificazione. Il
+    description: "Da oltre quarant'anni Millbo si dedica alla ricerca di
 
-                 risultato di questo impegno esclusivo sono le numerose certificazioni ottenute dalle nostre soluzioni.
+                  soluzioni naturali per la panificazione. Il risultato di
 
-                 Da questa pagina potete scaricare, singolarmente o tutte, le nostre certificazioni in formato pdf. Nonostante il nostro continuo aggiornamento, potrebbe accadere che alcune di queste risultassero scadute. Ciò significa che stiamo attendendo dagli enti competenti il rilascio dei nuovi certificati."
+                  questo impegno esclusivo sono le numerose certificazioni
+
+                  e riconoscimenti ottenuti grazie alla qualità dei nostri
+
+                  processi produttivi, la qualità delle nostre materie prime,
+
+                  la qualità della nostra organizzazione e dei nostri
+
+                  prodotti. Cliccando sul bottone qui sotto potete visionarle
+
+                  e scaricarle in formato PDF."
+    description-page: "Qui potete vedere tutte le certificazioni che premiano il
+
+                       nostro impegno quotidiano e la nostra continua ricerca
+
+                       dell’eccellenza. Le potete scaricare singolarmente in
+
+                       formato PDF selezionando quella di vostro interesse
+
+                       o tutte insieme semplicemente cliccando sul bottone a
+
+                       fondo pagina."
     button: "SCARICA LE CERTIFICAZIONI IN PDF"
     pdf-url: "/pdf/it/Certificazioni_MILLBO.pdf"
     button-text: "TUTTE LE CERTIFICAZIONI"
@@ -127,19 +174,41 @@ it:
 
   find us:
       title: "Find us"
-      description: "Le nostre soluzioni naturali sono presenti in molti paesi attraverso distributori di fiducia. Se il
+      description: "Siamo presenti in molti paesi del mondo. Per ricevere
 
-                    vostro paese non appare nell'elenco, contattate direttamente la nostra sede centrale. Saremo lieti di
+                                           tutte le informazioni che vi sono necessarie, potete
 
-                    studiare le vostre esigenze e di offrivi una risposta rapida e personalizzata."
+                                           contattare direttamente la nostra sede centrale inviando
+
+                                           un’email ad uno degli indirizzi che vedete qui sotto.
+
+                                           Saremo lieti di studiare le vostre esigenze e di offrivi una
+
+                                           risposta rapida e personalizzata."
   contacts:
     title: "CONTATTACI"
-    description-page: "Pensiamo che per produrre innovazione, raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione Ideale."
-    description: "Pensiamo che per produrre innovazione, raccogliere nuove sfide sia fondamentale. Parlateci dei vostri progetti e dei vostri obiettivi. Uniremo natura e tecnologia per darvi la soluzione Ideale."
+    description-page: "Siamo presenti in molti paesi del mondo. Per ricevere
+
+                       tutte le informazioni che vi sono necessarie, potete
+
+                       contattare direttamente la nostra sede centrale inviando
+
+                       un’email ad uno degli indirizzi che vedete qui sotto.
+
+                       Saremo lieti di studiare le vostre esigenze e di offrivi una
+
+                       risposta rapida e personalizzata."
+    description: "Pensiamo che per produrre innovazione, raccogliere
+
+                  nuove sfide sia fondamentale. Parlateci dei vostri progetti
+
+                  e dei vostri obiettivi. Uniremo natura e tecnologia per
+
+                  darvi la soluzione Ideale."
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
     contact3: "phone +39 0321795911 <br />fax +39 0321795920"
-    contact4: 'Per richiesta schede tecniche, campioni, info su prodotti e certificati : <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
+    contact4: 'Per richiesta schede tecniche, campioni, informazioni su prodotti e certificazioni : <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'Per ordini e/o consegne: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "Per richieste diverse da quelle sopra indicate, compilate il form, Millbo vi ricontatterà  al più presto."
     contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato <br />C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
