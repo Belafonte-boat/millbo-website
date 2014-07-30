@@ -112,6 +112,7 @@ var options = {
 if(pathname == "/" || pathname == "/it/"){
 	$("a.aboutus").click(function(e){
 		e.preventDefault();
+        logout();
 		$.scrollTo("#aboutus",{
 	                offset: -20,
 	                duration: 750
@@ -129,18 +130,24 @@ if(pathname == "/" || pathname == "/it/"){
 
 
 }
+function checkUser(){
+    var currentUser = Parse.User.current();
+    if (currentUser) {
+        console.log(JSON.stringify(currentUser));
+    } else {
+        // show the signup or login page
+    }
+}
 
+function logout(){
+    Parse.User.logOut()
+}
 
 function login(username,password){
     Parse.User.logIn(username, password, {
         success: function(user) {
             console.log(user._serverData.emailVerified)
-            var currentUser = Parse.User.current();
-            if (currentUser) {
-                console.log(currentUser._serverData.emailVerified)
-            } else {
-                // show the signup or login page
-            }
+
         },
         error: function(user, error) {
             alert("Error: " + error.code + " " + error.message);
@@ -168,7 +175,7 @@ function signup(username, company, email, password){
 $(document).ready(function() {
     $("a.view").click(function(e){
         e.preventDefault();
-
+        checkUser();
     })
     $("#register-form").find(".btn").click(function(e){
 
