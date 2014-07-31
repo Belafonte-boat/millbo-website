@@ -2,17 +2,16 @@
 title: "main page"
 metas: "main"
 ---
-= partial "partials/header"
+
 #container
+  = partial "partials/header-pdf"
   #solution.technicalsheet
     .left3
       %h2
         = I18n.t("sourdough.title")
 
     .right9
-      .button-container
-        %a.button{href:"#{I18n.t("technicalsheet.sourdough.product4139.pdf-url")}", target: "_blank"}
-          = I18n.t("technicalsheet.sourdough.product4139.button")
+
   #indepth
     %table.footable{:cellspacing => "0"}
       %thead.none
@@ -256,12 +255,4 @@ metas: "main"
 
           %td.img
             = image_tag "green_dot.png"
-  .button-container
-    %a.button{href:"#{I18n.t("menu.subUrl1")}"}
-      = I18n.t("menu.subItem11")
-  .button-container
-    %a.button{href:"#{I18n.t("technicalsheet.sourdough.product4139.pdf-url")}", target: "_blank"}
-      = I18n.t("technicalsheet.sourdough.product4139.button")
-  = partial "partials/separator-05"
-  = partial "partials/contactus-section"
-  = partial "partials/footer"
+

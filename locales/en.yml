@@ -53,9 +53,9 @@ en:
     description1: "We have chosen to be E-free to allow our clients to be so."
     description2: "E-free means development, formulation and production of whole-natural baking solutions."
     description3: "E-free offers these solutions for all industrial baking needs, ensuring all the advantages of a clean label without any long additives list. "
-    description4: "Thanks to the clean label brands and products become more attractive among today consumers, who are now more sensitive to the topic of nutrition, taste and health."
-    description5: "Research and custom-made solutions are the core values of our company."
-    description6: "Our size and flexibility together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
+    description4: "Thanks to the clean label, brands and products become more attractive among today consumers who are now more sensitive to the topic of nutrition, taste and health."
+    description5: "Research and custom-made solutions are the pillars of our company."
+    description6: "Our size and our ability to be flexible, together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and sweets goods production. "
 
 
   news:
@@ -73,7 +73,9 @@ en:
     title: "OUR SOLUTIONS"
     description:
       "Sourdough, malts, bakery enzymes, ferments, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
-    description-page: "In decades of activity we have faced and solved complex requests for companies worldwide. For each one on these our researchers have studied and suited customised and effective solutions without any chemical synthesis product. It is our peculiarity which we are proud of that distiguishes us from our competitors."
+    description-page: "Over fourty years Millbo dedicated all its efforts to research natural solutions for baking.<br />
+                       The result of this commitment are the numerous certified aknowledgements that we obtained thanks to the quality of our productive processes, of our primary materials, of our organization and our products.<br />
+                       Cliking the link below, you can view and download all the certifications in PDF format."
     button: "SOLUTIONS RANGE"
     product1:
       title: "SOURDOUGH"
@@ -98,11 +100,10 @@ en:
   certificates:
       title: "Natural solutions, certified solutions"
       download: "download pdf"
-      description: "Over fourty years Millbo dedicated to research of natural solutions for baking.
-      The result of the exclusive commitment are the numerous certified aknowledgements thanks to the quality of our productive processes
-      , the quality of our primary materials, the quality of our organization and our products.
-      Cliking the below button you can view and download the certifications in PDF format."
-      description-page: "Here you can see all the certifications that awards our daily effort and our continuous research of excellence. You can download singualarly in PDF format selecting the one of your interest or simply all of them cliking the button at the bottom page"
+      description: "Over fourty years Millbo dedicated all its efforts to research natural solutions for baking.<br />
+                    The result of this commitment are the numerous certified aknowledgements that we obtained thanks to the quality of our productive processes, of our primary materials, of our organization and our products.<br />
+                    Cliking the link below, you can view and download all the certifications in PDF format."
+      description-page: "Here you can see all the certifications that awards our daily effort and our continuous research of excellence. You can download them singualarly in PDF format selecting the one of your interest or simply all of them cliking the button at the bottom page"
       button: "DOWNLOAD THE CERTIFICATIONS IN PDF"
       pdf-url: "/pdf/Certifications_MILLBO.pdf"
       button-text: "ALL THE CERTIFICATIONS"
@@ -122,9 +123,9 @@ en:
   contacts:
     title: "CONTACT US"
     description-page: "We are present in many countries of the world.
-                  To receive any necessary information, you can contact us directly at our central office sending and email to one of these adresses below.
+                  To receive any necessary information, you can contact us directly at our headquarter sending an email the most appropriate address.
                   We would be pleased to analise your requests and to offer a prompt and personalised reply."
-    item1: "For Central & Eastern Europe ( inclusive Bulgaria, Romania, Moldova, Hungary, Czech Republic, Slovakia, Poland) contact:"
+    item1: "For Central & Eastern Europe, Bulgaria, Romania, Moldova, Hungary, Czech Republic, Slovakia, Poland contact:"
     item2: "For all other countries contact:"
     description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will combine nature and technology to give you the ideal solution."
     contact1: "Millbo S.p.a."
