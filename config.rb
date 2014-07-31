@@ -59,8 +59,7 @@ page "/sitemap.xml", :layout => false
 
 
 
-page "/technicalsheets/sourdough/4146.html", :layout => :html5
-page "/it/schedetecniche/pasteacide/4146.html", :layout => :html5
+
 
 page "/technicalsheets/sourdough/4131.html", :layout => :html5
 page "/it/schedetecniche/pasteacide/4131.html", :layout => :html5
@@ -68,9 +67,181 @@ page "/it/schedetecniche/pasteacide/4131.html", :layout => :html5
 page "/it/schedetecniche/pasteacide/4139.html", :layout => :html5
 page "technicalsheets/sourdough/4139.html", :layout => :html5
 
+page "/technicalsheets/sourdough/4146.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4146.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4199.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4199.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4228.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4228.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4260.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4260.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4262.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4262.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4505.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4505.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4506.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4506.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4507.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4507.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4508.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4508.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4707.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4707.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4888.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4888.html", :layout => :html5
+
+page "/technicalsheets/sourdough/4889.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4889.html", :layout => :html5
+
+
+
+
 page "/technicalsheets/efree/3000.html", :layout => :html5
 page "/it/schedetecniche/efree/3000.html", :layout => :html5
+
+page "/technicalsheets/efree/3020.html", :layout => :html5
+page "/it/schedetecniche/efree/3020.html", :layout => :html5
+
+page "/technicalsheets/efree/3040.html", :layout => :html5
+page "/it/schedetecniche/efree/3040.html", :layout => :html5
+
+page "/technicalsheets/efree/3041.html", :layout => :html5
+page "/it/schedetecniche/efree/3041.html", :layout => :html5
+
+
+
+
+page "/technicalsheets/bakery/4700.html", :layout => :html5
+page "/it/schedetecniche/bakery/4700.html", :layout => :html5
+
+page "/technicalsheets/bakery/4701.html", :layout => :html5
+page "/it/schedetecniche/bakery/4701.html", :layout => :html5
+
+page "/technicalsheets/bakery/6628.html", :layout => :html5
+page "/it/schedetecniche/bakery/6628.html", :layout => :html5
+
+page "/technicalsheets/bakery/6630.html", :layout => :html5
+page "/it/schedetecniche/bakery/6630.html", :layout => :html5
+
+page "/technicalsheets/bakery/6631.html", :layout => :html5
+page "/it/schedetecniche/bakery/6631.html", :layout => :html5
+
+page "/technicalsheets/bakery/4103.html", :layout => :html5
+page "/it/schedetecniche/bakery/4103.html", :layout => :html5
+
+page "/technicalsheets/bakery/6304.html", :layout => :html5
+page "/it/schedetecniche/bakery/6304.html", :layout => :html5
+
+page "/technicalsheets/bakery/6335.html", :layout => :html5
+page "/it/schedetecniche/bakery/6335.html", :layout => :html5
+
+page "/technicalsheets/bakery/6688.html", :layout => :html5
+page "/it/schedetecniche/bakery/6688.html", :layout => :html5
+
+page "/technicalsheets/bakery/6689.html", :layout => :html5
+page "/it/schedetecniche/bakery/6689.html", :layout => :html5
+
+page "/technicalsheets/bakery/4155.html", :layout => :html5
+page "/it/schedetecniche/bakery/4155.html", :layout => :html5
+
+page "/technicalsheets/bakery/6341.html", :layout => :html5
+page "/it/schedetecniche/bakery/6341.html", :layout => :html5
+
+page "/technicalsheets/bakery/6344.html", :layout => :html5
+page "/it/schedetecniche/bakery/6344.html", :layout => :html5
+
+page "/technicalsheets/bakery/6365.html", :layout => :html5
+page "/it/schedetecniche/bakery/6365.html", :layout => :html5
+
+
+
+page "/technicalsheets/enzymes/1108.html", :layout => :html5
+page "/it/schedetecniche/enzimi/1108.html", :layout => :html5
+
+page "/technicalsheets/enzymes/1118.html", :layout => :html5
+page "/it/schedetecniche/enzimi/1118.html", :layout => :html5
+
+page "/technicalsheets/enzymes/1123.html", :layout => :html5
+page "/it/schedetecniche/enzimi/1123.html", :layout => :html5
+
+page "/technicalsheets/enzymes/1124.html", :layout => :html5
+page "/it/schedetecniche/enzimi/1124.html", :layout => :html5
+
+page "/technicalsheets/enzymes/1135.html", :layout => :html5
+page "/it/schedetecniche/enzimi/1135.html", :layout => :html5
+
+page "/technicalsheets/enzymes/1171.html", :layout => :html5
+page "/it/schedetecniche/enzimi/1171.html", :layout => :html5
+
+
+
+page "/technicalsheets/malts/4021.html", :layout => :html5
+page "/it/schedetecniche/malti/4021.html", :layout => :html5
+
+page "/technicalsheets/malts/4022.html", :layout => :html5
+page "/it/schedetecniche/malti/4022.html", :layout => :html5
+
+page "/technicalsheets/malts/4023.html", :layout => :html5
+page "/it/schedetecniche/malti/4023.html", :layout => :html5
+
+page "/technicalsheets/malts/4025.html", :layout => :html5
+page "/it/schedetecniche/malti/4025.html", :layout => :html5
+
+page "/technicalsheets/malts/4026.html", :layout => :html5
+page "/it/schedetecniche/malti/4026.html", :layout => :html5
+
+page "/technicalsheets/malts/4030.html", :layout => :html5
+page "/it/schedetecniche/malti/4030.html", :layout => :html5
+
+page "/technicalsheets/malts/4039.html", :layout => :html5
+page "/it/schedetecniche/malti/4039.html", :layout => :html5
+
+
+
+page "/technicalsheets/cultures/2002.html", :layout => :html5
+page "/it/schedetecniche/cultures/2002.html", :layout => :html5
+
+page "/technicalsheets/cultures/2004.html", :layout => :html5
+page "/it/schedetecniche/cultures/2004.html", :layout => :html5
+
+page "/technicalsheets/cultures/2004i.html", :layout => :html5
+page "/it/schedetecniche/cultures/2004i.html", :layout => :html5
+
+page "/technicalsheets/cultures/2005.html", :layout => :html5
+page "/it/schedetecniche/cultures/2005.html", :layout => :html5
+
+page "/technicalsheets/cultures/2010.html", :layout => :html5
+page "/it/schedetecniche/cultures/2010.html", :layout => :html5
+
+
 page "/it/prodotti/pasteacide-pdf.html", :layout => :html5
+page "/products/sourdough-pdf.html", :layout => :html5
+
+page "/it/prodotti/efree-pdf.html", :layout => :html5
+page "/products/efree-pdf.html", :layout => :html5
+
+page "/it/prodotti/bakery-pdf.html", :layout => :html5
+page "/products/bakery-pdf.html", :layout => :html5
+
+page "/it/prodotti/fermenti-pdf.html", :layout => :html5
+page "/products/cultures-pdf.html", :layout => :html5
+
+page "/it/prodotti/malti-pdf.html", :layout => :html5
+page "/products/malts-pdf.html", :layout => :html5
+
+page "/it/prodotti/enzimi-pdf.html", :layout => :html5
+page "/products/enzymes-pdf.html", :layout => :html5
+
 
 set :css_dir, 'css'
 set :js_dir, 'js'

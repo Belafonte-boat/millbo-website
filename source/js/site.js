@@ -14,7 +14,8 @@ var loginEnUrl = "/login.html"
 var loginItUrl = "/it/login.html"
 var registerUrl = "/register.html"
 var registratiUrl =  "/it/registrati.html"
-
+var soluzioniUrl  = "/it/soluzioni.html"
+var solutionsUrl  = "/solutions.html"
 
 
 
@@ -227,7 +228,13 @@ function signup(username, company, email, password){
     user.set("email", email);
     user.signUp(null, {
         success: function(user) {
-            alert("Yay"+ user);
+            $("#success").fadeIn();
+            lang = checkLanguage();
+            if (lang == "ita"){
+                window.location = soluzioniUrl;
+            }else{
+                window.location = soluzionsUrl;
+            }
         },
         error: function(user, error) {
             // Show the error message somewhere and let the user try again.
@@ -265,6 +272,12 @@ $(document).ready(function() {
         currentUser();
     })
     $("a.view").click(function(e){
+        e.preventDefault();
+        var link = $(this).attr("href");
+
+        checkUser(loginItUrl,loginEnUrl,link);
+    })
+    $("a.download").click(function(e){
         e.preventDefault();
         var link = $(this).attr("href");
 

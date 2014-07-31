@@ -1,0 +1,63 @@
+---
+title: "main page"
+metas: "main"
+---
+
+#container
+  = partial "partials/header-pdf"
+  #aboutus
+    .left3
+      %h2
+        = I18n.t("cultures.title")
+        
+    .right9
+      %p.desc
+        = I18n.t("cultures.description")
+        
+  #table
+    %table{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th 
+            = I18n.t("cultures.head1")
+          %th 
+            = I18n.t("cultures.head2")
+          %th 
+            = I18n.t("cultures.head3")
+      %tbody
+        %tr.even
+          %th.numeric 
+            = I18n.t("cultures.row1.cell1")
+          %td.numeric 
+            = I18n.t("cultures.row1.cell2")
+          %td.numeric 
+            = I18n.t("cultures.row1.cell3")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("cultures.row2.cell1")
+          %td.numeric 
+            = I18n.t("cultures.row2.cell2")
+          %td.numeric 
+            = I18n.t("cultures.row2.cell3")
+        %tr.even
+          %th.numeric 
+            = I18n.t("cultures.row3.cell1")
+          %td.numeric 
+            = I18n.t("cultures.row3.cell2")
+          %td.numeric 
+            = I18n.t("cultures.row3.cell3")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("cultures.row4.cell1")
+          %td.numeric 
+            = I18n.t("cultures.row4.cell2")
+          %td.numeric 
+            = I18n.t("cultures.row4.cell3")
+        %tr.even
+          %th.numeric 
+            = I18n.t("cultures.row5.cell1")
+          %td.numeric 
+            = I18n.t("cultures.row5.cell2")
+          %td.numeric 
+            = I18n.t("cultures.row5.cell3")
+

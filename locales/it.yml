@@ -226,6 +226,7 @@ it:
     registration:
       title: "REGISTRATI"
       button: "REGISTRATI"
+      success: "Hai conseguito con successo la registrazione"
       description: "Per visionare ed eseguire il download delle schede tecniche vi
 
                     viene chiesto di effettuare una rapida registrazione.
@@ -635,10 +636,10 @@ it:
         coliforms-value: "100"
         salmonela-value: "Assente in 25 grammi"
         filth-value: "25 frammenti max su 50 g"
-        button: "Scarica 3000 PDF "
+        button: "Scarica 3000 PDF"
         pdf-url: "/it/schedetecniche/efree/3000pdf.html"
         url: "/it/schedetecniche/efree/3000.html"
-      product3000:
+      product3020:
         name: "EFFECTO EGG"
         code: "3020"
         description: "Soluzione enzimatica per la riduzione di uova nei dolci"

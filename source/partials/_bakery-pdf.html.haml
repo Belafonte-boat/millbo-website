@@ -1,0 +1,82 @@
+---
+title: "main page"
+metas: "main"
+---
+
+#container
+  = partial "partials/header-pdf"
+  #aboutus
+    .left3
+      %h2
+        = I18n.t("bakery.title")
+    .right9
+      %p.desc
+        = I18n.t("bakery.description")
+        
+  #table
+    %table{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th 
+            = I18n.t("bakery.head1") 
+          %th 
+            = I18n.t("bakery.head2") 
+          %th 
+            = I18n.t("bakery.head3") 
+          %th.special 
+            = I18n.t("bakery.head4") 
+      %tbody
+        %tr.even
+          %th.numeric 
+            = I18n.t("bakery.row1.cell1") 
+          %td.numeric 
+            = I18n.t("bakery.row1.cell2")
+          %td.numeric 
+            = I18n.t("bakery.row1.cell3")
+          %td.numeric 
+            = I18n.t("bakery.row1.cell4")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("bakery.row2.cell1")
+          %td.numeric 
+            = I18n.t("bakery.row2.cell2")
+          %td.numeric 
+            = I18n.t("bakery.row2.cell3")
+          %td.numeric 
+            = I18n.t("bakery.row2.cell4")
+        %tr.even
+          %th.numeric 
+            = I18n.t("bakery.row3.cell1")
+          %td.numeric 
+            = I18n.t("bakery.row3.cell2")
+          %td.numeric 
+            = I18n.t("bakery.row3.cell3")
+          %td.numeric 
+            = I18n.t("bakery.row3.cell4")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("bakery.row4.cell1")
+          %td.numeric 
+            = I18n.t("bakery.row4.cell2")
+          %td.numeric 
+            = I18n.t("bakery.row4.cell3")
+          %td.numeric 
+            = I18n.t("bakery.row4.cell4")
+        %tr.even
+          %th.numeric 
+            = I18n.t("bakery.row5.cell1")
+          %td.numeric 
+            = I18n.t("bakery.row5.cell2")
+          %td.numeric 
+            = I18n.t("bakery.row5.cell3")
+          %td.numeric 
+            = I18n.t("bakery.row5.cell4")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("bakery.row6.cell1")
+          %td.numeric 
+            = I18n.t("bakery.row6.cell2")
+          %td.numeric 
+            = I18n.t("bakery.row6.cell3")
+          %td.numeric
+            = I18n.t("bakery.row6.cell4")
