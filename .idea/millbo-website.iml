@@ -90,6 +90,7 @@
     <orderEntry type="jdk" jdkName="RVM: ruby-2.0.0-p247 [middleman]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.1.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.2.0.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.6.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
@@ -98,7 +99,6 @@
     <orderEntry type="library" scope="PROVIDED" name="compass (v0.12.7, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-h5bp (v0.1.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-import-once (v1.0.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="compass-sourcemaps (v0.12.3.sourcemaps.a4836f1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="docile (v1.1.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="em-websocket (v0.5.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />

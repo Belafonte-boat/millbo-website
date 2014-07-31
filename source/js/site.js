@@ -4,13 +4,16 @@
 //= require "footable/js/footable.js"
 //= require "vendor/jquery-html5-placeholder-shim-master/jquery.html5-placeholder-shim.js"
 //= require "enquire/dist/enquire.min"
+//= require "bootstrap/alert"
 
-
-
+var pathname = window.location.pathname;
 
 Parse.initialize("vEGq6bTziGD4yPjrVQIA6uG28e819FaeUECvmAte", "Jk1Qsy5H1ZySqe7SDiwVVD5Wg9QvAxURlHqIBa65");
 
-
+var loginEnUrl = "/login.html"
+var loginItUrl = "/it/login.html"
+var registerUrl = "/register.html"
+var registratiUrl =  "/it/registrati.html"
 
 
 
@@ -75,7 +78,7 @@ enquire
 
     });
 
-var pathname = window.location.pathname;
+
     // Options
 var options = {
     offset: 0,
@@ -112,7 +115,7 @@ var options = {
 if(pathname == "/" || pathname == "/it/"){
 	$("a.aboutus").click(function(e){
 		e.preventDefault();
-        logout();
+
 		$.scrollTo("#aboutus",{
 	                offset: -20,
 	                duration: 750
@@ -130,27 +133,88 @@ if(pathname == "/" || pathname == "/it/"){
 
 
 }
-function checkUser(){
+function currentUser(){
+    var currentUser = Parse.User.current();
+    console.log(JSON.stringify(currentUser));
+}
+function checkUser(itUrl,enUrl, link){
     var currentUser = Parse.User.current();
     if (currentUser) {
-        console.log(JSON.stringify(currentUser));
+        window.location = link;
     } else {
-        // show the signup or login page
+        lang = checkLanguage();
+        if (lang == "ita"){
+            window.location = itUrl+"?url="+encodeURIComponent(link);
+        }else{
+            window.location = enUrl+"?url="+encodeURIComponent(link);
+        }
     }
 }
 
-function logout(){
-    Parse.User.logOut()
-}
+function checkLanguage(){
+    var pathname = window.location.pathname;
+    var lang = "";
+    if(window.location.href.indexOf("/it/") > -1) {
+        lang = "ita";
+    }else{
+        lang = "eng";
+    }
 
+   return lang;
+}
+function logout(){
+    Parse.User.logOut();
+
+}
+function activate(activate){
+    if(activate) {
+        return true;
+    }else{
+        $("#activate").fadeIn();
+        return false;
+    }
+}
+function checkUrl(url){
+    console.log(url);
+    if (url != ""){
+      return true;
+    }else{
+      return false
+    }
+}
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 function login(username,password){
     Parse.User.logIn(username, password, {
         success: function(user) {
-            console.log(user._serverData.emailVerified)
 
+            var activation = activate(user._serverData.emailVerified);
+            var url = getParameterByName('url');
+
+            if (activation){
+                checkedUrl = checkUrl(url);
+                lang = checkLanguage();
+                if(checkedUrl){
+                    window.location = url;
+                }else{
+                    if (lang == "ita"){
+                        window.location = "/it/";
+                    }else{
+                        window.location = "/";
+                    }
+                }
+
+            }
         },
         error: function(user, error) {
-            alert("Error: " + error.code + " " + error.message);
+            $("#error").text("Error: " + error.code + " " + error.message).fadeIn();
+
+
+
         }
     });
 }
@@ -167,15 +231,44 @@ function signup(username, company, email, password){
         },
         error: function(user, error) {
             // Show the error message somewhere and let the user try again.
-            alert("Error: " + error.code + " " + error.message);
+            $("#error").text("Error: " + error.code + " " + error.message).fadeIn();
+
         }
     });
 }
+function checkPrivate(){
 
+    if(window.location.href.indexOf("/schedetecniche/") > -1 || window.location.href.indexOf("/technicalsheets/") > -1 ){
+
+        var currentUser = Parse.User.current();
+        if (currentUser) {
+
+        } else {
+            lang = checkLanguage();
+            if (lang == "ita"){
+                window.location = loginItUrl+"?url="+encodeURIComponent(pathname);
+            }else{
+                window.location = loginEnUrl+"?url="+encodeURIComponent(pathname);
+            }
+        }
+
+    }
+}
 $(document).ready(function() {
+    checkPrivate();
+    $("a#logout").click(function(e){
+        e.preventDefault();
+        logout();
+    })
+    $("a#currentuser").click(function(e){
+        e.preventDefault();
+        currentUser();
+    })
     $("a.view").click(function(e){
         e.preventDefault();
-        checkUser();
+        var link = $(this).attr("href");
+
+        checkUser(loginItUrl,loginEnUrl,link);
     })
     $("#register-form").find(".btn").click(function(e){
 

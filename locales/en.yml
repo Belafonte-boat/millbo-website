@@ -23,7 +23,7 @@ en:
     url10: "/"
     item11: "News"
     url11: "/news.html"
-    item12: "Managers"
+    item12: "Contacts"
     url12: "/contactus.html"
     item13: "Contact Form"
     url13: "/contactus.html#form"
@@ -55,14 +55,13 @@ en:
     description4: "Thanks to the clean label brands and products become more attractive among today consumers, who are now more sensitive to the topic of nutrition, taste and health."
     description5: "Research and custom-made solutions are the core values of our company."
     description6: "Our size and flexibility together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and cakes production."
-  registration:
-      description: "To view and download the technical sheets you are asked to register. You will immediately receive via email the necessary link to access the first time. From the second time on you can simply insert your username and the password that you have chosen."
+
 
   news:
       title: "NEWS AND EVENTS"
       news1:
         title: 'The SPRING TRADIZIONE sourdough now also with "lactobacillus sanfranciscensis"'
-        date: "24 Giugno 2014"
+        date: "30 May 2014"
         text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that give the particular tast of the  San Francisco's bread.
                <br /><br />
               Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and self-life products.
@@ -134,17 +133,32 @@ en:
     contact5: 'For orders and/or deliveries: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "For general enquires not included above, please fill out the form, Millbo will contact you as soon as possible."
     contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato<br /> C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
-    form:
-      name: "Name and Last name"
-      email: "Email"
-      company: "Company"
-      country: "Country"
-      phone: "Phone"
-      object: "Subject"
-      message: "Message"
-      button: "Send"
+
+
+
     page-url: "/contactus.html"
     button-text: "contact us"
+  form:
+    name: "Name and Last name"
+    email: "Company Email"
+    company: "Company"
+    country: "Country"
+    phone: "Phone"
+    object: "Subject"
+    password: "Password"
+    message: "Message"
+    button: "Send"
+    login:
+      button: "LOGIN"
+      title: "LOGIN"
+      description: "Login using company's email and password that you have set during registration."
+      registration: "You don't have an account <a href=\"/registration.html\">register here</a>"
+      activation: "To access you have to confirm your email address, click the link in the email that we have sent you."
+    registration:
+      title: "REGISTER"
+      button: "REGISTER"
+      description: "To view and download the technical sheets you are asked to register. You will immediately receive via email the necessary link to access the first time. From the second time on you can simply insert your username and the password that you have chosen."
+      login: 'You have already an account, <a href="/login.html">login here</a>'
   bakery:
     title: "BAKERY SOLUTIONS"
     description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
@@ -369,6 +383,7 @@ en:
       cell2: "SPRING W6"
       cell3: "Dried sourdough from wheat flour"
       cell4: "All type of bread, baking mix"
+      cell5: "/technicalsheets/sourdough/4146.html"
     row2:
       cell1: "4139"
       cell2: "SPRING R 10"
@@ -443,6 +458,18 @@ en:
       cell2: "SPRING PANE HOME"
       cell3: "Sourdough for homebaking mix"
       cell4: "Bread"
-
+  technicalsheet:
+      title: "TITLE"
+      name: "PRODUCT NAME"
+      code: "PRODUCT CODE"
+      description: "DESCRIPTION"
+      dose: "DOSEGE"
+      ingredients: "COMPOSITION"
+      status: "APPEARANCE"
+      box : "PACKAGING"
+      weight: "PACKAGE SIZE"
+      stock: "STORAGE REQUIREMENTS"
+      shelf: "SHELF-LIFE"
+      specifics: "PHYSICO- CHEMICAL SPECIFICATIONS"
 
 

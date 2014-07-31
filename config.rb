@@ -1,5 +1,9 @@
 require 'builder'
 require 'susy'
+require 'bootstrap-sass'
+
+
+
 
 activate :deploy do |deploy|
   deploy.method = :ftp
@@ -31,8 +35,12 @@ page "/products/enzymes.html", :layout => :html5
 page "/products/efree.html", :layout => :html5
 page "/products/bakery.html", :layout => :html5
 page "/registration-confirmation.html", :layout => :html5
+page "/registration.html", :layout => :html5
+
+
 
 page "/it/prodotti/pasteacide.html", :layout => :html5
+page "/login.html", :layout => :html5
 page "/it/login.html", :layout => :html5
 page "/it/registrazione.html", :layout => :html5
 page "/it/prodotti/malti.html", :layout => :html5
@@ -48,6 +56,20 @@ page "/it/schedetecniche/schedatecnica.html", :layout => :html5
 page "/404.html", :layout => :html5
 page "/sitemap.xml", :layout => false
 
+
+
+
+page "/technicalsheets/sourdough/4146.html", :layout => :html5
+
+page "/it/schedetecniche/pasteacide/4146.html", :layout => :html5
+page "/technicalsheets/sourdough/4131.html", :layout => :html5
+
+page "/it/schedetecniche/pasteacide/4131.html", :layout => :html5
+
+page "/it/schedetecniche/pasteacide/4131.html", :layout => :html5
+
+page "/it/prodotti/pasteacide-pdf.html", :layout => :html5
+
 set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'images'
@@ -61,6 +83,10 @@ configure :build do
   # # Minify Javascript on build
   activate :minify_javascript
   activate :minify_html
+  activate :gzip
+  activate :imageoptim do |imageoptim|
+    imageoptim.pngout_options = false # Should disable pngout
+  end
   # # Create favicon/touch icon set from source/favicon_base.png
   activate :favicon_maker do |f|
     f.template_dir  = File.join(root, 'source')

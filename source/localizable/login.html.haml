@@ -1,10 +1,18 @@
 = partial "partials/header"
 #container
   #login.section
+    #error.alert.alert-danger
+      %a.close{"data-dismiss" => "alert", href: "#"} ×
+    #activate.alert.alert-warning
+      = t("form.login.activation")
+      %a.close{"data-dismiss" => "alert", href: "#"} ×
     .left3
       %h2
-        LOGIN
-    .right10
+        = t("form.login.title")
+    .right9
+      %p.desc
+        = t("form.login.description")
       = partial "partials/login"
-
+      %p.desc
+        = t("form.login.registration")
   = partial "partials/footer"

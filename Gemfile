@@ -13,14 +13,13 @@ gem "wdm", :platforms => [:mswin, :mingw]
 gem "susy"
 gem "compass-h5bp"
 gem "builder"
-
-
+gem 'bootstrap-sass'
 gem 'oily_png'
 gem 'mini_magick'
 
 
 
-gem 'compass-sourcemaps'
+
 gem 'font-awesome-middleman'
 
 gem "middleman-imageoptim", "~> 0.1.4"

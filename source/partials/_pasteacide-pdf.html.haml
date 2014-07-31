@@ -2,8 +2,10 @@
 title: "main page"
 metas: "main"
 ---
-= partial "partials/header"
+= partial "partials/header-pdf"
 #container
+  #logo-pdf
+    = image_tag "logo-pdf.png"
   #products
     .left3
       %h2
@@ -12,20 +14,19 @@ metas: "main"
       %p.desc
         = I18n.t("sourdough.description")
         
-  #table
-    %table.footable{:cellspacing => "0"}
+  #table.print
+    %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+          %th
             = I18n.t("sourdough.head1")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head2")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head3")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head4")
-          %th.special{class:"footable-last-column",colspan:"2"}
-            = I18n.t("sourdough.head5")
+
 
       %tbody
         %tr.even
@@ -37,10 +38,7 @@ metas: "main"
             = I18n.t("sourdough.row1.cell3")
           %td
             = I18n.t("sourdough.row1.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("technicalsheet.sourdough.product4131.url")}"}
-          %td.img.hl
-            %a.download{href:"#{t("technicalsheet.sourdough.product4131.pdf-url")}"}
+
 
 
         %tr.odd
@@ -52,10 +50,7 @@ metas: "main"
             = I18n.t("sourdough.row2.cell3")
           %td
             = I18n.t("sourdough.row2.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.even
           %td
             = I18n.t("sourdough.row3.cell1")
@@ -65,10 +60,7 @@ metas: "main"
             = I18n.t("sourdough.row3.cell3")
           %td
             = I18n.t("sourdough.row3.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.odd
           %td
             = I18n.t("sourdough.row4.cell1")
@@ -78,10 +70,7 @@ metas: "main"
             = I18n.t("sourdough.row4.cell3")
           %td
             = I18n.t("sourdough.row4.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.even
           %td
             = I18n.t("sourdough.row5.cell1")
@@ -91,10 +80,7 @@ metas: "main"
             = I18n.t("sourdough.row5.cell3")
           %td
             = I18n.t("sourdough.row5.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.odd
           %td
             = I18n.t("sourdough.row6.cell1")
@@ -104,10 +90,7 @@ metas: "main"
             = I18n.t("sourdough.row6.cell3")
           %td
             = I18n.t("sourdough.row6.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.even
           %td
             = I18n.t("sourdough.row7.cell1")
@@ -117,10 +100,7 @@ metas: "main"
             = I18n.t("sourdough.row7.cell3")
           %td
             = I18n.t("sourdough.row7.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.odd
           %td
             = I18n.t("sourdough.row8.cell1")
@@ -130,10 +110,7 @@ metas: "main"
             = I18n.t("sourdough.row8.cell3")
           %td
             = I18n.t("sourdough.row8.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.even
           %td
             = I18n.t("sourdough.row9.cell1")
@@ -143,10 +120,7 @@ metas: "main"
             = I18n.t("sourdough.row9.cell3")
           %td
             = I18n.t("sourdough.row9.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.odd
           %td
             = I18n.t("sourdough.row10.cell1")
@@ -156,26 +130,22 @@ metas: "main"
             = I18n.t("sourdough.row10.cell3")
           %td
             = I18n.t("sourdough.row10.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
     .left3
       %h2
         = I18n.t("sourdough.headline1")
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+          %th
             = I18n.t("sourdough.head1")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head2")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head3")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head4")
-          %th.special{class:"footable-last-column",colspan:"2"}
-            = I18n.t("sourdough.head5")
+
       %tbody
         %tr.even
           %td
@@ -186,10 +156,7 @@ metas: "main"
             = I18n.t("sourdough.row11.cell3")
           %td
             = I18n.t("sourdough.row11.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.odd
           %td
             = I18n.t("sourdough.row12.cell1")
@@ -199,26 +166,22 @@ metas: "main"
             = I18n.t("sourdough.row12.cell3")
           %td
             = I18n.t("sourdough.row12.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
     .left3
       %h2
         = I18n.t("sourdough.headline2")
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+          %th
             = I18n.t("sourdough.head1")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head2")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head3")
-          %th{:"data-hide"=>"phone,table"}
+          %th
             = I18n.t("sourdough.head4")
-          %th.special{class:"footable-last-column",colspan:"2"}
-            = I18n.t("sourdough.head5")
+
       %tbody
         %tr.even
           %td
@@ -229,10 +192,7 @@ metas: "main"
             = I18n.t("sourdough.row13.cell3")
           %td
             = I18n.t("sourdough.row13.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.odd
           %td
             = I18n.t("sourdough.row14.cell1")
@@ -242,10 +202,7 @@ metas: "main"
             = I18n.t("sourdough.row14.cell3")
           %td
             = I18n.t("sourdough.row14.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
+
         %tr.even
           %td
             = I18n.t("sourdough.row15.cell1")
@@ -255,16 +212,3 @@ metas: "main"
             = I18n.t("sourdough.row15.cell3")
           %td
             = I18n.t("sourdough.row15.cell4")
-          %td.img.hl
-            %a.view{href:"#{I18n.t("sourdough.row1.cell5")}"}
-          %td.img.hl
-            %a.download{href:"#"}
-    .button-container
-      %a.button{href:"#{I18n.t("menu.url4")}"}
-        = I18n.t("menu.item4")
-    .button-container
-      %a.button{href:"#{I18n.t("sourdough.pdf-url")}", target: "_blank"}
-        = I18n.t("sourdough.button")
-  = partial "partials/separator-06"
-  = partial "partials/contactus-section"
-  = partial "partials/footer"

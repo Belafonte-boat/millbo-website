@@ -23,7 +23,7 @@ it:
     url10: "/"
     item11: "News"
     url11: "/it/news.html"
-    item12: "Managers"
+    item12: "Contatti"
     url12: "/it/contattaci.html"
     item13: "Form di contatto"
     url13: "/it/contattaci.html#form"
@@ -47,7 +47,7 @@ it:
     title: "NEWS ED EVENTI"
     news1:
       title: 'La pasta acida SPRING TRADIZIONE ora anche con "lactobacillus sanfranciscensis"'
-      date: "24 Giugno 2014"
+      date: "30 Maggio 2014"
       text: "SPRING TRADIZIONE SF contiene lactobacilli del genere  “Lactobacillus Sanfranciscensis” che donano  il gusto caratteristico del pane di San Francisco.
              <br /><br />
              Come tutte le soluzioni di  MILLBO,  anche questa permette all’industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata.
@@ -55,21 +55,10 @@ it:
              Spring Tradizione SF è distribuito in esclusiva da ADEA S.r.l. che opera dal 1933 nella fornitura di ingredienti destinati all'industria alimentare italiana.
         "
   about:
-    title: "Millbo. Dove natura e tecnologia si incontrano"
+    title: "MILLBO.<br />DOVE NATURA E TECNOLOGIA SI INCONTRANO"
     description: "Italiana di nascita, ma proiettata verso il mercato internazionale, Millbo è un'azienda specializzata in soluzioni per la panificazione esclusivamente naturali e ad alto contenuto di innovazione. <br/ > Nella regione del nord ovest dove da sempre abbiamo sede, il Piemonte, industria e tecnologia si sono sviluppate su una solida tradizione di agricoltura. <br/ >
                   Allo stesso modo natura e tecnologia si incontrano nei nostri prodotti, per offrire alla panificazione contemporanea nuove idee e nuove opportunità di mercato."
-  registration:
-    description: "Per visionare ed eseguire il download delle schede tecniche vi
 
-                  viene chiesto di effettuare una rapida registrazione.
-
-                  Riceverete immediatamente via email il link necessario
-
-                  per poter accedere la prima volta. Dalla seconda volta in
-
-                  poi semplicemente dovrete inserire il vostro username e
-
-                  la password che avete scelto."
 
   case-hisotries:
     title:  " Case histories"
@@ -79,7 +68,7 @@ it:
 
                   diversi dei loro prodotti grazie a soluzioni appositamente studiate da Millbo."
   efreesection:
-      title: "E-free. L'idea che piace ai nuovi consumatori"
+      title: "E-FREE.<br />L'IDEA CHE PIACE AI NUOVI CONSUMATORI"
       description1: "Abbiamo scelto di essere E-free per permettere di esserlo a tutti i nostri clienti."
       description2: " E-free infatti vuol dire sviluppo, formulazione e produzione di soluzioni per la panificazione a
                      base esclusivamente naturale."
@@ -214,18 +203,41 @@ it:
     contact5: 'Per ordini e/o consegne: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "Per richieste diverse da quelle sopra indicate, compilate il form, Millbo vi ricontatterà  al più presto."
     contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato <br />C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
-    form:
-      name: "Nome e Cognome"
-      email: "Email"
-      company: "Azienda"
-      country: "Paese"
-      password: "Password"
-      phone: "Telefono"
-      object: "Oggetto"
-      message: "Messaggio"
-      button: "invia"
+
     page-url: "/it/contattaci.html"
     button-text: "contattaci"
+
+  form:
+    name: "Nome e Cognome"
+    email: "Email Aziendale"
+    company: "Azienda"
+    country: "Paese"
+    password: "Password"
+    phone: "Telefono"
+    object: "Oggetto"
+    message: "Messaggio"
+    button: "invia"
+    login:
+      button: "ACCEDI"
+      title: "LOGIN"
+      description: "Effettua il login usando l'email aziendale e la password che hai impostato nella registrazione."
+      registration: 'Non hai un account <a href="/it/registrazione.html">registrati</a>'
+      activation: "Per poter accedere devi prima confermare il tuo indirizzo email, clikka il link nell'email che ti abbiamo inviato."
+    registration:
+      title: "REGISTRATI"
+      button: "REGISTRATI"
+      description: "Per visionare ed eseguire il download delle schede tecniche vi
+
+                    viene chiesto di effettuare una rapida registrazione.
+
+                    Riceverete immediatamente via email il link necessario
+
+                    per poter accedere la prima volta. Dalla seconda volta in
+
+                    poi semplicemente dovrete inserire il vostro username e
+
+                    la password che avete scelto."
+      login: 'Hai già un account effettua il <a href="/it/login.html">login</a>'
   bakery:
     title: "BAKERY SOLUTIONS"
     description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
@@ -450,7 +462,7 @@ it:
       cell2: "SPRING W6"
       cell3: "Pasta acida da farina di frumento"
       cell4: "Tutti i tipi di pane, mix per panificazione"
-      cell5: "/it/login.html"
+
     row2:
       cell1: "4139"
       cell2: "SPRING R 10"
@@ -533,7 +545,7 @@ it:
     name: "NOME PRODOTTO"
     code: "CODICE PRODOTTO"
     description: "DESCRIZIONE"
-    dose: "DOSAGGIO"
+    dosage: "DOSAGGIO"
     ingredients: "INGREDIENTI"
     status: "STATO DEL PRODOTTO"
     box : "TIPO DI IMBALLO"
@@ -541,3 +553,67 @@ it:
     stock: "CONDIZIONI DI STOCCAGGIO"
     shelf: "SHELF-LIFE"
     specifics: "Specifiche Chimico-Fisiche"
+    umidity: "umidità"
+    ph: "Ph"
+    yessa: "Si"
+    nope: "No"
+    grams: "Grammi / 100g"
+    analysis: "Analisi Microbiologiche"
+    bacteric: "Conta batterica totale"
+    ufc: "UFC / g"
+    yeast: "Lieviti e Muffe"
+    coliforms: "Coliformi totali"
+    salmonela: "Salmonella"
+    filth: "Filth test"
+    allergen-title: "Tabella allergeni (Si: contiene / No: non contiene)"
+    allergen: "Allergeni"
+
+    cereals: "Cereali contenenti glutine (grano, segale, orzo, avena, farro, kamut o i loro ceppi ibridati) e prodotti derivati."
+    crustacean: "Crostacei e prodotti derivati."
+    eggs: "Uova e prodotti derivati."
+    fish: "Pesce e prodotti derivati"
+    fruits: "Frutta a guscio - mandorle (Amigdalus communis L.), nocciole (Corylus avellana), noci comuni (Juglans regia), noci di acagiù (Anacardium occidentale), noci pecan (Carya illinoiesis (Wangenh) K. Koch), noci del Brasile (Bertholletia excelsa), pistacchi (Pistacia vera), noci del Queensland (Macadamia ternifolia) - e prodotti derivati."
+
+    sourdough:
+      product4131:
+        name: "SPRING PANETTONE"
+        code: "4131"
+        description: "Pasta acida disidratata"
+        dosage: "5 % sulla farina"
+        ingredients: "Pasta acida disidratata, glutine di frumento, enzimi, aroma."
+        status: "polvere"
+        box: "Sacco multi strato con interfalda in PE"
+        weight: "25 kg"
+        stock: "Luogo fresco e asciutto."
+        shelf: "Un anno dalla data di produzione"
+        umidity-value: "7-9"
+        ph-value: "4,0 – 5,0"
+        bacteric-value: "100.000"
+        yeast-value: "1.000"
+        coliforms-value: "100"
+        salmonela-value: "Assente in 25 grammi"
+        filth-value: "25 frammenti max su 50 g"
+        button: "Scarica 4131 PDF "
+        pdf-url: "/it/schedetecniche/pasteacide/4131pdf.html"
+        url: "/it/schedetecniche/pasteacide/4131.html"
+      product4139:
+        name: "SPRING R10"
+        code: "4139"
+        description: "Pasta acida disidratata"
+        dosage: "1-5% sulla farina"
+        ingredients: "Pasta acida disidratata prodotta da farina di segale, malto"
+        status: "polvere"
+        box: "Sacco multi strato con interfalda in PE"
+        weight: "25 kg"
+        stock: "Luogo fresco e asciutto."
+        shelf: "Un anno dalla data di produzione"
+        umidity-value: "6-9"
+        ph-value: "3,0 – 4,0"
+        bacteric-value: "100.000"
+        yeast-value: "1.000"
+        coliforms-value: "100"
+        salmonela-value: "Assente in 25 grammi"
+        filth-value: "25 frammenti max su 50 g"
+        button: "Scarica 4139 PDF "
+        pdf-url: "/it/schedetecniche/pasteacide/4139pdf.html"
+        url: "/it/schedetecniche/pasteacide/4139.html"

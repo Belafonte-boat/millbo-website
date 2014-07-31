@@ -1,12 +1,16 @@
 = partial "partials/header"
 #container
+
   #login.section
+    #error.alert.alert-error
+      %a.close{"data-dismiss" => "alert", href: "#"} ×
     .left3
       %h2
-        REGISTRAZIONE
-    .right10
+        = t("form.registration.title")
+    .right9
       %p.desc
-        = t("registration.description")
+        = t("form.registration.description")
       = partial "partials/registration"
-
+      %p.desc
+        = t("form.registration.login")
   = partial "partials/footer"

@@ -11,66 +11,66 @@ metas: "main"
 
     .right9
       .button-container
-        %a.button{href:"#{I18n.t("sourdough.pdf-url")}", target: "_blank"}
-          = I18n.t("sourdough.button")
+        %a.button{href:"#{I18n.t("technicalsheet.sourdough.product4131.pdf-url")}", target: "_blank"}
+          = I18n.t("technicalsheet.sourdough.product4131.button")
   #indepth
     %table.footable{:cellspacing => "0"}
       %thead.none
         %tr
           %th.text.main{class:"footable-first-column",:"data-toggle"=>"true"}
-            = t("technicalsheet.title")
+            = I18n.t("technicalsheet.sourdough.product4131.title")
           %th.text{class:"footable-last-column", :"data-hide"=>"phone,table" }
       %tbody
         %tr
           %td.text.main
             = t("technicalsheet.name")
           %td.text
-            Spring W6
+            = I18n.t("technicalsheet.sourdough.product4131.name")
         %tr.even
           %td.text.main
             = t("technicalsheet.code")
           %td.text
-            4508
+            = I18n.t("technicalsheet.sourdough.product4131.code")
         %tr.even
           %td.text.main
             = t("technicalsheet.description")
           %td.text
-            Pasta acida disidratata
+            = I18n.t("technicalsheet.sourdough.product4131.description")
         %tr.even
           %td.text.main
-            = t("technicalsheet.dose")
+            = t("technicalsheet.dosage")
           %td.text
-            0,5 – 2,5 % sulla farina
+            = I18n.t("technicalsheet.sourdough.product4131.dosage")
         %tr.even
           %td.text.main
             = t("technicalsheet.ingredients")
           %td.text
-            Pasta acida disidratata prodotta da farina di frumento
+            = I18n.t("technicalsheet.sourdough.product4131.ingredients")
         %tr.even
           %td.text.main
             = t("technicalsheet.status")
           %td.text
-            Polvere
+            = I18n.t("technicalsheet.sourdough.product4131.status")
         %tr.even
           %td.text.main
             = t("technicalsheet.box")
           %td.text
-            Sacco multi strato con interfalda in PE
+            = I18n.t("technicalsheet.sourdough.product4131.box")
         %tr.even
           %td.text.main
             = t("technicalsheet.weight")
           %td.text
-            25kg
+            = I18n.t("technicalsheet.sourdough.product4131.weight")
         %tr.even
           %td.text.main
             = t("technicalsheet.stock")
           %td.text
-            Luogo fresco e asciutto.
+            = I18n.t("technicalsheet.sourdough.product4131.stock")
         %tr.even
           %td.text.main
             = t("technicalsheet.shelf")
           %td.text
-            Un anno dalla data di produzione
+            = I18n.t("technicalsheet.sourdough.product4131.shelf")
 
 
 
@@ -86,118 +86,120 @@ metas: "main"
       %tbody
         %tr.even
           %td.text
-            Umidità
+            = t("technicalsheet.umidity")
           %td.numeric
-            Grammi / 100g
+            = t("technicalsheet.grams")
           %td.numeric
-            6-9
+            = I18n.t("technicalsheet.sourdough.product4131.umidity-value")
         %tr.even
           %td.text
-            Ph
+            = t("technicalsheet.ph")
           %td.numeric
 
           %td.numeric
-            3,5 - 4,5
+            = I18n.t("technicalsheet.sourdough.product4131.ph-value")
     %table.footable{:cellspacing => "0"}
       %thead
         %tr.odd
           %th{class:"footable-first-column",:"data-toggle"=>"true"}
-            Analisi Microbiologiche
+            = t("technicalsheet.analysis")
           %th{:"data-hide"=>"phone,table"}
           %th{:"data-hide"=>"phone,table"}
       %tbody
         %tr.even
           %td.text
-            Conta batterica totale
+            = t("technicalsheet.bacteric")
           %td.numeric
-            UFC / g
+            = t("technicalsheet.ufc")
           %td.numeric
-            100.000
+            = I18n.t("technicalsheet.sourdough.product4131.bacteric-value")
 
         %tr.odd
           %td.text
-            Lieviti e Muffe
+            = t("technicalsheet.yeast")
           %td.numeric
-            UFC / g
+            = t("technicalsheet.ufc")
           %td.numeric
-            1.000
+            = I18n.t("technicalsheet.sourdough.product4131.yeast-value")
         %tr.odd
           %td.text
-            Coliformi totali
+            = t("technicalsheet.coliforms")
+
           %td.numeric
-            UFC / g
+            = t("technicalsheet.ufc")
           %td.numeric
-            100
+            = I18n.t("technicalsheet.sourdough.product4131.coliforms-value")
         %tr.odd
           %td.text
-            Salmonella
+            = t("technicalsheet.salmonela")
           %td.numeric
-            UFC / g
+            = t("technicalsheet.ufc")
           %td.numeric
-            Assente in 25 grammi
+            = I18n.t("technicalsheet.sourdough.product4131.salmonela-value")
         %tr.odd
           %td.text
-            Filth test
+            = t("technicalsheet.filth")
           %td.numeric
 
           %td.numeric
-            25 frammenti max su 50 g
+            = I18n.t("technicalsheet.sourdough.product4131.filth-value")
 
     %h2
-      Tabella allergeni (Si: contiene / No: non contiene)
+      = t("technicalsheet.allergen-title")
     %table.footable{:cellspacing => "0"}
       %thead
         %tr.odd
           %th
-            Allergeni
+            = t("technicalsheet.allergen")
           %th{:"data-hide"=>"phone,table"}
-            Si
+            = t("technicalsheet.yessa")
           %th{:"data-hide"=>"phone,table"}
-            No
+            = t("technicalsheet.nope")
 
       %tbody
         %tr.even
           %td.text
-            Cereali contenenti glutine (grano, segale, orzo, avena, farro, kamut o i loro ceppi ibridati) e prodotti derivati.
+            = t("technicalsheet.cereals")
+
           %td.img
             = image_tag "green_dot.png"
           %td.img
-            = image_tag "green_dot.png"
+
         %tr.odd
           %td.text
-            Crostacei e prodotti derivati.
+            = t("technicalsheet.crustacean")
           %td.img
-            = image_tag "green_dot.png"
+
           %td.img
             = image_tag "green_dot.png"
         %tr.even
           %td.text
-            Uova e prodotti derivati.
+            = t("technicalsheet.eggs")
           %td.img
-            = image_tag "green_dot.png"
+
           %td.img
             = image_tag "green_dot.png"
         %tr.odd
           %td.text
-            Pesce e prodotti derivati
+            = t("technicalsheet.fish")
           %td.img
-            = image_tag "green_dot.png"
+
           %td.img
             = image_tag "green_dot.png"
 
         %tr.even
           %td.text
-            Frutta a guscio - mandorle (Amigdalus communis L.), nocciole (Corylus avellana), noci comuni (Juglans regia), noci di acagiù (Anacardium occidentale), noci pecan (Carya illinoiesis (Wangenh) K. Koch), noci del Brasile (Bertholletia excelsa), pistacchi (Pistacia vera), noci del Queensland (Macadamia ternifolia) - e prodotti derivati.
-          %td.img
-            = image_tag "green_dot.png"
+            = t("technicalsheet.fruits")
           %td.img
 
+          %td.img
+            = image_tag "green_dot.png"
   .button-container
     %a.button{href:"#{I18n.t("menu.subUrl1")}"}
       = I18n.t("menu.subItem11")
   .button-container
-    %a.button{href:"#{I18n.t("sourdough.pdf-url")}", target: "_blank"}
-      = I18n.t("sourdough.button")
+    %a.button{href:"#{I18n.t("technicalsheet.sourdough.product4131.pdf-url")}", target: "_blank"}
+      = I18n.t("technicalsheet.sourdough.product4131.button")
   = partial "partials/separator-05"
   = partial "partials/contactus-section"
   = partial "partials/footer"

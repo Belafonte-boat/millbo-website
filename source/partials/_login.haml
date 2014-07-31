@@ -1,6 +1,6 @@
 %form#login-form.contact-form
-  %input#login-username.form-name{name: "email", placeholder: I18n.t("contacts.form.email"), type: "email"}/
-  %input#login-password.form-email{name: "password", placeholder: I18n.t("contacts.form.password"), type: "password"}/
+  %input#login-username.form-name{name: "email", placeholder: I18n.t("form.email"), type: "email"}/
+  %input#login-password.form-email{name: "password", placeholder: I18n.t("form.password"), type: "password"}/
   .button-container
     %button.btn.lightgreen
-      REGISTRATI
+      = t("form.login.button")

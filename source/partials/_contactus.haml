@@ -1,6 +1,10 @@
 #contactus.section
   .left3
+    %h2
+      = I18n.t("contacts.title")
   .right10
+    %p.desc
+      = I18n.t("contacts.description-page")
     .left4
       %p.contact
         = I18n.t("contacts.contact1")
@@ -9,6 +13,18 @@
       %p.contact
         = I18n.t("contacts.contact3")
     .right4
+
+      %p.contact
+        = t("contacts.item1")
+        <br />Matei I. Florentin
+        %a{href:"mailto:f.matei@millbo.it"}
+          f.matei@millbo.it
+
+      %p.contact
+        = t("contacts.item2")
+        <br />Customer Care
+        %a{href:"#"}
+          customercare@millbo.it
       %p.contact
         = I18n.t("contacts.contact4")
       %p.contact
