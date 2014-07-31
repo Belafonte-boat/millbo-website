@@ -1,6 +1,9 @@
 = partial "partials/header"
 #container
   #login.section
+    #success.alert.alert-warning
+      = t("form.registration.success")
+      %a.close{"data-dismiss" => "alert", href: "#"} ×
     #error.alert.alert-danger
       %a.close{"data-dismiss" => "alert", href: "#"} ×
     .left3

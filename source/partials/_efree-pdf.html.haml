@@ -1,0 +1,65 @@
+---
+title: "main page"
+metas: "main"
+---
+
+#container
+  = partial "partials/header-pdf"
+  #aboutus
+    .left3
+      %h2
+        = I18n.t("efree.title")
+        
+    .right9
+      %p.desc
+        = I18n.t("efree.description")
+        
+  #table
+    %table{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th 
+            = I18n.t("efree.head1") 
+          %th 
+            = I18n.t("efree.head2")
+          %th 
+            = I18n.t("efree.head3")
+          %th.special 
+            = I18n.t("efree.head4")
+      %tbody
+        %tr.even
+          %th.numeric 
+            = I18n.t("efree.row1.cell1")
+          %td.numeric 
+            = I18n.t("efree.row1.cell2")
+          %td.numeric 
+            = I18n.t("efree.row1.cell3")
+          %td.numeric 
+            = I18n.t("efree.row1.cell4")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("efree.row2.cell1")
+          %td.numeric 
+            = I18n.t("efree.row2.cell2")
+          %td.numeric 
+            = I18n.t("efree.row2.cell3")
+          %td.numeric 
+            = I18n.t("efree.row2.cell4")
+        %tr.even
+          %th.numeric 
+            = I18n.t("efree.row3.cell1")
+          %td.numeric 
+            = I18n.t("efree.row3.cell2")
+          %td.numeric 
+            = I18n.t("efree.row3.cell3")
+          %td.numeric 
+            = I18n.t("efree.row3.cell4")
+        %tr.odd
+          %th.numeric 
+            = I18n.t("efree.row4.cell1")
+          %td.numeric 
+            = I18n.t("efree.row4.cell2")
+          %td.numeric 
+            = I18n.t("efree.row4.cell3")
+          %td.numeric 
+            = I18n.t("efree.row4.cell4")

@@ -48,7 +48,7 @@ en:
                   Located in the north west region of Piedmont, industry and technology have developed on agriculture tradition.<br />
                   Equally nature and technology appear in our products, to offer new market ideas and opportunities of contemporary baking."
   efreesection:
-    title: "E-free, the idea liked by new consumers "
+    title: "E-free, the idea liked by new consumers"
     description1: "We have chosen to be E-free to allow our clients to be so."
     description2: "E-free means development, formulation and production of whole-natural baking ingredients."
     description3: "E-free offers natural-based solutions for all industrial baking needs, answers coming from nature, ensuring advantages of a clean label from long additive lists."
@@ -62,7 +62,7 @@ en:
       news1:
         title: 'The SPRING TRADIZIONE sourdough now also with "lactobacillus sanfranciscensis"'
         date: "30 May 2014"
-        text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that give the particular tast of the  San Francisco's bread.
+        text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that give the particular taste of the  San Francisco's bread.
                <br /><br />
               Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and self-life products.
                <br /><br />
@@ -157,6 +157,7 @@ en:
     registration:
       title: "REGISTER"
       button: "REGISTER"
+      success: "You succesfully register"
       description: "To view and download the technical sheets you are asked to register. You will immediately receive via email the necessary link to access the first time. From the second time on you can simply insert your username and the password that you have chosen."
       login: 'You have already an account, <a href="/login.html">login here</a>'
   bakery:
