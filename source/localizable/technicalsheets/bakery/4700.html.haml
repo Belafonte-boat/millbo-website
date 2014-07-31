@@ -11,66 +11,115 @@ metas: "main"
 
     .right9
       .button-container
-        %a.button{href:"#{I18n.t("technicalsheet.baking.product6628.pdf-url")}", target: "_blank"}
-          = I18n.t("technicalsheet.baking.product6628.button")
+        %a.button{href:"#{I18n.t("technicalsheet.baking.product4700.pdf-url")}", target: "_blank"}
+          = I18n.t("technicalsheet.baking.product4700.button")
   #indepth
     %table.footable{:cellspacing => "0"}
       %thead.none
         %tr
           %th.text.main{class:"footable-first-column",:"data-toggle"=>"true"}
-            = I18n.t("technicalsheet.baking.product6628.title")
+            = I18n.t("technicalsheet.baking.product4700.title")
           %th.text{class:"footable-last-column", :"data-hide"=>"phone,table" }
       %tbody
-        %tr
-          %td.text.main
-            = t("technicalsheet.name")
-          %td.text
-            = I18n.t("technicalsheet.baking.product6628.name")
         %tr.even
-          %td.text.main
-            = t("technicalsheet.code")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.code")
+            = t("technicalsheet.cereals")
+
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+
+        %tr.odd
+          %td.text
+            = t("technicalsheet.crustacean")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.description")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.description")
+            = t("technicalsheet.eggs")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.odd
+          %td.text
+            = t("technicalsheet.fish")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.dosage")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.dosage")
+            = t("technicalsheet.nuts")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.ingredients")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.ingredients")
+            = t("technicalsheet.soy")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.status")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.status")
+            = t("technicalsheet.milk")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.box")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.box")
+            = t("technicalsheet.fruits")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.weight")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.weight")
+            = t("technicalsheet.celery")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.stock")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.stock")
+            = t("technicalsheet.mustard")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
         %tr.even
-          %td.text.main
-            = t("technicalsheet.shelf")
           %td.text
-            = I18n.t("technicalsheet.baking.product6628.shelf")
+            = t("technicalsheet.sesame")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.sulphites")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.lupine")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.shellfish")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
 
 
 
@@ -90,14 +139,14 @@ metas: "main"
           %td.numeric
             = t("technicalsheet.grams")
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.umidity-value")
+            = I18n.t("technicalsheet.baking.product4700.umidity-value")
         %tr.even
           %td.text
             = t("technicalsheet.ph")
           %td.numeric
 
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.ph-value")
+            = I18n.t("technicalsheet.baking.product4700.ph-value")
     %table.footable{:cellspacing => "0"}
       %thead
         %tr.odd
@@ -112,7 +161,7 @@ metas: "main"
           %td.numeric
             = t("technicalsheet.ufc")
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.bacteric-value")
+            = I18n.t("technicalsheet.baking.product4700.bacteric-value")
 
         %tr.odd
           %td.text
@@ -120,7 +169,7 @@ metas: "main"
           %td.numeric
             = t("technicalsheet.ufc")
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.yeast-value")
+            = I18n.t("technicalsheet.baking.product4700.yeast-value")
         %tr.odd
           %td.text
             = t("technicalsheet.coliforms")
@@ -128,21 +177,21 @@ metas: "main"
           %td.numeric
             = t("technicalsheet.ufc")
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.coliforms-value")
+            = I18n.t("technicalsheet.baking.product4700.coliforms-value")
         %tr.odd
           %td.text
             = t("technicalsheet.salmonela")
           %td.numeric
             = t("technicalsheet.ufc")
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.salmonela-value")
+            = I18n.t("technicalsheet.baking.product4700.salmonela-value")
         %tr.odd
           %td.text
             = t("technicalsheet.filth")
           %td.numeric
 
           %td.numeric
-            = I18n.t("technicalsheet.baking.product6628.filth-value")
+            = I18n.t("technicalsheet.baking.product4700.filth-value")
 
     %h2
       = t("technicalsheet.allergen-title")
@@ -198,8 +247,8 @@ metas: "main"
     %a.button{href:"#{I18n.t("menu.subUrl1")}"}
       = I18n.t("menu.subItem11")
   .button-container
-    %a.button{href:"#{I18n.t("technicalsheet.baking.product6628.pdf-url")}", target: "_blank"}
-      = I18n.t("technicalsheet.baking.product6628.button")
+    %a.button{href:"#{I18n.t("technicalsheet.baking.product4700.pdf-url")}", target: "_blank"}
+      = I18n.t("technicalsheet.baking.product4700.button")
   = partial "partials/separator-05"
   = partial "partials/contactus-section"
   = partial "partials/footer"
