@@ -60,14 +60,16 @@ page "/sitemap.xml", :layout => false
 
 
 page "/technicalsheets/sourdough/4146.html", :layout => :html5
-
 page "/it/schedetecniche/pasteacide/4146.html", :layout => :html5
+
 page "/technicalsheets/sourdough/4131.html", :layout => :html5
-
 page "/it/schedetecniche/pasteacide/4131.html", :layout => :html5
 
-page "/it/schedetecniche/pasteacide/4131.html", :layout => :html5
+page "/it/schedetecniche/pasteacide/4139.html", :layout => :html5
+page "technicalsheets/sourdough/4139.html", :layout => :html5
 
+page "/technicalsheets/efree/3000.html", :layout => :html5
+page "/it/schedetecniche/efree/3000.html", :layout => :html5
 page "/it/prodotti/pasteacide-pdf.html", :layout => :html5
 
 set :css_dir, 'css'
