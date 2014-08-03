@@ -43,13 +43,13 @@ en:
     subUrl6: "/products/bakery.html"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
-    title: "Millbo. Where nature and technology meet"
+    title: "MILLBO.<br /> WHERE NATURE AND TECHNOLOGY MEET"
     description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br />
                   We are located in the north west region of Piedmont where industry and technology grew on a grounded agricultural tradition.<br />
                   Equally, nature and technology meld in our solutions to offer to worldwide baking companies new products and marketing ideas and then new opportunities  to grow."
 
   efreesection:
-    title: "E-free, the idea liked by new consumers"
+    title: "E-FREE,<br /> THE IDEA LIKED BY NEW CONSUMERS"
     description1: "We have chosen to be E-free to allow our clients to be so."
     description2: "E-free means development, formulation and production of whole-natural baking solutions."
     description3: "E-free offers these solutions for all industrial baking needs, ensuring all the advantages of a clean label without any long additives list. "
@@ -65,7 +65,7 @@ en:
         date: "30 May 2014"
         text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that give the particular taste of the  San Francisco's bread.
                <br /><br />
-              Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and self-life products.
+              Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and shelf-life products.
                <br /><br />
                Spring Tradizione SF is exclusively distributed by  ADEA S.r.l. that operates from 1933 providing ingredients destined to the italian food industry.
           "
@@ -73,9 +73,15 @@ en:
     title: "OUR SOLUTIONS"
     description:
       "Sourdough, malts, bakery enzymes, ferments, bakery solutions, E-free solutions. Our offer embraces six different alternatives that give to the baking industry the opportunity to improve look, texture, aroma and shelf-life of the products, satisfying the consumer expectations."
-    description-page: "Over fourty years Millbo dedicated all its efforts to research natural solutions for baking.<br />
-                       The result of this commitment are the numerous certified aknowledgements that we obtained thanks to the quality of our productive processes, of our primary materials, of our organization and our products.<br />
-                       Cliking the link below, you can view and download all the certifications in PDF format."
+    description-page: "In decades of activity we have faced and solved complex requests for baking companies worldwide.<br />
+
+                       For each one on these, our researchers have studied and suited customised and effective solutions
+
+                       without adding any chemical synthesis product.<br />
+
+                       This our peculiarity makes us proud about the work we do. It is also the point of difference that
+
+                       distiguishes Millbo from its competitors."
     button: "SOLUTIONS RANGE"
     product1:
       title: "SOURDOUGH"
@@ -98,14 +104,14 @@ en:
     page-url: "/solutions.html"
     button-text: "SEE ALL OUR SOLUTIONS"
   certificates:
-      title: "Natural solutions, certified solutions"
+      title: "NATURAL SOLUTIONS, CERTIFIED SOLUTIONS"
       download: "download pdf"
       description: "Over fourty years Millbo dedicated all its efforts to research natural solutions for baking.<br />
                     The result of this commitment are the numerous certified aknowledgements that we obtained thanks to the quality of our productive processes, of our primary materials, of our organization and our products.<br />
                     Cliking the link below, you can view and download all the certifications in PDF format."
       description-page: "Here you can see all the certifications that awards our daily effort and our continuous research of excellence. You can download them singualarly in PDF format selecting the one of your interest or simply all of them cliking the button at the bottom page"
       button: "DOWNLOAD THE CERTIFICATIONS IN PDF"
-      pdf-url: "/pdf/Certifications_MILLBO.pdf"
+      pdf-url: "/pdf/en/Certifications_MILLBO.pdf"
       button-text: "ALL THE CERTIFICATIONS"
       page-url: "/certifications.html"
       certificate1: "BRC Certificate"
@@ -123,15 +129,15 @@ en:
   contacts:
     title: "CONTACT US"
     description-page: "We are present in many countries of the world.
-                  To receive any necessary information, you can contact us directly at our headquarter sending an email the most appropriate address.
-                  We would be pleased to analise your requests and to offer a prompt and personalised reply."
+                  To receive any necessary information, you can contact us directly at our headquarter just sending an email to the most appropriate address.
+                  We will be pleased to analyse your requests and we will give you a prompt and personalised reply."
     item1: "For Central & Eastern Europe, Bulgaria, Romania, Moldova, Hungary, Czech Republic, Slovakia, Poland contact:"
     item2: "For all other countries contact:"
     description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will combine nature and technology to give you the ideal solution."
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
-    contact3: "phone +39 0321795911<br />fax +39 0321795920"
-    contact4: 'For technical files, samples, info over products and certifications: <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
+    contact3: "phone +39 0321 795911<br />fax +39 0321 795920"
+    contact4: 'For technical files, samples, info about products and certifications: <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'For orders and/or deliveries: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "For general enquires not included above, please fill out the form, Millbo will contact you immediately."
     contact7: "Millbo spa Via Bellaria, s.n. 28069 Trecate (NO) Italy. Capitale Sociale <span>€</span> 8.000.000,00 interamente versato<br /> C.C.I.A.A. Novara: 06941560960 R.E.A. NO-0224096 C.F:06941560960 P.IVA: 06941560960"
@@ -166,11 +172,12 @@ en:
     title: "BAKERY SOLUTIONS"
     description: "A longer shelf-life for bread and cakes thanks to natural anti-staling and anti-mould solutions."
     button: "DOWNLOAD BAKERY SOLUTIONS PDF"
-    pdf-url: "/pdf/en/bakery_solutions.pdf"
+    pdf-url: "/products/bakery-pdf.html"
     head1: "Code"
     head2: "Description"
     head3: "Product"
     head4: "Dose"
+    head5: "Technical sheet"
     row1:
       cell1: "6335"
       cell2: "XTEND C"
@@ -207,11 +214,12 @@ en:
     title: "E-FREE SOLUTIONS: FOR CAKES AND SWEET GOODS"
     description: "To increase volume and softness of the dough, while keeping freshness longer, adding taste and aroma. Natural elements ensure a clean label."
     button: "DOWNLOAD E-FREE SOLUTIONS PDF"
-    pdf-url: "/pdf/en/efree_solutions.pdf"
+    pdf-url: "/products/efree-pdf.html"
     head1: "Code"
     head2: "Product"
     head3: "Description"
     head4: "Dose"
+    head5: "Technical sheet"
 
     row1:
       cell1: "3000"
@@ -237,7 +245,7 @@ en:
     title: "FERMENTS"
     description: "Thanks to our advanced research, the cultures reach new levels of specilization and efficiency, serving both the craft and industrial production."
     button: "DOWNLOAD FERMENTS PDF"
-    pdf-url: "/pdf/en/ferments.pdf"
+    pdf-url: "/products/ferments-pdf.html"
     head1: "Code"
     head2: "Product"
     head3: "Description"
@@ -268,11 +276,13 @@ en:
     title: "BAKERY ENZYMES"
     description: "From essential applications for bakery to innovative and exclusive products. A complete range that includes both pure enzymes and blended solutions designed to increase volume, shelf life extension and freshness."
     button: "DOWLOAD BAKERY ENZYMES PDF"
-    pdf-url: "/pdf/en/bakery_enzymes.pdf"
+    pdf-url: "/products/enzymes-pdf.html"
     head1: "Code"
     head2: "Product"
     head3: "Description"
     head4: "Dose"
+    head5: "Technical sheet"
+
     row1:
       cell1: "1171"
       cell2: "M 100 BAKERMATE"
@@ -336,8 +346,10 @@ en:
     head2: "Product"
     head3: "Color"
     head4: "Description"
+    head5: "Technical sheet"
+
     button: "DOWLOAD MALTS PDF"
-    pdf-url: "/pdf/en/malts.pdf"
+    pdf-url: "/products/malts-pdf.html"
     row1:
       cell1: "4021"
       cell2: "MALT IT 110"
@@ -380,7 +392,7 @@ en:
     head4: "Applications"
     head5: "Technical sheet"
     button: "DOWNLOAD PDF"
-    pdf-url: "/pdf/en/sourdough.pdf"
+    pdf-url: "/products/sourdough-pdf.html"
     row1:
       cell1: "4146"
       cell2: "SPRING W6"
@@ -524,8 +536,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4131 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4131pdf.html"
-        url: "/it/schedetecniche/pasteacide/4131.html"
+        pdf-url: "/technicalsheets/sourdough/4131pdf.html"
+        url: "/technicalsheets/sourdough/4131.html"
       product4139:
         name: "SPRING R10"
         code: "4139"
@@ -545,8 +557,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4139 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4139pdf.html"
-        url: "/it/schedetecniche/pasteacide/4139.html"
+        pdf-url: "/technicalsheets/sourdough/4139pdf.html"
+        url: "/technicalsheets/sourdough/4139.html"
       product4146:
         name: "SPRING W6"
         code: "4146"
@@ -566,8 +578,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4146 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4146pdf.html"
-        url: "/it/schedetecniche/pasteacide/4146.html"
+        pdf-url: "/technicalsheets/sourdough/4146pdf.html"
+        url: "/technicalsheets/sourdough/4146.html"
       product4199:
         name: "SPRING PANE"
         code: "4199"
@@ -587,8 +599,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Dowload 4199 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4199pdf.html"
-        url: "/it/schedetecniche/pasteacide/4199.html"
+        pdf-url: "/technicalsheets/sourdough/4199pdf.html"
+        url: "/technicalsheets/sourdough/4199.html"
       product4228:
         name: "SPRING FOCACCIA"
         code: "4228"
@@ -608,8 +620,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Dowload 4228 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4228pdf.html"
-        url: "/it/schedetecniche/pasteacide/4228.html"
+        pdf-url: "/technicalsheets/sourdough/4228pdf.html"
+        url: "/technicalsheets/sourdough/4228.html"
       product4260:
         name: "SPRING TRADIZIONE"
         code: "4260"
@@ -628,8 +640,8 @@ en:
         coliforms-value: "100"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4260 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4260pdf.html"
-        url: "/it/schedetecniche/pasteacide/4260.html"
+        pdf-url: "/technicalsheets/sourdough/4260pdf.html"
+        url: "/technicalsheets/sourdough/4260.html"
       product4262:
         name: "SPRING TRADIZIONE SF"
         code: "4262"
@@ -648,8 +660,8 @@ en:
         coliforms-value: "100"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4262 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4262pdf.html"
-        url: "/it/schedetecniche/pasteacide/4262.html"
+        pdf-url: "/technicalsheets/sourdough/4262pdf.html"
+        url: "/technicalsheets/sourdough/4262.html"
       product4505:
         name: "SPRING SIENA"
         code: "4505"
@@ -669,8 +681,8 @@ en:
         salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4505 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4505pdf.html"
-        url: "/it/schedetecniche/pasteacide/4505.html"
+        pdf-url: "/technicalsheets/sourdough/4505pdf.html"
+        url: "/technicalsheets/sourdough/4505.html"
       product4506:
         name: "SPRING WHITE"
         code: "4506"
@@ -690,8 +702,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4506 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4506pdf.html"
-        url: "/it/schedetecniche/pasteacide/4506.html"
+        pdf-url: "/technicalsheets/sourdough/4506pdf.html"
+        url: "/technicalsheets/sourdough/4506.html"
       product4507:
         name: "SPRING NORCIA"
         code: "4507"
@@ -711,8 +723,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Dowload 4507 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4507pdf.html"
-        url: "/it/schedetecniche/pasteacide/4507.html"
+        pdf-url: "/technicalsheets/sourdough/4507pdf.html"
+        url: "/technicalsheets/sourdough/4507.html"
       product4508:
         name: "SPRING ALBA"
         code: "4508"
@@ -732,8 +744,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download4508 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4508pdf.html"
-        url: "/it/schedetecniche/pasteacide/4508.html"
+        pdf-url: "/technicalsheets/sourdough/4508pdf.html"
+        url: "/technicalsheets/sourdough/4508.html"
       product4707:
         name: "SPRING PANETTONE MINI"
         code: "4707"
@@ -752,8 +764,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4707 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4707pdf.html"
-        url: "/it/schedetecniche/pasteacide/4707.html"
+        pdf-url: "/technicalsheets/sourdough/4707pdf.html"
+        url: "/technicalsheets/sourdough/4707.html"
       product4888:
         name: "LS 1"
         code: "4888"
@@ -772,8 +784,8 @@ en:
         salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4888 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4888pdf.html"
-        url: "/it/schedetecniche/pasteacide/4888.html"
+        pdf-url: "/technicalsheets/sourdough/4888pdf.html"
+        url: "/technicalsheets/sourdough/4888.html"
       product4889:
         name: "LS 2"
         code: "4889"
@@ -792,8 +804,8 @@ en:
         salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4889 PDF "
-        pdf-url: "/it/schedetecniche/pasteacide/4889pdf.html"
-        url: "/it/schedetecniche/pasteacide/4889.html"
+        pdf-url: "/technicalsheets/sourdough/4889pdf.html"
+        url: "/technicalsheets/sourdough/4889.html"
 
     efree:
       product3000:
@@ -814,8 +826,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 3000 PDF"
-        pdf-url: "/it/schedetecniche/efree/3000pdf.html"
-        url: "/it/schedetecniche/efree/3000.html"
+        pdf-url: "/technicalsheets/efree/3000pdf.html"
+        url: "/technicalsheets/efree/3000.html"
       product3020:
         name: "EFFECTO EGG"
         code: "3020"
@@ -834,8 +846,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 3020 PDF "
-        pdf-url: "/it/schedetecniche/efree/3020pdf.html"
-        url: "/it/schedetecniche/efree/3020.html"
+        pdf-url: "/technicalsheets/efree/3020pdf.html"
+        url: "/technicalsheets/efree/3020.html"
       product3040:
         name: "EFFECTO CAKE 840"
         code: "3040"
@@ -854,8 +866,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 3040 PDF "
-        pdf-url: "/it/schedetecniche/efree/3040pdf.html"
-        url: "/it/schedetecniche/efree/3040.html"
+        pdf-url: "/technicalsheets/efree/3040pdf.html"
+        url: "/technicalsheets/efree/3040.html"
       product3041:
         name: "EFFECTO BISCUIT 920"
         code: "3041"
@@ -874,8 +886,8 @@ en:
         salmonela-value: "Not present in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Dowload 3041 PDF "
-        pdf-url: "/it/schedetecniche/efree/3041pdf.html"
-        url: "/it/schedetecniche/efree/3041.html"
+        pdf-url: "/technicalsheets/efree/3041pdf.html"
+        url: "/technicalsheets/efree/3041.html"
 
     cultures:
       product2002:
@@ -895,8 +907,8 @@ en:
         coliforms-value: "<10"
         salmonela-value: "Absent  in 25 grams"
         button: "Download 2002 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2002pdf.html"
-        url: "/it/schedetecniche/cultures/2002.html"
+        pdf-url: "/technicalsheets/cultures/2002pdf.html"
+        url: "/technicalsheets/cultures/2002.html"
       product2004:
         name: "AURUM BREVIS"
         code: "2004"
@@ -914,8 +926,8 @@ en:
         coliforms-value: "<10"
         salmonela-value: "Absent  in 25 grams"
         button: "Download 2004 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2004pdf.html"
-        url: "/it/schedetecniche/cultures/2004.html"
+        pdf-url: "/technicalsheets/cultures/2004pdf.html"
+        url: "/technicalsheets/cultures/2004.html"
       product2004i:
         name: "AURUM ITALIA"
         code: "2004"
@@ -933,8 +945,8 @@ en:
         coliforms-value: "<10"
         salmonela-value: "Absent  in 25 grams"
         button: "Download 2004i PDF "
-        pdf-url: "/it/schedetecniche/cultures/2004ipdf.html"
-        url: "/it/schedetecniche/cultures/2004i.html"
+        pdf-url: "/technicalsheets/cultures/2004ipdf.html"
+        url: "/technicalsheets/cultures/2004i.html"
       product2005:
         name: "AURUM GUSTO"
         code: "2005"
@@ -953,8 +965,8 @@ en:
         salmonela-value: "Absent  in 25 grams"
         filth-value: "25 frammenti max su 50 g"
         button: "Download 2005 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2005pdf.html"
-        url: "/it/schedetecniche/cultures/2005.html"
+        pdf-url: "/technicalsheets/cultures/2005pdf.html"
+        url: "/technicalsheets/cultures/2005.html"
       product2010:
         name: "AURUM SF"
         code: "2010"
@@ -972,8 +984,8 @@ en:
         coliforms-value: "<10"
         salmonela-value: "Absent  in 25 grams"
         button: "Download 2010 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2010pdf.html"
-        url: "/it/schedetecniche/cultures/2010.html"
+        pdf-url: "/technicalsheets/cultures/2010pdf.html"
+        url: "/technicalsheets/cultures/2010.html"
     enzymes:
       product1108:
         name: "M 300 B4"
@@ -990,8 +1002,8 @@ en:
         coliforms-value: "100"
         salmonela-value: "Absent in 25 grams"
         button: "Download 1108 PDF "
-        pdf-url: "/it/schedetecniche/enzymes/1108pdf.html"
-        url: "/it/schedetecniche/enzymes/1108.html"
+        pdf-url: "/technicalsheets/enzymes/1108pdf.html"
+        url: "/technicalsheets/enzymes/1108.html"
       product1118:
          name: "M 200 P"
          code: "1118"
@@ -1007,8 +1019,8 @@ en:
          coliforms-value: "1.000"
          salmonela-value: "Absent in 25 grams"
          button: "Download 1118 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1118pdf.html"
-         url: "/it/schedetecniche/enzymes/1118.html"
+         pdf-url: "/technicalsheets/enzymes/1118pdf.html"
+         url: "/technicalsheets/enzymes/1118.html"
       product1123:
          name: "M 500 NS"
          code: "1123"
@@ -1025,8 +1037,8 @@ en:
          coliforms-value: "1.000"
          salmonela-value: "Absent in 25 grams"
          button: "Download 1123 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1123pdf.html"
-         url: "/it/schedetecniche/enzymes/1123.html"
+         pdf-url: "/technicalsheets/enzymes/1123pdf.html"
+         url: "/technicalsheets/enzymes/1123.html"
       product1124:
          name: "M 300 LP"
          code: "1124"
@@ -1043,8 +1055,8 @@ en:
          coliforms-value: "100"
          salmonela-value: "Absent in 25 grams"
          button: "Download 1124 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1124pdf.html"
-         url: "/it/schedetecniche/enzymes/1124.html"
+         pdf-url: "/technicalsheets/enzymes/1124pdf.html"
+         url: "/technicalsheets/enzymes/1124.html"
       product1135:
          name: "M 500 FL"
          code: "1135"
@@ -1060,8 +1072,8 @@ en:
          coliforms-value: "100"
          salmonela-value: "Absent in 25 grams"
          button: "Download 1135 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1135pdf.html"
-         url: "/it/schedetecniche/enzymes/1135.html"
+         pdf-url: "/technicalsheets/enzymes/1135pdf.html"
+         url: "/technicalsheets/enzymes/1135.html"
       product1171:
          name: "M 100 BAKERMATE CONCENTRATE"
          code: "1171"
@@ -1077,8 +1089,8 @@ en:
          coliforms-value: "100"
          salmonela-value: "Absent in 25 grams"
          button: "Download 1171 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1171pdf.html"
-         url: "/it/schedetecniche/enzymes/1171.html"
+         pdf-url: "/technicalsheets/enzymes/1171pdf.html"
+         url: "/technicalsheets/enzymes/1171.html"
     baking:
       product6628:
         name: "BAKING S"
@@ -1098,8 +1110,8 @@ en:
         salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 6628 PDF "
-        pdf-url: "/it/schedetecniche/baking/6628pdf.html"
-        url: "/it/schedetecniche/baking/6628.html"
+        pdf-url: "/technicalsheets/baking/6628pdf.html"
+        url: "/technicalsheets/baking/6628.html"
       product6630:
         name: "BAKING M3"
         code: "6630"
@@ -1118,8 +1130,8 @@ en:
         salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 6630 PDF "
-        pdf-url: "/it/schedetecniche/baking/6630pdf.html"
-        url: "/it/schedetecniche/baking/6630.html"
+        pdf-url: "/technicalsheets/baking/6630pdf.html"
+        url: "/technicalsheets/baking/6630.html"
       product6631:
         name: "BAKING"
         code: "6631"
@@ -1138,8 +1150,8 @@ en:
         salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Scarica 6631 PDF "
-        pdf-url: "/it/schedetecniche/baking/6631pdf.html"
-        url: "/it/schedetecniche/baking/6631.html"
+        pdf-url: "/technicalsheets/baking/6631pdf.html"
+        url: "/technicalsheets/baking/6631.html"
       product4700:
          name: "SPRING X-tra life 2%"
          code: "4700"
@@ -1159,8 +1171,8 @@ en:
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4700 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4700pdf.html"
-         url: "/it/schedetecniche/bakery/4700.html"
+         pdf-url: "/technicalsheets/bakery/4700pdf.html"
+         url: "/technicalsheets/bakery/4700.html"
       product4701:
          name: "SPRING X-tra life 1 %"
          code: "4701"
@@ -1180,8 +1192,8 @@ en:
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4701 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4701pdf.html"
-         url: "/it/schedetecniche/bakery/4701.html"
+         pdf-url: "/technicalsheets/bakery/4701pdf.html"
+         url: "/technicalsheets/bakery/4701.html"
       product4155:
          name: "ALPENBROT CONCENTRATO"
          code: "4155"
@@ -1200,8 +1212,8 @@ en:
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4155 PDF"
-         pdf-url: "/it/schedetecniche/bakery/4155pdf.html"
-         url: "/it/schedetecniche/bakery/4155.html"
+         pdf-url: "/technicalsheets/bakery/4155pdf.html"
+         url: "/technicalsheets/bakery/4155.html"
       product6341:
          name: "SOIA CONCENTRATO"
          code: "6341"
@@ -1220,8 +1232,8 @@ en:
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 6341 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6341pdf.html"
-         url: "/it/schedetecniche/bakery/6341.html"
+         pdf-url: "/technicalsheets/bakery/6341pdf.html"
+         url: "/technicalsheets/bakery/6341.html"
       product6344:
          name: "LINSOY"
          code: "6344"
@@ -1240,8 +1252,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 6344 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6344pdf.html"
-         url: "/it/schedetecniche/bakery/6344.html"
+         pdf-url: "/technicalsheets/bakery/6344pdf.html"
+         url: "/technicalsheets/bakery/6344.html"
       product6365:
          name: "BAVARIAN"
          code: "6365"
@@ -1260,8 +1272,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 6365 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6365pdf.html"
-         url: "/it/schedetecniche/bakery/6365.html"
+         pdf-url: "/technicalsheets/bakery/6365pdf.html"
+         url: "/technicalsheets/bakery/6365.html"
       product4103:
          name: "DOMINO VERDE"
          code: "4103"
@@ -1280,8 +1292,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 4103 PDF"
-         pdf-url: "/it/schedetecniche/bakery/4103pdf.html"
-         url: "/it/schedetecniche/bakery/4103.html"
+         pdf-url: "/technicalsheets/bakery/4103pdf.html"
+         url: "/technicalsheets/bakery/4103.html"
       product6304:
          name: "X-TEND IIIG"
          code: "6304"
@@ -1300,8 +1312,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 6304 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6304pdf.html"
-         url: "/it/schedetecniche/bakery/6304.html"
+         pdf-url: "/technicalsheets/bakery/6304pdf.html"
+         url: "/technicalsheets/bakery/6304.html"
       product6335:
          name: "X-TEND C"
          code: "6335"
@@ -1320,8 +1332,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 6335 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6335pdf.html"
-         url: "/it/schedetecniche/bakery/6335.html"
+         pdf-url: "/technicalsheets/bakery/6335pdf.html"
+         url: "/technicalsheets/bakery/6335.html"
       product6688:
          name: "X-TEND 2X2"
          code: "6688"
@@ -1340,8 +1352,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 6688 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6688pdf.html"
-         url: "/it/schedetecniche/bakery/6688.html"
+         pdf-url: "/technicalsheets/bakery/6688pdf.html"
+         url: "/technicalsheets/bakery/6688.html"
       product6689:
          name: "X-TEND 2X2 DOLCI"
          code: "6689"
@@ -1360,8 +1372,8 @@ en:
          stock: "Ambient, dry."
          shelf: "One year from date of manufacture"
          button: "Download 6689 PDF"
-         pdf-url: "/it/schedetecniche/bakery/6689pdf.html"
-         url: "/it/schedetecniche/bakery/6689.html"
+         pdf-url: "/technicalsheets/bakery/6689pdf.html"
+         url: "/technicalsheets/bakery/6689.html"
     malts:
       product4021:
          name: "MALT-IT 110"
@@ -1380,11 +1392,14 @@ en:
          bacteric-value: "1.000"
          yeast-value: "100"
          coliforms-value: "100"
+         button: "Scarica 4021 PDF "
+         pdf-url: "/technicalsheets/malti/4021pdf.html"
+         url: "/technicalsheets/malti/4021.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4021 PDF "
-         pdf-url: "/it/schedetecniche/malts/4021pdf.html"
-         url: "/it/schedetecniche/malts/4021.html"
+         pdf-url: "/technicalsheets/malts/4021pdf.html"
+         url: "/technicalsheets/malts/4021.html"
       product4022:
          name: "MALT-IT 40"
          code: "4022"
@@ -1402,11 +1417,14 @@ en:
          bacteric-value: "1.000"
          yeast-value: "100"
          coliforms-value: "100"
+         button: "Scarica 4022 PDF "
+         pdf-url: "/technicalsheets/malti/4022pdf.html"
+         url: "/technicalsheets/malti/4022.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4022 PDF "
-         pdf-url: "/it/schedetecniche/malts/4022pdf.html"
-         url: "/it/schedetecniche/malts/4022.html"
+         pdf-url: "/technicalsheets/malts/4022pdf.html"
+         url: "/technicalsheets/malts/4022.html"
       product4023:
          name: "MALT-IT 130"
          code: "4023"
@@ -1424,11 +1442,14 @@ en:
          bacteric-value: "1.000"
          yeast-value: "100"
          coliforms-value: "100"
+         button: "Scarica 4023 PDF "
+         pdf-url: "/technicalsheets/malti/4023pdf.html"
+         url: "/technicalsheets/malti/4023.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4023 PDF "
-         pdf-url: "/it/schedetecniche/malts/4023pdf.html"
-         url: "/it/schedetecniche/malts/4023.html"
+         pdf-url: "/technicalsheets/malts/4023pdf.html"
+         url: "/technicalsheets/malts/4023.html"
       product4025:
          name: "MALT IT 25"
          code: "4025"
@@ -1446,11 +1467,14 @@ en:
          bacteric-value: "1.000"
          yeast-value: "100"
          coliforms-value: "100"
+         button: "Scarica 4025 PDF "
+         pdf-url: "/technicalsheets/malti/4025pdf.html"
+         url: "/technicalsheets/malti/4025.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4025 PDF "
-         pdf-url: "/it/schedetecniche/malts/4025pdf.html"
-         url: "/it/schedetecniche/malts/4025.html"
+         pdf-url: "/technicalsheets/malts/4025pdf.html"
+         url: "/technicalsheets/malts/4025.html"
       product4026:
          name: "MALT-IT 14"
          code: "4026"
@@ -1468,11 +1492,14 @@ en:
          bacteric-value: "2.000.000"
          yeast-value: "50.000"
          coliforms-value: "1.000"
+         button: "Scarica 4026 PDF "
+         pdf-url: "/technicalsheets/malti/4026pdf.html"
+         url: "/technicalsheets/malti/4026.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4026 PDF "
-         pdf-url: "/it/schedetecniche/malts/4026pdf.html"
-         url: "/it/schedetecniche/malts/4026.html"
+         pdf-url: "/technicalsheets/malts/4026pdf.html"
+         url: "/technicalsheets/malts/4026.html"
       product4030:
          name: "MALT- IT 110 Z"
          code: "4030"
@@ -1490,11 +1517,14 @@ en:
          bacteric-value: "1.000"
          yeast-value: "100"
          coliforms-value: "100"
+         button: "Scarica 4030 PDF "
+         pdf-url: "/technicalsheets/malti/4030pdf.html"
+         url: "/technicalsheets/malti/4030.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4030 PDF "
-         pdf-url: "/it/schedetecniche/malts/4030pdf.html"
-         url: "/it/schedetecniche/malts/4030.html"
+         pdf-url: "/technicalsheets/malts/4030pdf.html"
+         url: "/technicalsheets/malts/4030.html"
       product4039:
          name: "MALT-IT 12 W"
          code: "4039"
@@ -1512,10 +1542,13 @@ en:
          bacteric-value: "10.000"
          yeast-value: "100"
          coliforms-value: "100"
+         button: "Scarica 4039 PDF "
+         pdf-url: "/technicalsheets/malti/4039pdf.html"
+         url: "/technicalsheets/malti/4039.html"
          salmonela-value: "Absent in 25 grams"
          filth-value: "25 fragments max on 50 g"
          button: "Download 4039 PDF "
-         pdf-url: "/it/schedetecniche/malts/4039pdf.html"
-         url: "/it/schedetecniche/malts/4039.html"
+         pdf-url: "/technicalsheets/malts/4039pdf.html"
+         url: "/technicalsheets/malts/4039.html"
 
 

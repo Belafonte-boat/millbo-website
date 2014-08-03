@@ -17,48 +17,70 @@ metas: "main"
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th 
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
             = I18n.t("cultures.head1")
-          %th 
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("cultures.head2")
-          %th 
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("cultures.head3")
+          %th{class:"footable-last-column",colspan:"2"}
+            = I18n.t("cultures.head5")
       %tbody
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("cultures.row1.cell1")
           %td.numeric 
             = I18n.t("cultures.row1.cell2")
           %td.numeric 
             = I18n.t("cultures.row1.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.cultures.product2002.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.cultures.product2002.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("cultures.row2.cell1")
           %td.numeric 
             = I18n.t("cultures.row2.cell2")
           %td.numeric 
             = I18n.t("cultures.row2.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.cultures.product2003.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.cultures.product2003.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("cultures.row3.cell1")
           %td.numeric 
             = I18n.t("cultures.row3.cell2")
           %td.numeric 
             = I18n.t("cultures.row3.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.cultures.product2004.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.cultures.product2004.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("cultures.row4.cell1")
           %td.numeric 
             = I18n.t("cultures.row4.cell2")
           %td.numeric 
             = I18n.t("cultures.row4.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.cultures.product2005.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.cultures.product2005.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("cultures.row5.cell1")
           %td.numeric 
             = I18n.t("cultures.row5.cell2")
           %td.numeric 
             = I18n.t("cultures.row5.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.cultures.product2010.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.cultures.product2010.pdf-url")}"}
     .button-container
       %a.button{href:"#{I18n.t("cultures.pdf-url")}", target: "_blank"}
         = I18n.t("cultures.button")

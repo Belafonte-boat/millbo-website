@@ -209,19 +209,19 @@ page "/it/schedetecniche/malti/4039.html", :layout => :html5
 
 
 page "/technicalsheets/cultures/2002.html", :layout => :html5
-page "/it/schedetecniche/cultures/2002.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2002.html", :layout => :html5
 
 page "/technicalsheets/cultures/2004.html", :layout => :html5
-page "/it/schedetecniche/cultures/2004.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2004.html", :layout => :html5
 
 page "/technicalsheets/cultures/2004i.html", :layout => :html5
-page "/it/schedetecniche/cultures/2004i.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2004i.html", :layout => :html5
 
 page "/technicalsheets/cultures/2005.html", :layout => :html5
-page "/it/schedetecniche/cultures/2005.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2005.html", :layout => :html5
 
 page "/technicalsheets/cultures/2010.html", :layout => :html5
-page "/it/schedetecniche/cultures/2010.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2010.html", :layout => :html5
 
 
 page "/it/prodotti/pasteacide-pdf.html", :layout => :html5
@@ -396,19 +396,19 @@ page "/it/schedetecniche/malti/4039pdf.html", :layout => :html5
 
 
 page "/technicalsheets/cultures/2002pdf.html", :layout => :html5
-page "/it/schedetecniche/cultures/2002pdf.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2002pdf.html", :layout => :html5
 
 page "/technicalsheets/cultures/2004pdf.html", :layout => :html5
-page "/it/schedetecniche/cultures/2004pdf.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2004pdf.html", :layout => :html5
 
 page "/technicalsheets/cultures/2004ipdf.html", :layout => :html5
-page "/it/schedetecniche/cultures/2004ipdf.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2004ipdf.html", :layout => :html5
 
 page "/technicalsheets/cultures/2005pdf.html", :layout => :html5
-page "/it/schedetecniche/cultures/2005pdf.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2005pdf.html", :layout => :html5
 
 page "/technicalsheets/cultures/2010pdf.html", :layout => :html5
-page "/it/schedetecniche/cultures/2010pdf.html", :layout => :html5
+page "/it/schedetecniche/fermenti/2010pdf.html", :layout => :html5
 
 
 
