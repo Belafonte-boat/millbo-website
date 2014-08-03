@@ -1,0 +1,257 @@
+---
+title: "main page"
+metas: "main"
+---
+
+#container
+  = partial "partials/header-pdf"
+  #solution.technicalsheet
+    .left3
+      %h2
+        = I18n.t("sourdough.title")
+
+    .right9
+
+  #indepth
+    %table.footable{:cellspacing => "0"}
+      %thead.none
+        %tr
+          %th.text.main{class:"footable-first-column",:"data-toggle"=>"true"}
+            = I18n.t("technicalsheet.baking.product6628.title")
+          %th.text{class:"footable-last-column", :"data-hide"=>"phone,table" }
+      %tbody
+        %tr
+          %td.text.main
+            = t("technicalsheet.name")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.name")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.code")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.code")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.description")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.description")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.dosage")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.dosage")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.ingredients")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.ingredients")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.status")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.status")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.box")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.box")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.weight")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.weight")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.stock")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.stock")
+        %tr.even
+          %td.text.main
+            = t("technicalsheet.shelf")
+          %td.text
+            = I18n.t("technicalsheet.baking.product6628.shelf")
+
+
+
+  #table
+    %table.footable{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+            = t("technicalsheet.specifics")
+          %th{:"data-hide"=>"phone,table"}
+          %th{:"data-hide"=>"phone,table"}
+
+      %tbody
+        %tr.even
+          %td.text
+            = t("technicalsheet.umidity")
+          %td.numeric
+            = t("technicalsheet.grams")
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.umidity-value")
+        %tr.even
+          %td.text
+            = t("technicalsheet.ph")
+          %td.numeric
+
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.ph-value")
+    %table.footable{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
+            = t("technicalsheet.analysis")
+          %th{:"data-hide"=>"phone,table"}
+          %th{:"data-hide"=>"phone,table"}
+      %tbody
+        %tr.even
+          %td.text
+            = t("technicalsheet.bacteric")
+          %td.numeric
+            = t("technicalsheet.ufc")
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.bacteric-value")
+
+        %tr.odd
+          %td.text
+            = t("technicalsheet.yeast")
+          %td.numeric
+            = t("technicalsheet.ufc")
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.yeast-value")
+        %tr.odd
+          %td.text
+            = t("technicalsheet.coliforms")
+
+          %td.numeric
+            = t("technicalsheet.ufc")
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.coliforms-value")
+        %tr.odd
+          %td.text
+            = t("technicalsheet.salmonela")
+          %td.numeric
+            = t("technicalsheet.ufc")
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.salmonela-value")
+        %tr.odd
+          %td.text
+            = t("technicalsheet.filth")
+          %td.numeric
+
+          %td.numeric
+            = I18n.t("technicalsheet.baking.product6628.filth-value")
+
+    %h2
+      = t("technicalsheet.allergen-title")
+    %table.footable{:cellspacing => "0"}
+      %thead
+        %tr.odd
+          %th
+            = t("technicalsheet.allergen")
+          %th{:"data-hide"=>"phone,table"}
+            = t("technicalsheet.yessa")
+          %th{:"data-hide"=>"phone,table"}
+            = t("technicalsheet.nope")
+
+      %tbody
+        %tr.even
+          %td.text
+            = t("technicalsheet.cereals")
+
+          %td.img
+            = image_tag "green_dot.png"
+          %td.img
+
+        %tr.odd
+          %td.text
+            = t("technicalsheet.crustacean")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.eggs")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.odd
+          %td.text
+            = t("technicalsheet.fish")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.nuts")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.soy")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.milk")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.fruits")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.celery")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.mustard")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.sesame")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.sulphites")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.lupine")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"
+        %tr.even
+          %td.text
+            = t("technicalsheet.shellfish")
+          %td.img
+
+          %td.img
+            = image_tag "green_dot.png"

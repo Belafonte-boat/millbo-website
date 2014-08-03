@@ -78,8 +78,8 @@ it:
                      naturalità e bontà della nutrizione sono valori in costante crescita."
       description5: "La nostra idea di E-free si basa su ricerca e progettazione custom-made, i due veri punti di forza
                      dell'azienda."
-      description6: "Le nostre dimensioni e la nostra flessibilità, unite ad un reparto R&S d'eccellenza, ci permettono
-                    infatti di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di
+      description6: "Le nostre dimensioni e la nostra capacità di essere flessibili, unite ad un reparto R&S d'eccellenza, ci permettono
+                    di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di
                     pane e prodotti dolciari da forno."
   products:
     title: "LE NOSTRE SOLUZIONI"
@@ -121,21 +121,9 @@ it:
   certificates:
     title: "SOLUZIONI NATURALI, SOLUZIONI CERTIFICATE"
     download: "download pdf"
-    description: "Da oltre quarant'anni Millbo si dedica alla ricerca di
-
-                  soluzioni naturali per la panificazione. Il risultato di
-
-                  questo impegno esclusivo sono le numerose certificazioni
-
-                  e riconoscimenti ottenuti grazie alla qualità dei nostri
-
-                  processi produttivi, la qualità delle nostre materie prime,
-
-                  la qualità della nostra organizzazione e dei nostri
-
-                  prodotti. Cliccando sul bottone qui sotto potete visionarle
-
-                  e scaricarle in formato PDF."
+    description: "Da oltre 40 anniMillbo si dedica alla ricerca di soluzioni naturali per la panificazione.<br />
+                   Il risultato di questo impegno sono le numerose certificazioni e riconoscimenti ottenuti grazie alla qualità dei nostri processi produttivi, delle nostre materie prime, della nostra organizzazione e dei nostri prodotti.<br />
+                   Cliccando sul link qui sotto potete visionarle e scaricarle in formato PDF."
     description-page: "Qui potete vedere tutte le certificazioni che premiano il
 
                        nostro impegno quotidiano e la nostra continua ricerca
@@ -182,7 +170,7 @@ it:
 
                        contattare direttamente la nostra sede centrale inviando
 
-                       un’email ad uno degli indirizzi che vedete qui sotto.
+                       un’email all'indirizzo appropriato.
 
                        Saremo lieti di studiare le vostre esigenze e di offrivi una
 
@@ -194,11 +182,11 @@ it:
                   e dei vostri obiettivi. Uniremo natura e tecnologia per
 
                   darvi la soluzione Ideale."
-    item1: "Per l'Europa Centrale e dell'Est( incluse Bulgaria, Romania, Moldavia, Ungheria, Repubblica Ceca, Slovacchia e Polonia) contattare:"
+    item1: "Per l'Europa Centrale e dell'Est,  Bulgaria, Romania, Moldavia, Ungheria, Repubblica Ceca, Slovacchia e Polonia contattare:"
     item2: "Per tutti gli altri paesi del mondo contattare:"
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
-    contact3: "phone +39 0321795911 <br />fax +39 0321795920"
+    contact3: "phone +39 0321 795911 <br />fax +39 0321 795920"
     contact4: 'Per richiesta schede tecniche, campioni, informazioni su prodotti e certificazioni : <a href="mailto:p.zocchi@millbo.it">p.zocchi@millbo.it</a> <a href="mailto:mrosa.zeno@millbo.it">mrosa.zeno@millbo.it</a>'
     contact5: 'Per ordini e/o consegne: <a href="mailto:customercare@millbo.it ">customercare@millbo.it </a>'
     contact6: "Per richieste diverse da quelle sopra indicate, compilate il form, Millbo vi ricontatterà  al più presto."
@@ -227,9 +215,9 @@ it:
       title: "REGISTRATI"
       button: "REGISTRATI"
       success: "Hai conseguito con successo la registrazione"
-      description: "Per visionare ed eseguire il download delle schede tecniche vi
+      description: "Per visionare ed eseguire il download delle schede tecniche
 
-                    viene chiesto di effettuare una rapida registrazione.
+                    effettuate una rapida registrazione.
 
                     Riceverete immediatamente via email il link necessario
 
@@ -243,11 +231,12 @@ it:
     title: "BAKERY SOLUTIONS"
     description: "Una vita a scaffale più lunga per pane e dolci con soluzioni naturali anti-raffermamento e anti-muffa"
     button: SCARICA BAKERY SOLUTIONS IN PDF
-    pdf-url: "/pdf/it/bakery_solutions.pdf"
+    pdf-url: "/it/prodotti/bakery-pdf.html"
     head1: "Codice"
     head2: "Descrizione"
     head3: "Prodotto"
     head4: "Dosaggio"
+    head5: "Schede tecniche"
     row1:
       cell1: "6335"
       cell2: "XTEND C"
@@ -285,8 +274,9 @@ it:
     head2: "prodotto"
     head3: "Descrizione"
     head4: "Dosaggio"
+    head5: "Schede tecniche"
     button: "SCARICA E-FREE SOLUTIONS IN PDF "
-    pdf-url: "/pdf/it/efree_solutions.pdf"
+    pdf-url: "/it/prodotti/efree-pdf.html"
     row1:
       cell1: "3000"
       cell2: "EF.FECTO CAKE"
@@ -311,10 +301,11 @@ it:
     title: "FERMENTI"
     description: "Una linea completa di fermenti studiati per ogni necessità: dalla produzione artigianale a quella industriale."
     button: "SCARICA FERMENTI IN PDF"
-    pdf-url: "/pdf/it/fermenti.pdf"
+    pdf-url: "/it/prodotti/fermenti-pdf.html"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Descrizione"
+    head5: "Schede tecniche"
     row1:
       cell1: "2002"
       cell2: "AURUM Plantarum"
@@ -343,11 +334,12 @@ it:
     title: "ENZIMI"
     description: "Dalle applicazioni essenziali per la panificazione agli articoli innovativi ed esclusivi. Una vasta gamma che include enzimi puri e soluzioni studiate per aumentare volume, vita a scaffale e freschezza."
     button: "SCARICA ENZIMI IN PDF"
-    pdf-url: "/pdf/it/enzimi.pdf"
+    pdf-url: "/it/prodotti/enzimi-pdf.html"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Descrizione"
     head4: "Dosaggi"
+    head5: "Schede tecniche"
     row1:
       cell1: "1171"
       cell2: "M 100 BAKERMATE"
@@ -408,12 +400,12 @@ it:
     title: "MALTI"
     description: "Tutti i colori della naturalità, nella gradazione ideale per rendere più appetibili pane e dolci."
     button: "SCARICA MALTI IN PDF"
-    pdf-url: "/pdf/it/malti.pdf"
+    pdf-url: "/it/prodotti/malti-pdf.html"
     head1: "Codice"
     head2: "Prodotto"
     head3: "Colore"
     head4: "Descrizione"
-    
+    head5: "Schede tecniche"
     row1:
       cell1: "4021"
       cell2: "MALT IT 110"
@@ -457,7 +449,7 @@ it:
     head4: "Applicazioni"
     head5: "Schede Tecniche"
     button: "SCARICA PASTE ACIDE IN PDF" 
-    pdf-url: "/pdf/it/paste-acide.pdf"
+    pdf-url: "/it/prodotti/pasteacide-pdf.html"
     row1:
       cell1: "4146"
       cell2: "SPRING W6"
@@ -978,8 +970,8 @@ it:
         salmonela-value: "Assente in 25 grammi"
         filth-value: "25 frammenti max su 50 g"
         button: "Scarica 2002 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2002pdf.html"
-        url: "/it/schedetecniche/cultures/2002.html"
+        pdf-url: "/it/schedetecniche/fermenti/2002pdf.html"
+        url: "/it/schedetecniche/fermenti/2002.html"
       product2004:
         name: "AURUM BREVIS"
         code: "2004"
@@ -998,8 +990,8 @@ it:
         salmonela-value: "Assente in 25 grammi"
         filth-value: "25 frammenti max su 50 g"
         button: "Scarica 2004 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2004pdf.html"
-        url: "/it/schedetecniche/cultures/2004.html"
+        pdf-url: "/it/schedetecniche/fermenti/2004pdf.html"
+        url: "/it/schedetecniche/fermenti/2004.html"
       product2004i:
         name: "AURUM ITALIA"
         code: "2004"
@@ -1018,8 +1010,8 @@ it:
         salmonela-value: "Assente in 25 grammi"
         filth-value: "25 frammenti max su 50 g"
         button: "Scarica 2004i PDF "
-        pdf-url: "/it/schedetecniche/cultures/2004ipdf.html"
-        url: "/it/schedetecniche/cultures/2004i.html"
+        pdf-url: "/it/schedetecniche/fermenti/2004ipdf.html"
+        url: "/it/schedetecniche/fermenti/2004i.html"
       product2005:
         name: "AURUM GUSTO"
         code: "2005"
@@ -1038,8 +1030,8 @@ it:
         salmonela-value: "Assente in 25 grammi"
         filth-value: "25 frammenti max su 50 g"
         button: "Scarica 2005 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2005pdf.html"
-        url: "/it/schedetecniche/cultures/2005.html"
+        pdf-url: "/it/schedetecniche/fermenti/2005pdf.html"
+        url: "/it/schedetecniche/fermenti/2005.html"
       product2010:
         name: "AURUM SF"
         code: "2010"
@@ -1058,8 +1050,8 @@ it:
         salmonela-value: "Assente in 25 grammi"
         filth-value: "25 frammenti max su 50 g"
         button: "Scarica 2010 PDF "
-        pdf-url: "/it/schedetecniche/cultures/2010pdf.html"
-        url: "/it/schedetecniche/cultures/2010.html"
+        pdf-url: "/it/schedetecniche/fermenti/2010pdf.html"
+        url: "/it/schedetecniche/fermenti/2010.html"
     enzymes:
       product1108:
         name: "M 300 B4"
@@ -1075,8 +1067,8 @@ it:
         yeast-value: "100"
         coliforms-value: "100"
         button: "Scarica 1108 PDF "
-        pdf-url: "/it/schedetecniche/enzymes/1108pdf.html"
-        url: "/it/schedetecniche/enzymes/1108.html"
+        pdf-url: "/it/schedetecniche/enzimi/1108pdf.html"
+        url: "/it/schedetecniche/enzimi/1108.html"
       product1118:
          name: "M 200 P"
          code: "1118"
@@ -1091,8 +1083,8 @@ it:
          yeast-value: "1.000"
          coliforms-value: "1.000"
          button: "Scarica 1118 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1118pdf.html"
-         url: "/it/schedetecniche/enzymes/1118.html"
+         pdf-url: "/it/schedetecniche/enzimi/1118pdf.html"
+         url: "/it/schedetecniche/enzimi/1118.html"
       product1123:
          name: "M 500 NS"
          code: "1123"
@@ -1108,8 +1100,8 @@ it:
          yeast-value: "1.000"
          coliforms-value: "1.000"
          button: "Scarica 1123 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1123pdf.html"
-         url: "/it/schedetecniche/enzymes/1123.html"
+         pdf-url: "/it/schedetecniche/enzimi/1123pdf.html"
+         url: "/it/schedetecniche/enzimi/1123.html"
       product1124:
          name: "M 300 LP"
          code: "1124"
@@ -1125,8 +1117,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 1124 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1124pdf.html"
-         url: "/it/schedetecniche/enzymes/1124.html"
+         pdf-url: "/it/schedetecniche/enzimi/1124pdf.html"
+         url: "/it/schedetecniche/enzimi/1124.html"
       product1135:
          name: "M 500 FL"
          code: "1135"
@@ -1141,8 +1133,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 1135 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1135pdf.html"
-         url: "/it/schedetecniche/enzymes/1135.html"
+         pdf-url: "/it/schedetecniche/enzimi/1135pdf.html"
+         url: "/it/schedetecniche/enzimi/1135.html"
       product1171:
          name: "M 100 BAKERMATE CONCENTRATE"
          code: "1171"
@@ -1157,8 +1149,8 @@ it:
          yeast-value: "1.000"
          coliforms-value: "100"
          button: "Scarica 1171 PDF "
-         pdf-url: "/it/schedetecniche/enzymes/1171pdf.html"
-         url: "/it/schedetecniche/enzymes/1171.html"
+         pdf-url: "/it/schedetecniche/enzimi/1171pdf.html"
+         url: "/it/schedetecniche/enzimi/1171.html"
     baking:
       product6628:
         name: "BAKING S"
@@ -1437,8 +1429,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 4021 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4021pdf.html"
-         url: "/it/schedetecniche/bakery/4021.html"
+         pdf-url: "/it/schedetecniche/malti/4021pdf.html"
+         url: "/it/schedetecniche/malti/4021.html"
       product4022:
          name: "MALT-IT 40"
          code: "4022"
@@ -1457,8 +1449,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 4022 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4022pdf.html"
-         url: "/it/schedetecniche/bakery/4022.html"
+         pdf-url: "/it/schedetecniche/malti/4022pdf.html"
+         url: "/it/schedetecniche/malti/4022.html"
       product4023:
          name: "MALT-IT 130"
          code: "4023"
@@ -1477,8 +1469,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 4023 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4023pdf.html"
-         url: "/it/schedetecniche/bakery/4023.html"
+         pdf-url: "/it/schedetecniche/malti/4023pdf.html"
+         url: "/it/schedetecniche/malti/4023.html"
       product4025:
          name: "MALT IT 25"
          code: "4025"
@@ -1497,8 +1489,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 4025 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4025pdf.html"
-         url: "/it/schedetecniche/bakery/4025.html"
+         pdf-url: "/it/schedetecniche/malti/4025pdf.html"
+         url: "/it/schedetecniche/malti/4025.html"
       product4026:
          name: "MALT-IT 14"
          code: "4026"
@@ -1517,8 +1509,8 @@ it:
          yeast-value: "50.000"
          coliforms-value: "1.000"
          button: "Scarica 4026 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4026pdf.html"
-         url: "/it/schedetecniche/bakery/4026.html"
+         pdf-url: "/it/schedetecniche/malti/4026pdf.html"
+         url: "/it/schedetecniche/malti/4026.html"
       product4030:
          name: "MALT- IT 110 Z"
          code: "4030"
@@ -1537,8 +1529,8 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 4030 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4030pdf.html"
-         url: "/it/schedetecniche/bakery/4030.html"
+         pdf-url: "/it/schedetecniche/malti/4030pdf.html"
+         url: "/it/schedetecniche/malti/4030.html"
       product4039:
          name: "MALT-IT 12 W"
          code: "4039"
@@ -1557,5 +1549,5 @@ it:
          yeast-value: "100"
          coliforms-value: "100"
          button: "Scarica 4039 PDF "
-         pdf-url: "/it/schedetecniche/bakery/4039pdf.html"
-         url: "/it/schedetecniche/bakery/4039.html"
+         pdf-url: "/it/schedetecniche/malti/4039pdf.html"
+         url: "/it/schedetecniche/malti/4039.html"

@@ -17,18 +17,20 @@ metas: "main"
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th 
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
             = I18n.t("malts.head1")
-          %th 
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("malts.head2")
-          %th.special 
+          %th.special{:"data-hide"=>"phone,table"}
             = I18n.t("malts.head3")
-          %th 
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("malts.head4")
+          %th{class:"footable-last-column",colspan:"2"}
+            = I18n.t("malts.head5")
 
       %tbody
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row1.cell1")
           %td.numeric 
             = I18n.t("malts.row1.cell2")
@@ -36,8 +38,12 @@ metas: "main"
             =image_tag("malti/malto_4021.png")
           %td.numeric 
             = I18n.t("malts.row1.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4021.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4021.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row2.cell1")
           %td.numeric 
             = I18n.t("malts.row2.cell2")
@@ -45,8 +51,12 @@ metas: "main"
             =image_tag("malti/malto_4022.png")
           %td.numeric 
             = I18n.t("malts.row2.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4022.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4022.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row3.cell1")
           %td.numeric 
             = I18n.t("malts.row3.cell2")
@@ -54,8 +64,12 @@ metas: "main"
             =image_tag("malti/malto_4023.png")
           %td.numeric 
             = I18n.t("malts.row3.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4023.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4023.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row4.cell1")
           %td.numeric 
             = I18n.t("malts.row4.cell2")
@@ -63,8 +77,12 @@ metas: "main"
             =image_tag("malti/malto_4025.png")
           %td.numeric 
             = I18n.t("malts.row4.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4025.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4025.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row5.cell1")
           %td.numeric 
             = I18n.t("malts.row5.cell2")
@@ -72,8 +90,12 @@ metas: "main"
             =image_tag("malti/malto_4026.png")
           %td.numeric 
             = I18n.t("malts.row5.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4026.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4026.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row6.cell1")
           %td.numeric 
             = I18n.t("malts.row6.cell2")
@@ -81,8 +103,12 @@ metas: "main"
             =image_tag("malti/malto_4030.png")
           %td.numeric 
             = I18n.t("malts.row6.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4030.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4030.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("malts.row7.cell1")
           %td.numeric 
             = I18n.t("malts.row7.cell2")
@@ -90,8 +116,12 @@ metas: "main"
             =image_tag("malti/malto_4039.png")
           %td.numeric 
             = I18n.t("malts.row7.cell3")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.malts.product4039.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.malts.product4039.pdf-url")}"}
+
     .button-container
       %a.button{href:"#{I18n.t("malts.pdf-url")}", target: "_blank"}
         = I18n.t("malts.button")
   = partial "partials/footer"
-        

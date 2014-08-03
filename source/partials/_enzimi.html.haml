@@ -15,17 +15,19 @@ metas: "main"
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th 
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
             = I18n.t("enzymes.head1")
-          %th
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("enzymes.head2")
-          %th 
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("enzymes.head3")
-          %th.special
+          %th.special{:"data-hide"=>"phone,table"}
             = I18n.t("enzymes.head4")
+          %th{class:"footable-last-column",colspan:"2"}
+            = I18n.t("malts.head5")
       %tbody
         %tr.even
-          %th.numeric
+          %td.numeric
             = I18n.t("enzymes.row1.cell1")
           %td.numeric 
             = I18n.t("enzymes.row1.cell2")
@@ -33,8 +35,12 @@ metas: "main"
             = I18n.t("enzymes.row1.cell3")
           %td.numeric 
             = I18n.t("enzymes.row1.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1171.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1171.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row2.cell1")
           %td.numeric 
             = I18n.t("enzymes.row2.cell2")
@@ -42,17 +48,25 @@ metas: "main"
             = I18n.t("enzymes.row2.cell3")
           %td.numeric 
             = I18n.t("enzymes.row2.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1118.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1118.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row3.cell1")
           %td.numeric 
             = I18n.t("enzymes.row3.cell2")
           %td.numeric 
             = I18n.t("enzymes.row3.cell3")
           %td.numeric 
-            = I18n.t("enzymes.row3.cell4") 
+            = I18n.t("enzymes.row3.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1159.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1159.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row4.cell1")
           %td.numeric 
             = I18n.t("enzymes.row4.cell2")
@@ -60,8 +74,12 @@ metas: "main"
             = I18n.t("enzymes.row4.cell3")
           %td.numeric 
             = I18n.t("enzymes.row4.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product4021.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product4021.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row5.cell1")
           %td.numeric 
             = I18n.t("enzymes.row5.cell2")
@@ -69,8 +87,12 @@ metas: "main"
             = I18n.t("enzymes.row5.cell3")
           %td.numeric 
             = I18n.t("enzymes.row5.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1133.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1133.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row6.cell1")
           %td.numeric 
             = I18n.t("enzymes.row6.cell2")
@@ -78,8 +100,12 @@ metas: "main"
             = I18n.t("enzymes.row6.cell3")
           %td.numeric 
             = I18n.t("enzymes.row6.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1108.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1108.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row7.cell1")
           %td.numeric 
             = I18n.t("enzymes.row7.cell2")
@@ -87,8 +113,12 @@ metas: "main"
             = I18n.t("enzymes.row7.cell3")
           %td.numeric 
             = I18n.t("enzymes.row7.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1124.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1124.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row8.cell1")
           %td.numeric 
             = I18n.t("enzymes.row8.cell2")
@@ -96,8 +126,12 @@ metas: "main"
             = I18n.t("enzymes.row8.cell3")
           %td.numeric 
             = I18n.t("enzymes.row8.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product2600.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product2600.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row9.cell1")
           %td.numeric 
             = I18n.t("enzymes.row9.cell2")
@@ -105,8 +139,12 @@ metas: "main"
             = I18n.t("enzymes.row9.cell3")
           %td.numeric 
             = I18n.t("enzymes.row9.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product2601.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product2601.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row10.cell1")
           %td.numeric 
             = I18n.t("enzymes.row10.cell2")
@@ -114,8 +152,12 @@ metas: "main"
             = I18n.t("enzymes.row10.cell3")
           %td.numeric 
             = I18n.t("enzymes.row10.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1135.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1135.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric
             = I18n.t("enzymes.row11.cell1")
           %td.numeric 
             = I18n.t("enzymes.row11.cell2")
@@ -123,6 +165,10 @@ metas: "main"
             = I18n.t("enzymes.row11.cell3")
           %td.numeric 
             = I18n.t("enzymes.row11.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.enzymes.product1172.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.enzymes.product1172.pdf-url")}"}
     .button-container
       %a.button{href:"#{I18n.t("enzymes.pdf-url")}", target: "_blank"}
         = I18n.t("enzymes.button")
