@@ -3,16 +3,27 @@ require 'susy'
 require 'bootstrap-sass'
 
 
-
-
-activate :deploy do |deploy|
-  deploy.method = :ftp
-  deploy.host = "web332.webfaction.com"
-  deploy.user = "piermaria"
-  deploy.password = "Nonmelaricordo2"
-  deploy.path = "/home/piermaria/webapps/millbo"
-  
+case ENV['TARGET'].to_s.downcase
+when 'production'
+  activate :deploy do |deploy|
+    deploy.host = "www.millbo.it"
+    deploy.user = "millbo"
+    deploy.password = "bgvtr63e"
+    deploy.path = "/ww"
+    deploy.build_before = true
+  end
+else
+  activate :deploy do |deploy|
+    deploy.method = :ftp
+    deploy.host = "web332.webfaction.com"
+    deploy.user = "piermaria"
+    deploy.password = "Nonmelaricordo2"
+    deploy.path = "/home/piermaria/webapps/millbo"
+    deploy.build_before = true
+  end
 end
+
+
 
 
 activate :bower
