@@ -15,6 +15,18 @@
                     "name": "Build",
                     "command": "middleman build",
                     "runner": "Shell command"
+                },
+                "Deploy Prod": {
+                    "debug": true,
+                    "name": "Deploy Prod",
+                    "command": "rake deploy:production",
+                    "runner": "Shell command"
+                },
+                "Deploy Staging": {
+                    "debug": true,
+                    "name": "Deploy Staging",
+                    "command": "rake deploy:staging",
+                    "runner": "Shell command"
                 }
             },
             "@inited": "true"

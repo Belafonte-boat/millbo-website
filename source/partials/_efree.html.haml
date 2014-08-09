@@ -17,17 +17,19 @@ metas: "main"
     %table{:cellspacing => "0"}
       %thead
         %tr.odd
-          %th 
+          %th{class:"footable-first-column",:"data-toggle"=>"true"}
             = I18n.t("efree.head1") 
-          %th 
+          %th{:"data-hide"=>"phone,table"}
             = I18n.t("efree.head2")
-          %th 
+          %th{:"data-hide"=>"phone,table"} 
             = I18n.t("efree.head3")
-          %th.special 
+          %th.special{:"data-hide"=>"phone,table"} 
             = I18n.t("efree.head4")
+          %th{class:"footable-last-column",colspan:"2"}
+            = I18n.t("efree.head5")
       %tbody
         %tr.even
-          %th.numeric 
+          %td.numeric 
             = I18n.t("efree.row1.cell1")
           %td.numeric 
             = I18n.t("efree.row1.cell2")
@@ -35,8 +37,12 @@ metas: "main"
             = I18n.t("efree.row1.cell3")
           %td.numeric 
             = I18n.t("efree.row1.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.efree.product3000.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.efree.product3000.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric 
             = I18n.t("efree.row2.cell1")
           %td.numeric 
             = I18n.t("efree.row2.cell2")
@@ -44,8 +50,12 @@ metas: "main"
             = I18n.t("efree.row2.cell3")
           %td.numeric 
             = I18n.t("efree.row2.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.efree.product3020.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.efree.product3020.pdf-url")}"}
         %tr.even
-          %th.numeric 
+          %td.numeric 
             = I18n.t("efree.row3.cell1")
           %td.numeric 
             = I18n.t("efree.row3.cell2")
@@ -53,8 +63,12 @@ metas: "main"
             = I18n.t("efree.row3.cell3")
           %td.numeric 
             = I18n.t("efree.row3.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.efree.product3030.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.efree.product3030.pdf-url")}"}
         %tr.odd
-          %th.numeric 
+          %td.numeric 
             = I18n.t("efree.row4.cell1")
           %td.numeric 
             = I18n.t("efree.row4.cell2")
@@ -62,6 +76,10 @@ metas: "main"
             = I18n.t("efree.row4.cell3")
           %td.numeric 
             = I18n.t("efree.row4.cell4")
+          %td.img.hl
+            %a.view{href:"#{I18n.t("technicalsheet.efree.product7900.url")}"}
+          %td.img.hl
+            %a.download{href:"#{t("technicalsheet.efree.product7900.pdf-url")}"}
     .button-container
       %a.button{href:"#{I18n.t("efree.pdf-url")}", target: "_blank"}
         = I18n.t("efree.button")

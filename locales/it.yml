@@ -1,5 +1,6 @@
 ---
 it:
+  privacy: "447776"
   url: "http://millbo.com"
   menu:
     item1: "Home"
@@ -33,15 +34,22 @@ it:
     subItem11: "INDIETRO A PASTE ACIDE"
     subUrl1: "/it/prodotti/pasteacide.html"
     subItem2: "Malti"
+    subItem12: "INDIETRO A MALTI"
     subUrl2: "/it/prodotti/malti.html"
     subItem3: "Enzimi"
+    subItem13: "INDIETRO A ENZIMI"
     subUrl3: "/it/prodotti/enzimi.html"
     subItem4: "Fermenti"
+    subItem14: "INDIETRO A FERMENTI"
     subUrl4: "/it/prodotti/fermenti.html"
     subItem5: "E-free solutions"
+    subItem15: "INDIETRO A EFREE"
     subUrl5: "/it/prodotti/efree.html"
     subItem6: "Bakery solutions"
+    subItem16: "INDIETRO A BAKERY"
     subUrl6: "/it/prodotti/bakery.html"
+    url17: "/pdf/privacy.pdf"
+    item17: "Privacy Policy"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   news:
     title: "NEWS ED EVENTI"
@@ -50,16 +58,21 @@ it:
       date: "30 Maggio 2014"
       text: "SPRING TRADIZIONE SF contiene lactobacilli del genere  “Lactobacillus Sanfranciscensis” che donano  il gusto caratteristico del pane di San Francisco.
              <br /><br />
-             Come tutte le soluzioni di  MILLBO,  anche questa permette all’industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata.
+             Come tutte le soluzioni di  MILLBO,  anche questa permette all’industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata a scaffale.
              <br /><br />
              Spring Tradizione SF è distribuito in esclusiva da ADEA S.r.l. che opera dal 1933 nella fornitura di ingredienti destinati all'industria alimentare italiana.
         "
   about:
     title: "MILLBO.<br />DOVE NATURA E TECNOLOGIA SI INCONTRANO"
-    description: "Italiana di nascita, ma proiettata verso il mercato internazionale, Millbo è un'azienda specializzata in soluzioni per la panificazione esclusivamente naturali e ad alto contenuto di innovazione. <br/ > Nella regione del nord ovest dove da sempre abbiamo sede, il Piemonte, industria e tecnologia si sono sviluppate su una solida tradizione di agricoltura. <br/ >
+    description: "Italiana di nascita, ma proiettata verso il mercato internazionale, Millbo è un'Azienda specializzata in soluzioni per la panificazione esclusivamente naturali e ad alto contenuto di innovazione. <br/ > Nella regione del nord ovest dove da sempre abbiamo sede, il Piemonte, industria e tecnologia si sono sviluppate su una solida tradizione di agricoltura.<br/ > <br/ >
                   Allo stesso modo natura e tecnologia si incontrano nei nostri prodotti, per offrire alla panificazione contemporanea nuove idee e nuove opportunità di mercato."
-
-
+    ethical-title: "CODICE ETICO"
+  maintainance:
+    title: "Pagina in revisione"
+    description-page: ""
+  ethical:
+    title: "Codice Etico"
+    url: "/it/codice-etico.html"
   case-hisotries:
     title:  " Case histories"
     description: "Ai problemi che il mondo della panificazione contemporanea ci sottopone, rispondiamo con
@@ -77,7 +90,7 @@ it:
       description4: "E grazie alla clean label marche e prodotti diventano più attraenti, perchè tra i consumatori di oggi
                      naturalità e bontà della nutrizione sono valori in costante crescita."
       description5: "La nostra idea di E-free si basa su ricerca e progettazione custom-made, i due veri punti di forza
-                     dell'azienda."
+                     dell'Azienda."
       description6: "Le nostre dimensioni e la nostra capacità di essere flessibili, unite ad un reparto R&S d'eccellenza, ci permettono
                     di offrire risposte rapide e innovative a ogni tipo di richiesta riguardante la produzione di
                     pane e prodotti dolciari da forno."
@@ -92,7 +105,7 @@ it:
 
                        e messo a punto soluzioni personalizzate ed efficaci
 
-                       senza l’utilizzo di alcun prodotto chimico di sintesi. E’ una
+                       senza l’utilizzo di alcun prodotto chimico di sintesi.<br /><br /> E’ una
 
                        peculiarità della quale andiamo fieri e che ci distingue in
 
@@ -310,7 +323,7 @@ it:
       cell1: "2002"
       cell2: "AURUM Plantarum"
       cell3: "per pane bianco, baguette, pane in cassetta"
-
+  
     row2:
       cell1: "2003"
       cell2: "AURUM Brevis"

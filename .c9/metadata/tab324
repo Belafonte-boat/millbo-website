@@ -1,0 +1,1 @@
+{"filter":false,"title":"Build - Idle","tooltip":"Build - Idle","undoManager":{"mark":0,"position":-1,"stack":[]},"output":{"id":"output480560","width":0,"height":0,"scrollTop":10648.181519508362,"config":{"debug":true,"name":"Build","command":"middleman build","runner":"Shell command"}},"timestamp":1407452220520,"hash":"da39a3ee5e6b4b0d3255bfef95601890afd80709"}

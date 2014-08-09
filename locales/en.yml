@@ -1,5 +1,6 @@
 ---
 en:
+  privacy: "954342"
   url: "http://millbo.com"
   menu:
     item1: "Home"
@@ -30,42 +31,57 @@ en:
     item14: "News"
     url14: "/news.html"
     subItem1: "Sourdough"
+    subItem11: "BACK TO SOURDOUGH"
     subUrl1: "/products/sourdough.html"
     subItem2: "Malts"
+    subItem12: "BACK TO MALTS"
     subUrl2: "/products/malts.html"
     subItem3: "Enzymes"
+    subItem13: "BACK TO ENZYMES"
     subUrl3: "/products/enzymes.html"
     subItem4: "Ferments"
+    subItem14: "BACK TO CULTURES"
     subUrl4: "/products/cultures.html"
     subItem5: "E-free solutions"
+    subItem15: "BACK TO EFREE"
     subUrl5: "/products/efree.html"
+    subItem16: "BACK TO BAKERY"
     subItem6: "Bakery solutions"
     subUrl6: "/products/bakery.html"
+    url17: "/pdf/privacy.pdf"
+    item17: "Privacy Policy"
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   about:
     title: "MILLBO.<br /> WHERE NATURE AND TECHNOLOGY MEET"
-    description: "Millbo is an Italian company with an international soul, focused on highly innovative and natural baking solutions.<br />
-                  We are located in the north west region of Piedmont where industry and technology grew on a grounded agricultural tradition.<br />
+    description: "Millbo is an Italian Company with an international soul, focused on highly innovative and natural baking solutions.<br />
+                  We are located in the north west region of Piedmont where industry and technology grew on a grounded agricultural tradition.<br /><br />
                   Equally, nature and technology meld in our solutions to offer to worldwide baking companies new products and marketing ideas and then new opportunities  to grow."
-
+    ethical-title: "ETHICAL CODE"
+  ethical:
+    title: "Ethical Code"
+    url: "/ethical-code.html"
+    
   efreesection:
     title: "E-FREE,<br /> THE IDEA LIKED BY NEW CONSUMERS"
     description1: "We have chosen to be E-free to allow our clients to be so."
     description2: "E-free means development, formulation and production of whole-natural baking solutions."
-    description3: "E-free offers these solutions for all industrial baking needs, ensuring all the advantages of a clean label without any long additives list. "
+    description3: "E-free offers these solutions for all industrial baking needs, ensuring all the advantages of a clean label without any long artificial additives list. "
     description4: "Thanks to the clean label, brands and products become more attractive among today consumers who are now more sensitive to the topic of nutrition, taste and health."
-    description5: "Research and custom-made solutions are the pillars of our company."
-    description6: "Our size and our ability to be flexible, together with an excellent R&D division, allow us to offer fast and innovative answers to any requests involving bread and sweets goods production. "
+    description5: "Research and custom-made solutions are the pillars of our Company."
+    description6: "Our size and our ability to be flexible, together with an excellent R&D division, allow us to offer fast and innovative answers to any request involving bread and sweet goods production. "
 
-
+  maintainance:
+    title: "Page under review"
+    description-page: ""
+    
   news:
       title: "NEWS AND EVENTS"
       news1:
         title: 'The SPRING TRADIZIONE sourdough now also with "lactobacillus sanfranciscensis"'
         date: "30 May 2014"
-        text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that give the particular taste of the  San Francisco's bread.
+        text: "SPRING TRADIZIONE SF contains lactobacilli of  “Lactobacillus Sanfranciscensis” that gives the particular taste of the  San Francisco's bread.
                <br /><br />
-              Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and shelf-life products.
+              Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and a longer shelf-life products.
                <br /><br />
                Spring Tradizione SF is exclusively distributed by  ADEA S.r.l. that operates from 1933 providing ingredients destined to the italian food industry.
           "
@@ -77,9 +93,9 @@ en:
 
                        For each one on these, our researchers have studied and suited customised and effective solutions
 
-                       without adding any chemical synthesis product.<br />
+                       without adding any chemical synthesis product.<br /><br />
 
-                       This our peculiarity makes us proud about the work we do. It is also the point of difference that
+                       This peculiarity makes us proud about the work we do every single day.<br />It is also the point of difference that
 
                        distiguishes Millbo from its competitors."
     button: "SOLUTIONS RANGE"
@@ -107,9 +123,9 @@ en:
       title: "NATURAL SOLUTIONS, CERTIFIED SOLUTIONS"
       download: "download pdf"
       description: "Over fourty years Millbo dedicated all its efforts to research natural solutions for baking.<br />
-                    The result of this commitment are the numerous certified aknowledgements that we obtained thanks to the quality of our productive processes, of our primary materials, of our organization and our products.<br />
-                    Cliking the link below, you can view and download all the certifications in PDF format."
-      description-page: "Here you can see all the certifications that awards our daily effort and our continuous research of excellence. You can download them singualarly in PDF format selecting the one of your interest or simply all of them cliking the button at the bottom page"
+                    The result of this commitment are the numerous certified aknowledgements that we obtained thanks to the quality of our productive processes, of our raw materials, of our organization and our products.<br />
+                    Clicking the link below, you can view and download all the certifications in PDF format."
+      description-page: "Here you can see all the certifications that awards our daily effort and our continuous research of excellence. You can download them singualarly in PDF format selecting the one of your interest or simply all of them clicking the button at the bottom page"
       button: "DOWNLOAD THE CERTIFICATIONS IN PDF"
       pdf-url: "/pdf/en/Certifications_MILLBO.pdf"
       button-text: "ALL THE CERTIFICATIONS"
@@ -133,7 +149,7 @@ en:
                   We will be pleased to analyse your requests and we will give you a prompt and personalised reply."
     item1: "For Central & Eastern Europe, Bulgaria, Romania, Moldova, Hungary, Czech Republic, Slovakia, Poland contact:"
     item2: "For all other countries contact:"
-    description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will combine nature and technology to give you the ideal solution."
+    description: "We believe that to create innovation is necessary to take on new challenges first. Tell us about your projects and objectives. We will combine nature and technology to give you the ideal natural solution."
     contact1: "Millbo S.p.a."
     contact2: "Via Bellaria, s.n. 28069 Trecate (NO) Italy"
     contact3: "phone +39 0321 795911<br />fax +39 0321 795920"
@@ -159,7 +175,7 @@ en:
     login:
       button: "LOGIN"
       title: "LOGIN"
-      description: "Login using company's email and password that you have set during registration."
+      description: "Login using Company's email and password that you have set during registration."
       registration: "You don't have an account <a href=\"/registration.html\">register here</a>"
       activation: "To access you have to confirm your email address, click the link in the email that we have sent you."
     registration:
@@ -249,6 +265,7 @@ en:
     head1: "Code"
     head2: "Product"
     head3: "Description"
+    head5: "Schede tecniche"
     row1:
       cell1: "2002"
       cell2: "AURUM Plantarum"
@@ -478,7 +495,7 @@ en:
     name: "PRODUCT NAME"
     code: "PRODUCT CODE"
     description: "DESCRIPTION"
-    dose: "DOSEGE"
+    dosage: "DOSAGE"
     ingredients: "COMPOSITION"
     status: "APPEARANCE"
     box : "PACKAGING"
@@ -491,15 +508,15 @@ en:
     yessa: "Yes"
     nope: "No"
     grams: "Grams / 100g"
-    analysis: "Analisi Microbiologiche"
+    analysis: "Microbiological Analysis"
     bacteric: "Total plate count"
     ufc: "UFC / g"
     yeast: "Yeasts and Moulds"
     coliforms: "Total coliforms"
     salmonela: "Salmonelle"
     filth: "Filth test"
-    allergen-title: "AllergensTab (Yes: contains / No: doesn’t contain)"
-    allergen: "Allergeni"
+    allergen-title: "Allergens Table (Yes: contains / No: doesn’t contain)"
+    allergen: "Allergens"
 
     cereals: "Cereals containing gluten and products thereof."
     crustacean: "Crustaceans and products thereof."
@@ -658,6 +675,7 @@ en:
         bacteric-value: "100.000 (excluding the LAB)"
         yeast-value: "1.000"
         coliforms-value: "100"
+        salmonela-value: "Absent in 25 grams"
         filth-value: "25 fragments max on 50 g"
         button: "Download 4262 PDF "
         pdf-url: "/technicalsheets/sourdough/4262pdf.html"

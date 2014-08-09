@@ -6,11 +6,12 @@ require 'bootstrap-sass'
 case ENV['TARGET'].to_s.downcase
 when 'production'
   activate :deploy do |deploy|
+    deploy.method = :ftp
     deploy.host = "www.millbo.it"
     deploy.user = "millbo"
     deploy.password = "bgvtr63e"
-    deploy.path = "/ww"
-    deploy.build_before = true
+    deploy.path = "/www"
+    #deploy.build_before = true
   end
 else
   activate :deploy do |deploy|
@@ -19,7 +20,7 @@ else
     deploy.user = "piermaria"
     deploy.password = "Nonmelaricordo2"
     deploy.path = "/home/piermaria/webapps/millbo"
-    deploy.build_before = true
+    #deploy.build_before = true
   end
 end
 
@@ -48,14 +49,16 @@ page "/products/bakery.html", :layout => :html5
 page "/registration-confirmation.html", :layout => :html5
 page "/registration.html", :layout => :html5
 
+page "/pdf/privacy.pdf", :layout => :html5
+
 
 
 page "/it/prodotti/pasteacide.html", :layout => :html5
 page "/login.html", :layout => :html5
 page "/it/login.html", :layout => :html5
 page "/it/registrazione.html", :layout => :html5
-page "/it/prodotti/malti.html", :layout => :html5
-page "/it/prodotti/fermenti.html", :layout => :html5
+page "/it/prodotti/malti.html", :layout => :html5git 
+page "/it/prodotti/fermenti.html", :layout => :html5git 
 page "/it/prodotti/enzimi.html", :layout => :html5
 page "/it/prodotti/efree.html", :layout => :html5
 page "/it/prodotti/bakery.html", :layout => :html5
@@ -64,6 +67,9 @@ page "/it/soluzioni.html", :layout => :html5
 page "/it/contattaci.html", :layout => :html5
 page "/it/certificazioni.html", :layout => :html5
 page "/it/schedetecniche/schedatecnica.html", :layout => :html5
+
+page "/ethical-code.html", :layout => :html5
+page "/it/codice-etico.html", :layout => :html5
 page "/404.html", :layout => :html5
 page "/sitemap.xml", :layout => false
 
