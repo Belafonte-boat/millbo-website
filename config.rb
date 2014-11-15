@@ -69,7 +69,7 @@ page "/it/certificazioni.html", :layout => :html5
 page "/it/schedetecniche/schedatecnica.html", :layout => :html5
 
 page "/ethical-code.html", :layout => :html5
-page "/it/codice-etico.html", :layout => :html5
+page "/it/pdf/Millbo Codice Etico_ITA.pdf", :layout => :html5
 page "/404.html", :layout => :html5
 page "/sitemap.xml", :layout => false
 
