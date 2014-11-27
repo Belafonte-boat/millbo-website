@@ -53,6 +53,14 @@ it:
   claim: "NATURAL SOLUTIONS FOR CONTEMPORARY BAKING"
   news:
     title: "NEWS ED EVENTI"
+    news2:
+          title: 'MILLBO: AZIENDA AMICA DI PAIDEIA'
+          date: "1 Dicembre 2014"
+          text: 'La fondazione Paideia opera nel sociale al fianco di bambini con disabilità o malattie e dello loro famiglie,  da oltre vent’anni.
+           <br /><br />
+           Visitate il sito di fondazione paideia  e diventate anche voi  loro amici.
+           <br /><br />
+           <a href="http://www.fondazionepaideia.it">www.fondazionepaideia.it</a>'
     news1:
       title: 'La pasta acida SPRING TRADIZIONE ora anche con "lactobacillus sanfranciscensis"'
       date: "30 Maggio 2014"
@@ -60,7 +68,6 @@ it:
              <br /><br />
              Come tutte le soluzioni di  MILLBO,  anche questa permette all’industria della panificazione di realizzare prodotti migliori per aspetto, consistenza, aroma e durata a scaffale.
              <br /><br />
-             Spring Tradizione SF è distribuito in esclusiva da ADEA S.r.l. che opera dal 1933 nella fornitura di ingredienti destinati all'industria alimentare italiana.
         "
   about:
     title: "MILLBO.<br />DOVE NATURA E TECNOLOGIA SI INCONTRANO"

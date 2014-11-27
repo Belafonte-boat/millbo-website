@@ -76,6 +76,14 @@ en:
     
   news:
       title: "NEWS AND EVENTS"
+      news2:
+        title: 'MILLBO: AZIENDA AMICA DI PAIDEIA'
+        date: "1 Dicembre 2014"
+        text: 'La fondazione Paideia opera nel sociale al fianco di bambini con disabilità o malattie e dello loro famiglie,  da oltre vent’anni.
+         <br /><br />
+         Visitate il sito di fondazione paideia e diventate anche voi loro amici.
+         <br /><br />
+         <a href="http://www.fondazionepaideia.it">www.fondazionepaideia.it</a>'
       news1:
         title: 'The SPRING TRADIZIONE sourdough now also with "lactobacillus sanfranciscensis"'
         date: "30 May 2014"
@@ -83,7 +91,6 @@ en:
                <br /><br />
               Just like all the MILLBO's solutions, this too allows the baking industry to produce better looking, consistency, aroma and a longer shelf-life products.
                <br /><br />
-               Spring Tradizione SF is exclusively distributed by  ADEA S.r.l. that operates from 1933 providing ingredients destined to the italian food industry.
           "
   products:
     title: "OUR SOLUTIONS"
