@@ -22,6 +22,8 @@
     "jquery.easing": "~1.3.0",
     "jquery.fadeloader": "https://github.com/periplox/jquery.fadeloader.git#~1.0.1",
     "jquery.scrollTo": "~1.4.7",
-    "modernizr": "~2.7.1"
+    "modernizr": "~2.7.1",
+    "footable": "~2.0.3",
+    "enquire": "~2.1.2"
   }
 }

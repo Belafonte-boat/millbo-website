@@ -156,7 +156,7 @@ it:
 
                        fondo pagina."
     button: "SCARICA LE CERTIFICAZIONI IN PDF"
-    pdf-url: "/pdf/it/Certificazioni_MILLBO.pdf"
+    pdf-url: "/pdf/IT/Certificazioni_MILLBO.pdf"
     button-text: "TUTTE LE CERTIFICAZIONI"
     page-url: "/it/certificazioni.html"
     certificate1: "BRC Certificate"

@@ -1,6 +1,6 @@
 require 'builder'
 require 'susy'
-require 'bootstrap-sass'
+#require 'bootstrap-sass'
 
 
 case ENV['TARGET'].to_s.downcase
@@ -31,6 +31,7 @@ activate :bower
 activate :automatic_image_sizes
 activate :livereload
 activate :i18n, :mount_at_root => :en
+
 
 
 page "/", :layout => :html5
@@ -447,19 +448,12 @@ configure :build do
     imageoptim.pngout_options = false # Should disable pngout
   end
   # # Create favicon/touch icon set from source/favicon_base.png
-  activate :favicon_maker do |f|
-    f.template_dir  = File.join(root, 'source')
-    f.output_dir    = File.join(root, 'build')
-    f.icons = {
-      "favicon_template.png" => [
-        { icon: "apple-touch-icon-152x152-precomposed.png" },
-        { icon: "apple-touch-icon-114x114-precomposed.png" },
-        { icon: "apple-touch-icon-72x72-precomposed.png" },
-        { icon: "mstile-144x144", format: :png },
-        { icon: "favicon.png", size: "16x16" },
-        { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
-      ]
-    }
-  end
+  activate :favicon_maker, :icons => {
+    "_favicon_template.png" => [
+      { icon: "apple-touch-icon-152x152-precomposed.png" },
+      { icon: "apple-touch-icon-114x114-precomposed.png" },
+      { icon: "apple-touch-icon-72x72-precomposed.png" },
+    ]
+  }
 
 end

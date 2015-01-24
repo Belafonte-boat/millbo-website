@@ -1,10 +1,10 @@
-//= require "vendor/jquery/jquery"
-//= require "vendor/jquery.easing/js/jquery.easing.min"
-//= require "vendor/jquery.scrollTo/jquery.scrollTo"
+//= require "vendor/jquery/jquery.js"
+//= require "vendor/jquery.easing/js/jquery.easing.min.js"
+//= require "vendor/jquery.scrollTo/jquery.scrollTo.js"
 //= require "footable/js/footable.js"
 //= require "vendor/jquery-html5-placeholder-shim-master/jquery.html5-placeholder-shim.js"
-//= require "enquire/dist/enquire.min"
-//= require "bootstrap/alert"
+//= require "enquire/dist/enquire.min.js"
+//= require "bootstrap/alert.js"
 
 var pathname = window.location.pathname;
 
